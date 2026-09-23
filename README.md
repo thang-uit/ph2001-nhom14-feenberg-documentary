@@ -19,7 +19,7 @@
 
 ## Tổng quan
 
-Đây là hồ sơ nguồn và pipeline dựng video 15–20 phút cho học phần **Triết học**, lớp **PH2001.26.1.CH.02**, giảng viên **TS Nguyễn Hữu Sơn**, **Nhóm 14**. Phim dùng cấu trúc video essay: tình huống đời thường → vấn đề về tính trung lập → khái niệm của Feenberg → mã kỹ thuật và lý tính hóa dân chủ → case nguồn → chuyển dụng phương pháp luận của nhóm → kết luận.
+Đây là hồ sơ nguồn và pipeline dựng video 15–20 phút cho học phần **Triết học**, lớp **PH2001.26.1.CH.02**, **Nhóm 14**. Phim dùng cấu trúc video essay: tình huống đời thường → vấn đề về tính trung lập → khái niệm của Feenberg → mã kỹ thuật và lý tính hóa dân chủ → case nguồn → chuyển dụng phương pháp luận của nhóm → kết luận.
 
 Bản giao nộp hiện hành là **V11 R6**. GitHub giữ phần có thể đọc, kiểm tra và chỉnh sửa; file video/audio/render nặng được để ngoài Git để không vượt giới hạn 100 MiB và không làm clone chậm.
 
@@ -127,18 +127,6 @@ Không upload tự động từ repo. Danh sách đã quét gồm đường dẫ
 - [`docs/EXTERNAL_MEDIA_INDEX.csv`](docs/EXTERNAL_MEDIA_INDEX.csv) — toàn bộ media ngoài Git, kể cả file nhỏ hơn 50 MiB.
 
 Ba file delivery đang có trên Drive phải được giữ nguyên. Khi chia sẻ thư mục, nên đổi quyền liên kết từ **Editor** sang **Viewer**; link Drive không được nhúng vào repo public. Xem thêm [`docs/EXTERNAL_MEDIA_POLICY.md`](docs/EXTERNAL_MEDIA_POLICY.md).
-
-## Nhóm sản xuất
-
-- Chu Nam Thắng
-- Vũ Ngọc Quốc Khánh
-- Nguyễn Lưu Minh Đăng
-- Đặng Thị Thuý Hồng
-- Lâm Minh Thiện
-- Hoàng Vũ
-- Đào Hoàng Phúc
-
-Học phần: **Triết học** · Lớp: **PH2001.26.1.CH.02** · Giảng viên: **TS Nguyễn Hữu Sơn**.
 
 ## Đóng góp an toàn
 
