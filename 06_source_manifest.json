@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "title": "Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg",
+    "course": "Triết học",
+    "class": "PH2001.26.1.CH.02",
+    "group": "Nhóm 14",
+    "lecturer": "TS. Nguyễn Hữu Sơn",
+    "delivery_version": "V11 R6",
+    "timeline_duration": "00:16:58.367",
+    "manifest_locked_date": "2026-09-20",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "evidence_policy": {
+    "priority": [
+      "Tài liệu giảng viên cung cấp",
+      "Văn bản gốc của Andrew Feenberg",
+      "Nguồn học thuật bình duyệt hoặc sách học thuật",
+      "Nguồn tham khảo học thuật chất lượng cao"
+    ],
+    "rules": [
+      "Hình AI không được dùng làm bằng chứng lịch sử.",
+      "Mọi cảnh AI minh họa nồi hơi, Teletel, Internet đầu kỳ, Prodigy hoặc nhóm ALS phải mang nhãn MINH HỌA BẰNG AI; không được trình bày như tư liệu lịch sử.",
+      "Tình huống hệ thống phân lịch khám và khung năm câu hỏi phải mang nhãn ĐỀ XUẤT CỦA NHÓM 14 hoặc TÌNH HUỐNG GIẢ ĐỊNH — NHÓM 14.",
+      "Không tạo ảnh giả Andrew Feenberg, tài liệu giả, ảnh báo chí giả, giao diện lịch sử giả có chữ đọc được hoặc trích dẫn giả.",
+      "Ảnh trang nguồn được rasterize trực tiếp từ đúng PDF đã lập hash; không chỉnh nội dung trang."
+    ]
+  },
+  "delivery_metadata_note": "Academic provenance remains authoritative here. Current audiovisual delivery metrics are maintained in 10_production_plan.txt and docs/PRODUCTION_HISTORY.md.",
+  "academic_sources": [
+    {
+      "source_id": "S01",
+      "author": "Andrew Feenberg",
+      "title": "What Is Philosophy of Technology?",
+      "date": "2003-06",
+      "type": "lecture_text",
+      "provenance": "instructor_provided",
+      "local_path": "external/instructor_materials/What_is_Philosophy_of_Technology.pdf",
+      "sha256": "602e9d62c25d590111d1b5ddf87af10c160ace838290956d41f991a06f19bf15",
+      "locations_used": [
+        "PDF pp. 5–6: two-axis matrix; instrumentalism and determinism",
+        "PDF pp. 7–8: substantivism",
+        "PDF p. 9: critical theory of technology",
+        "PDF p. 10: meta-choice; democratization is not voting between devices; user agency",
+        "PDF p. 11: participation in design and development decisions"
+      ],
+      "claim_ids": ["C001", "C002", "C003", "C004", "C005", "C006", "C007", "C008", "C009", "C010"],
+      "scene_ids": ["S016", "S018", "S019", "S020", "S021", "S022", "S024", "S025", "S036", "S053", "S054", "S055", "S056", "S058", "S080", "S081", "S090", "S092", "S093", "S095", "S099"],
+      "status": "VERIFIED",
+      "limitations": "The four positions are intersections of two axes, not four historical stages."
+    },
+    {
+      "source_id": "S02",
+      "author": "Andrew Feenberg",
+      "title": "From Essentialism to Constructivism: Philosophy of Technology at the Crossroads",
+      "publication_context": "Chapter in Technology and the Good Life?",
+      "publication_year": 2000,
+      "doi": "10.7208/chicago/9780226333885.003.0017",
+      "type": "book_chapter",
+      "provenance": "instructor_provided",
+      "local_path": "external/instructor_materials/Essentialism_Constructivism_Philosophy_Technology_Crossroads_old.pdf",
+      "sha256": "629ee8cb6b985bf2ae374a9d372d6a363620d9f0f1ce70f19547c10ff1a450ff",
+      "locations_used": [
+        "PDF pp. 10–11: Teletel/Internet and user appropriation for human communication",
+        "PDF pp. 11–12: ALS support group, approximate readership and participation, priority list",
+        "PDF pp. 15–16: appropriation and design change",
+        "PDF p. 24: social and technical relations condensed in devices",
+        "PDF p. 26: technical codes and sedimented constraints",
+        "PDF pp. 27–28: ambivalence and non-predetermined technological paths"
+      ],
+      "claim_ids": ["C020", "C021", "C022", "C023", "C024", "C025", "C026", "C027"],
+      "scene_ids": ["S048", "S064", "S065", "S066", "S067", "S068", "S069", "S070", "S071", "S072", "S073", "S074", "S075", "S076", "S077", "S078", "S079", "S093", "S099"],
+      "status": "VERIFIED_WITH_EXPLICIT_LIMIT",
+      "limitations": "The source confirms formation and submission of a priority list; it does not establish acceptance, policy change or health outcome. All period imagery is illustrative reconstruction."
+    },
+    {
+      "source_id": "S03",
+      "author": "Andrew Feenberg",
+      "title": "Subversive Rationalization: Technology, Power, and Democracy",
+      "journal": "Inquiry",
+      "volume_issue": "35(3–4)",
+      "year": 1992,
+      "printed_pages": "301–322",
+      "doi": "10.1080/00201749208602296",
+      "official_url": "https://www.sfu.ca/~andrewf/books/Subversive_Rationalization_Technology_Power_Democracy.pdf",
+      "type": "peer_reviewed_article",
+      "provenance": "author_official_website",
+      "local_path": "research/sources_external/Subversive_Rationalization_Technology_Power_Democracy.pdf",
+      "sha256": "096e78b0fd1e4f4c1afb082ae44f60f92c811a18024b10d784f679d084a4409d",
+      "locations_used": [
+        "PDF pp. 1–3 / print pp. 301–303: technological power, non-neutrality and democracy",
+        "PDF p. 5 / print p. 305: relative underdetermination and multiple feasible solutions",
+        "PDF pp. 12–13 / print pp. 312–313: excluded interests and multi-value design",
+        "PDF pp. 13–15 / print pp. 313–315: technical code and boiler safety example",
+        "PDF pp. 18–20 / print pp. 318–320: initiative, participation and subversive rationalization"
+      ],
+      "claim_ids": ["C011", "C012", "C013", "C014", "C015", "C016", "C017", "C018"],
+      "scene_ids": ["S035", "S036", "S037", "S038", "S039", "S040", "S041", "S042", "S043", "S044", "S045", "S046", "S047", "S049", "S052", "S056", "S057", "S058", "S059", "S060", "S061", "S062", "S063", "S084", "S086", "S087", "S088", "S089", "S092", "S095", "S099"],
+      "status": "VERIFIED",
+      "limitations": "The 1992 term is subversive rationalization. The Vietnamese explanatory paraphrase is explicitly attributed to Group 14."
+    },
+    {
+      "source_id": "S04",
+      "author": "Val Dusek",
+      "title": "Philosophy of Technology: An Introduction",
+      "publisher": "Blackwell Publishing",
+      "year": 2006,
+      "isbn_13_hardcover": "978-1-4051-1162-1",
+      "isbn_13_paperback": "978-1-4051-1163-8",
+      "type": "academic_book",
+      "provenance": "instructor_provided",
+      "local_path": "external/instructor_materials/Philosophy_of_Technology__An_Introduction.pdf",
+      "sha256": "b562eee1a4c8a77cdf2f9ee4a132a610815b30f426474cb7c4e2deda093714ce",
+      "locations_used": [
+        "PDF pp. 2 and 6: bibliographic identity",
+        "PDF p. 225 / print p. 217: Feenberg bibliography and 2003 revised title Democratic rationalization: technology, power, and freedom"
+      ],
+      "claim_ids": ["C019"],
+      "scene_ids": ["S058", "S099"],
+      "status": "VERIFIED",
+      "limitations": "Used only to verify bibliographic naming, not as a substitute for Feenberg's primary texts."
+    },
+    {
+      "source_id": "S05",
+      "author": "Course material supplied by lecturer",
+      "title": "Đề cương Triết học trong lĩnh vực Khoa học và Công nghệ",
+      "type": "course_outline",
+      "provenance": "instructor_provided",
+      "local_path": "external/instructor_materials/De_cuong_Triet_hoc_trong_linh_vuc_Khoa_hoc_va_Cong_nghe_final.docx",
+      "sha256": "2edea9d6641fd4b94954262e28871273b5c809112fe0b82e20d368bdc4431595",
+      "locations_used": [
+        "Sections 6.1–6.4",
+        "Chapter 7",
+        "Chapter 10",
+        "Extracted paragraphs P326–P337"
+      ],
+      "claim_ids": ["C029", "C030"],
+      "scene_ids": ["S080", "S081", "S082", "S083", "S084", "S085", "S086", "S087", "S088", "S089", "S090"],
+      "status": "VERIFIED_FOR_RUBRIC",
+      "limitations": "P numbers are extraction paragraph IDs, not printed page numbers and must not be displayed as page citations."
+    },
+    {
+      "source_id": "S06",
+      "author": "Andrew Feenberg",
+      "title": "Can Technology Incorporate Values? Marcuse's Answer to the Question of the Age",
+      "date": "1998-11-07",
+      "type": "conference_paper",
+      "provenance": "author_official_website",
+      "local_path": "research/sources_external/Can_Technology_Incorporate_Values.pdf",
+      "sha256": "b2b724148f06d54c29997456d5ad2fdf5ebc8702f96de4fb79d9baea23dbae5a",
+      "locations_used": [
+        "PDF pp. 10–12: cross-check that values may enter design structure"
+      ],
+      "claim_ids": [],
+      "scene_ids": [],
+      "status": "VERIFIED_SUPPORTING_ONLY",
+      "limitations": "Used for concept cross-check only. Marcuse is not introduced as a separate theoretical branch in narration."
+    }
+  ],
+  "group_created_material": [
+    {
+      "asset_id": "G01",
+      "description": "Fictional outpatient scheduling situation",
+      "claim_ids": ["C028"],
+      "required_label": "TÌNH HUỐNG GIẢ ĐỊNH — NHÓM 14",
+      "status": "ILLUSTRATIVE_EXAMPLE"
+    },
+    {
+      "asset_id": "G02",
+      "description": "Five-question methodological governance framework",
+      "claim_ids": ["C029", "C030"],
+      "required_label": "ĐỀ XUẤT CỦA NHÓM 14",
+      "status": "INTERPRETATION_AND_PEDAGOGICAL_TRANSFER"
+    },
+    {
+      "asset_id": "G03",
+      "description": "BLACK_BOX_01 and DECISION_LINE_01 visual motif",
+      "required_label": "MINH HỌA KHÁI NIỆM where source distinction is needed",
+      "status": "ORIGINAL_VISUAL_METAPHOR"
+    }
+  ],
+  "source_page_assets": {
+    "directory": "assets/source_pages",
+    "generation_method": "Rasterized locally from verified PDF pages at production resolution; no generative AI",
+    "render_index": "assets/source_pages/source_pages_index.json",
+    "crop_index": "assets/source_pages/crops/source_crops_index.json",
+    "status": "RENDERED_AND_HASH_INDEXED",
+    "planned_assets": [
+      {"filename": "S01_p05_matrix.png", "source_id": "S01", "pdf_page": 5, "status": "RENDERED"},
+      {"filename": "S01_p09_critical_theory.png", "source_id": "S01", "pdf_page": 9, "status": "RENDERED"},
+      {"filename": "S01_p10_democratization.png", "source_id": "S01", "pdf_page": 10, "status": "RENDERED"},
+      {"filename": "S02_p10_networks.png", "source_id": "S02", "pdf_page": 10, "status": "RENDERED"},
+      {"filename": "S02_p11_ALS.png", "source_id": "S02", "pdf_page": 11, "status": "RENDERED"},
+      {"filename": "S02_p12_ALS_priority_list.png", "source_id": "S02", "pdf_page": 12, "status": "RENDERED"},
+      {"filename": "S02_p24_condensation.png", "source_id": "S02", "pdf_page": 24, "status": "RENDERED"},
+      {"filename": "S02_p26_technical_codes.png", "source_id": "S02", "pdf_page": 26, "status": "RENDERED"},
+      {"filename": "S02_p27_ambivalence.png", "source_id": "S02", "pdf_page": 27, "status": "RENDERED"},
+      {"filename": "S03_p05_underdetermination.png", "source_id": "S03", "pdf_page": 5, "status": "RENDERED"},
+      {"filename": "S03_p13_technical_code.png", "source_id": "S03", "pdf_page": 13, "status": "RENDERED"},
+      {"filename": "S03_p14_boiler_code.png", "source_id": "S03", "pdf_page": 14, "status": "RENDERED"},
+      {"filename": "S03_p18_participation.png", "source_id": "S03", "pdf_page": 18, "status": "RENDERED"},
+      {"filename": "S03_p20_subversive_rationalization.png", "source_id": "S03", "pdf_page": 20, "status": "RENDERED"},
+      {"filename": "S04_p225_democratic_rationalization_bibliography.png", "source_id": "S04", "pdf_page": 225, "status": "RENDERED"}
+    ]
+  },
+  "generated_visual_assets": {
+    "provider": "Google Flow / Veo",
+    "provider_url": "https://labs.google/fx/tools/flow",
+    "accounts_authorized_by_user": 3,
+    "purchase_authorization": false,
+    "production_system": "Google Flow / Veo; exact model version is recorded only where the interface exposed it",
+    "project_urls": [],
+    "project_urls_note": "Private Flow project URLs are intentionally omitted from the public repository.",
+    "terms_and_output_rights_status": "Generated through the user-authorized signed-in Flow account; no separate terms snapshot is included in this submission package.",
+    "credit_cost_status": "Per-generation value was recorded where displayed; aggregate spend was not independently reconstructed. Upscale/download operations did not create new scenes.",
+    "planning_queue_file": "assets/flow_production_queue.csv",
+    "batch_manifest_file": "assets/flow_hero_batch_manifest.json",
+    "final_inventory_file": "assets/final_motion_asset_inventory.json",
+    "used_motion_asset_count": 47,
+    "required_metadata_per_download": [
+      "scene_id",
+      "account_batch",
+      "model_or_mode_as_displayed",
+      "generation_date",
+      "displayed_credit_cost",
+      "original_download_filename",
+      "sha256",
+      "resolution",
+      "frame_rate",
+      "duration",
+      "qa_verdict",
+      "required_evidence_label"
+    ],
+    "status": "GENERATED_SELECTED_HASHED_AND_USED"
+  },
+  "audio_assets": {
+    "narration": {
+      "provider": "ChatGPT Vale, waveform-aligned and mastered locally with FFmpeg",
+      "file": "audio/vo/vale_unified_v7/VO_VALE_UNIFIED_V7_48K.wav",
+      "sha256": "7219eaca4dcd5c7053ddbc005d546aa12c51a0aaba0f1a113c696fc8147a1321",
+      "technical": "932.551104 seconds; one uninterrupted Vale Read Aloud only; 3166 locked narration words per subtitle QA; stereo PCM 24-bit; 48 kHz",
+      "license_status": "Generated for this project through the user-authorized ChatGPT session; no third-party human voice recording used.",
+      "status": "FINAL_MASTER_USED"
+    },
+    "music": {
+      "title": "Feenberg-NhacNen",
+      "creator_or_provider": "Suno; generated and downloaded by the user from their own account",
+      "source_url_or_generation_id": "Feenberg-NhacNen.mp3",
+      "source_sha256": "a02b2b1381a300112e207c31188eb6502c19029bfbdfe3feefacd00e49aa5ea9",
+      "license": "User-supplied account output; usage rights follow the user's Suno plan and terms at generation time",
+      "license_evidence_path": "User's Suno project/download record; local source Feenberg-NhacNen.mp3",
+      "master_file": "audio/music/SCORE_SUNO_V8_48K.wav",
+      "sha256": "2a79f53a8ef08135cdb542246a61640d5a524645c50c36775aca6fd207587dbe",
+      "technical": "972.566667 seconds; stereo PCM 24-bit; 48 kHz; six 171.5-second trims joined by 5.5-second equal-power crossfades; 7-second final fade",
+      "status": "FINAL_MASTER_USED"
+    },
+    "sound_effects_and_ambience": {
+      "sources": [],
+      "rule": "Every third-party audio file requires title, creator, URL, license, download date and sha256. Generated or self-designed audio must record tool and prompt/process.",
+      "file": "audio/sfx/SFX_AMBIENCE_V7_48K.wav",
+      "method": "Original mathematical synthesis with FFmpeg; timed ambience/foley events; no samples or third-party recordings.",
+      "sha256": "f2b115af8ee1a92d2c4d3956adf77992193bee1e4b689fa3db6d8644dcdffe54",
+      "technical": "972.566667 seconds; stereo PCM 24-bit; 48 kHz; 19 sparse physically motivated events; no page-turn or UI click during credits",
+      "status": "FINAL_MASTER_USED"
+    },
+    "final_mix": {
+      "file": "audio/mix/FULL_MIX_DELIVERY_V8_SUNO_48K.wav",
+      "sha256": "7d557827314e6f5c504be6efaf03b2875a2c9426860bf16f6737335119c8d6e2",
+      "technical": "972.566667 seconds; stereo PCM 24-bit; 48 kHz",
+      "measured_output": "Final encoded MP4: -16.3 LUFS integrated; -1.4 dBFS true peak",
+      "status": "PASS"
+    }
+  },
+  "typography": {
+    "primary_font": "Avenir Next",
+    "source": "system-installed font on production Mac",
+    "use": "Rasterized/rendered into video; font file is not redistributed",
+    "vietnamese_diacritic_check": "PASS_ON_FINAL_RENDER"
+  },
+  "tutorial_references": [
+    {
+      "url": "https://youtu.be/2kLTNaxKQZY",
+      "use": "Production technique reference only: shot decomposition, reference continuity, one camera action, separate audio and post-production.",
+      "academic_evidence": false,
+      "visual_copying": false
+    },
+    {
+      "url": "https://youtu.be/zbt7v-SKgMo",
+      "use": "Aesthetic benchmark supplied by user; not an academic source and not copied shot-for-shot.",
+      "academic_evidence": false,
+      "visual_copying": false
+    },
+    {
+      "url": "https://youtu.be/bIgtrveSh1M",
+      "use": "Aesthetic benchmark supplied by user; not an academic source and not copied shot-for-shot.",
+      "academic_evidence": false,
+      "visual_copying": false
+    }
+  ],
+  "final_asset": {
+    "filename": "Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4",
+    "container": "MP4",
+    "video": "H.264 High Profile",
+    "audio": "AAC-LC 48 kHz",
+    "minimum_resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "frame_rate": "30 fps",
+    "scan": "progressive",
+    "pixel_aspect": "square",
+    "color": "Rec.709 SDR",
+    "duration_seconds": 1018.366667,
+    "size_bytes": 1212147443,
+    "sha256": "22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788",
+    "qa_report": "docs/qa/V11_R6_DELIVERY_QA_REPORT.txt",
+    "subtitle_cues": 267,
+    "final_voice": "ChatGPT Vale only",
+    "status": "V11_R6_LOCKED_QA_PASS"
+  }
+}

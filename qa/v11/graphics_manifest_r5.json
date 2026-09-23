@@ -1,0 +1,452 @@
+[
+  {
+    "name": "MG01_open_black_box",
+    "path": "assets/v11_graphics_r5/MG01_open_black_box.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "f345c2903fa9dd485c096a223834bd66beb09328bedb3029b099ef192044ca5c"
+  },
+  {
+    "name": "MG02_three_layers",
+    "path": "assets/v11_graphics_r5/MG02_three_layers.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "0f53510c5783db02b58aeeb11c0dbf3f1751974f39099f1698b2c22a86b3744f"
+  },
+  {
+    "name": "MG03_access_participation",
+    "path": "assets/v11_graphics_r5/MG03_access_participation.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "3ae7915b0c437266da77f152450a946f52914f8c8fc5d86fc20983b7329d8b35"
+  },
+  {
+    "name": "MG04_matrix_intro",
+    "path": "assets/v11_graphics_r5/MG04_matrix_intro.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "e113733d7987445c52fd282963430178c9d3c9ab1b3ae4ed565ddc5293fb0338"
+  },
+  {
+    "name": "MG05_matrix_axes",
+    "path": "assets/v11_graphics_r5/MG05_matrix_axes.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "38bbf538d1ddc98cab8b9a39b87900e66b51536ed330cd4134f504c26d6b49e2"
+  },
+  {
+    "name": "MG06_matrix_instrumentalism",
+    "path": "assets/v11_graphics_r5/MG06_matrix_instrumentalism.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "6a7768ffdaf8a2e88a5d970a984ea606e281afccd0debd36893c76c6ab8d21aa"
+  },
+  {
+    "name": "MG07_matrix_determinism",
+    "path": "assets/v11_graphics_r5/MG07_matrix_determinism.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "bfd52159ff07b82a921f8102588ba157dc54a8a700f8e70aac3c8382901eaa1b"
+  },
+  {
+    "name": "MG08_matrix_substantivism",
+    "path": "assets/v11_graphics_r5/MG08_matrix_substantivism.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "aca8c478e776d17b14cccf768b8a560e2603c18b940372ce0c4b3561e7326e54"
+  },
+  {
+    "name": "MG09_matrix_critical_theory",
+    "path": "assets/v11_graphics_r5/MG09_matrix_critical_theory.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "36af7213d95127d768d17cc2ae3f734fae759da9378426ee1ff6e66b69566a39"
+  },
+  {
+    "name": "MG10_meta_choice",
+    "path": "assets/v11_graphics_r5/MG10_meta_choice.mp4",
+    "duration": 15.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "6a2cc61640492e1a59adb60b9c7ff45469f286bab65f52912c49bf407e4d608a"
+  },
+  {
+    "name": "MG11_relative_underdetermination",
+    "path": "assets/v11_graphics_r5/MG11_relative_underdetermination.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "a2a1547a21bc821c8369a6e055d4bdd6b203b22d7b62fcea95ccedd889ade911"
+  },
+  {
+    "name": "MG12_technical_code",
+    "path": "assets/v11_graphics_r5/MG12_technical_code.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "5a6cbc2133224723aa9e80709399176a3b32cf1cd18ed162261a4707516166cb"
+  },
+  {
+    "name": "MG13_democratization_title",
+    "path": "assets/v11_graphics_r5/MG13_democratization_title.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "041b842baba80ba62facfd0b34a26daa57a04040c5b4f4257feb421249a9cf14"
+  },
+  {
+    "name": "MG14_democratic_rationalization",
+    "path": "assets/v11_graphics_r5/MG14_democratic_rationalization.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "05e171c9bd240313d04f1af670cd7375265dd49455b1de9b98ae13b72f6761f7"
+  },
+  {
+    "name": "MG15_effective_feedback",
+    "path": "assets/v11_graphics_r5/MG15_effective_feedback.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "7e952f5b357dd024bcf6c2efaf36dc64cefe882bd35ea8e4eb853d3b563b7ca8"
+  },
+  {
+    "name": "MG16_network_transformation",
+    "path": "assets/v11_graphics_r5/MG16_network_transformation.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "e6c0be32808699a60ec2a7cc42b7bbda2d5a082eb7a698b55ef644f905e3d10f"
+  },
+  {
+    "name": "MG17_evidence_boundary",
+    "path": "assets/v11_graphics_r5/MG17_evidence_boundary.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "eeb576f8965a2ec74c1fcabbe658f4ddb28766995a16125266768d036d6b50a3"
+  },
+  {
+    "name": "MG18_three_analytic_layers",
+    "path": "assets/v11_graphics_r5/MG18_three_analytic_layers.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "4dea3b2d2d73f67d0c0f007e4023bb4a433c8446785261e0efe84b44b0b314b8"
+  },
+  {
+    "name": "MG19_five_questions",
+    "path": "assets/v11_graphics_r5/MG19_five_questions.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "e0591aee6b8264076d3845c5b94445874514b6fac47aa82bb8a6564efe73f41d"
+  },
+  {
+    "name": "MG20_value_to_parameter",
+    "path": "assets/v11_graphics_r5/MG20_value_to_parameter.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "a19ebb3e5cbbe6fdc97944a16cc5c2476d7149b9ccaaf48553fb64ba7b1e4b0a"
+  },
+  {
+    "name": "MG21_traceable_feedback",
+    "path": "assets/v11_graphics_r5/MG21_traceable_feedback.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "530c5fcae04929e32186708362b0ed7e2b63bd72fb5ae1a35300947972098fc9"
+  },
+  {
+    "name": "MG22_five_conditions",
+    "path": "assets/v11_graphics_r5/MG22_five_conditions.mp4",
+    "duration": 13.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "27ca83783718eb90fb15facaa1f8735a93faab44dcf95e9111f4949e48b276f3"
+  },
+  {
+    "name": "MG23_central_question",
+    "path": "assets/v11_graphics_r5/MG23_central_question.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "2bddf728ce683bdff019614a847c128564be8be78c1c1acafbd1ecdf6ad41702"
+  },
+  {
+    "name": "MG24_conclusion_layers",
+    "path": "assets/v11_graphics_r5/MG24_conclusion_layers.mp4",
+    "duration": 13.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "cafc6260b08b08dc0f0897e20bf3b28f3b06453db90cbbd1244e86d3394f2da5"
+  },
+  {
+    "name": "MG25_open_paths",
+    "path": "assets/v11_graphics_r5/MG25_open_paths.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "3c05137940c386cc314498922a57bf6daa3ed02f0088a3fffca2c3475264e05e"
+  },
+  {
+    "name": "MG26_methodological_motif",
+    "path": "assets/v11_graphics_r5/MG26_methodological_motif.mp4",
+    "duration": 13.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "0af637beb640362da7b6dbee97ae9cda5ace99d8a6e3eacdd8f220fda105a040"
+  },
+  {
+    "name": "MG27_hypothetical_boundary",
+    "path": "assets/v11_graphics_r5/MG27_hypothetical_boundary.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "30fdbbdada8207e661a8ca5b9f324d2a110cdd5063464b5d728989e9ccf05377"
+  },
+  {
+    "name": "MG28_democracy_not_access",
+    "path": "assets/v11_graphics_r5/MG28_democracy_not_access.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "1bbd3652fd61108c1ca33131d42f16270852bc390f55b076ea07b9eb1902171f"
+  },
+  {
+    "name": "MG29_ambivalent_paths",
+    "path": "assets/v11_graphics_r5/MG29_ambivalent_paths.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "d9387e1a860296375724dc0fa34c4d35ea6b2ca496e86490733cc1135c66bf0c"
+  },
+  {
+    "name": "MG30_collective_priority",
+    "path": "assets/v11_graphics_r5/MG30_collective_priority.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "27f0b178dc889895cd1c33229d79098784d8397ba9386ddc167eda7f62e7feef"
+  },
+  {
+    "name": "MG31_participation_chain",
+    "path": "assets/v11_graphics_r5/MG31_participation_chain.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "557c5fe3283ceec2ef3cf31a87d7721a2cee2a454eacbb255af418ef1b4f980a"
+  },
+  {
+    "name": "MG32_design_genealogy",
+    "path": "assets/v11_graphics_r5/MG32_design_genealogy.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "bcd74f4921e9415f6ec362f21e90183fe34e4cd21b93aa7ee5eca728cae315fa"
+  },
+  {
+    "name": "MG33_parameter_trace",
+    "path": "assets/v11_graphics_r5/MG33_parameter_trace.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "06f1f156c94d5d153286a185bbba73f8d5f649f8765b8602a47ca6ec04d3fe8b"
+  },
+  {
+    "name": "MG34_access_at_scale",
+    "path": "assets/v11_graphics_r5/MG34_access_at_scale.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "927142adcc68c055b4f2f60e9cfe87fd6906e9b9c2d3ed274a9086a60cf68861"
+  },
+  {
+    "name": "MG35_red_thread_bridge",
+    "path": "assets/v11_graphics_r5/MG35_red_thread_bridge.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "05b28185da8f51e472b63573f38cc73c85724284016e9811d1923cc055ad8792"
+  },
+  {
+    "name": "MG36_complementary_knowledge",
+    "path": "assets/v11_graphics_r5/MG36_complementary_knowledge.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "87dc012f5394a281fbd4dd9bf65d83b7c42a5c06db347a39ae7551a06423ee8d"
+  },
+  {
+    "name": "MG37_effective_window",
+    "path": "assets/v11_graphics_r5/MG37_effective_window.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "48b6040e0cbf72056ad72f3462e5fe4a91e6b421013aedc88edf95ea438d6e0e"
+  },
+  {
+    "name": "MG38_excluded_interest",
+    "path": "assets/v11_graphics_r5/MG38_excluded_interest.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "75acd34c838f9ea3828801f523d3c9defd54a8bf28f3330ec1266f2a85852e7e"
+  },
+  {
+    "name": "MG39_cautious_potential",
+    "path": "assets/v11_graphics_r5/MG39_cautious_potential.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "5f03142c1b2b41590bf3e31939964cfa14d8ab2f6bff7afacd6b8e071a3e193e"
+  },
+  {
+    "name": "MG40_stakeholder_map",
+    "path": "assets/v11_graphics_r5/MG40_stakeholder_map.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "d30bf52ce859a80ba4669f0104371bc5386244f731412ad1098d96d6868b6f64"
+  },
+  {
+    "name": "MG41_value_specification",
+    "path": "assets/v11_graphics_r5/MG41_value_specification.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "55b7bb905672ab25e8a9a7b5ee4506fa85742c34ad9d8fc5a73d8e69ccdb46fc"
+  },
+  {
+    "name": "MG42_efficiency_for_whom",
+    "path": "assets/v11_graphics_r5/MG42_efficiency_for_whom.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "0076e46ee98f0b86871cba4d25001b3ad2a11f255a7b5452c6d0c4284c91415a"
+  },
+  {
+    "name": "MG43_action_frame",
+    "path": "assets/v11_graphics_r5/MG43_action_frame.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "d6a7bfb3a29a23e9a06a77f0cb0d29b7b8b4bd42f5f59636829c557bdf924c37"
+  },
+  {
+    "name": "MG44_correct_spec_wrong_goal",
+    "path": "assets/v11_graphics_r5/MG44_correct_spec_wrong_goal.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "11910de270b90fd023c5a69e40c37fc32a8a9a78b170378ee36e535bbfd84f0a"
+  },
+  {
+    "name": "MG45_feedback_path",
+    "path": "assets/v11_graphics_r5/MG45_feedback_path.mp4",
+    "duration": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "palette": "Civic Daylight / Red Thread · V11 corrected",
+    "sha256": "15512857f47158a4832b1e7bbddeca0e6ad6e566da0bee4c4a1d391936f41a48"
+  }
+]

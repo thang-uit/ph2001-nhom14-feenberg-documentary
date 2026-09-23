@@ -1,0 +1,85 @@
+KỊCH BẢN ÂM THANH — NỀN TẢNG VALE V8, ĐƯỢC GIỮ TRONG V11 R6
+Phim: Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg
+Môn: Triết học | Lớp: PH2001.26.1.CH.02 | Nhóm 14 | TS. Nguyễn Hữu Sơn
+Cập nhật: 10/09/2026
+
+LƯU Ý V11 R6: Tệp này lưu thiết kế âm thanh gốc. Bản giao hiện hành dài
+1018,366667 giây; dùng Vale master V9 có các khoảng nghỉ số, mix nội dung V10,
+credit V4 dài 54,1 giây và đạt khoảng -15,8 LUFS / -2,0 dBFS. Thông số delivery
+chính xác nằm trong 10_production_plan.txt và docs/PRODUCTION_HISTORY.md.
+
+THÔNG SỐ BẢN GIAO
+
+- Thời lượng toàn phim: 972,566667 giây, tương đương 16 phút 12,567 giây.
+- Master lời thuyết minh: 932,551104 giây; credit cuối bắt đầu tại 15:32,567 và kéo dài 40 giây.
+- Chuỗi tín hiệu: 48 kHz, stereo; voice ở trung tâm, nhạc và hiệu ứng luôn duck dưới lời.
+- Bản chính thức: Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4.
+
+1. VOICE — MỘT GIỌNG DUY NHẤT
+
+Giọng thực dùng duy nhất trong bản V8 là ChatGPT Vale: sáng, rõ, tốc độ tự nhiên, có nhấn ở thuật ngữ và câu hỏi; không dùng Breeze, Cedar, macOS Say, giọng người khác hoặc avatar nói trước camera.
+
+- Master voice: audio/vo/vale_unified_v7/VO_VALE_UNIFIED_V7_48K.wav
+- Transcript khóa: audio/vo/narration_spoken.txt
+- Timing/ASR QA: qa/vale_unified_v7_timing.json và qa/vale_unified_v7_retime.json
+- Toàn bộ lời được thu bằng một lượt Read Aloud liền mạch; không ghép take hoặc pickup từ các phiên giọng khác.
+- Xử lý giọng: 48 kHz, high-pass nhẹ, compressor tiết chế, gain ổn định; không kéo chậm để kéo dài thời lượng.
+- Phụ đề được tạo từ transcript khóa, không lấy chữ do ASR tự đoán.
+
+Giọng dẫn lập luận theo thứ tự: tình huống → vấn đề → phân biệt khái niệm → Feenberg → mã kỹ thuật → dân chủ hóa → case mạng/ALS → năm câu hỏi của Nhóm 14 → kết luận. Không dùng giọng quảng cáo, tiếng TikTok hay nhạc trailer.
+
+2. MUSIC — SCORE SUNO DO NGƯỜI DÙNG CUNG CẤP
+
+- File nguồn do người dùng tải từ tài khoản Suno của mình: Feenberg-NhacNen.mp3.
+- Master phủ toàn timeline: audio/music/SCORE_SUNO_V8_48K.wav.
+- Bản nhạc instrumental được cắt tại điểm kết tự nhiên khoảng 171,5 giây, lặp bằng equal-power crossfade 5,5 giây, fade-in 2 giây và fade-out 7 giây.
+- Nhạc có mặt xuyên suốt; gain cơ sở 17% dưới lời, 23% ở credit và tiếp tục được side-chain duck theo waveform giọng đọc.
+- Không dùng Udio hoặc score tổng hợp cũ trong bản nộp V8.
+
+3. AMBIENCE / SFX / TRANSITION
+
+- File: audio/sfx/SFX_AMBIENCE_V7_48K.wav
+- Có 19 cue được căn theo storyboard: tap/click có hành động nhìn thấy, servo/impact chuyển ý, hơi nước tái dựng, texture mạng/modem và bước chân mở phim.
+- Đây là thiết kế âm thanh minh họa được tổng hợp trong dự án, không phải âm thanh hiện trường bệnh viện, nồi hơi, Teletel, Prodigy hay ALS.
+- Không thêm tiếng khóc, tiếng la, tiếng hoan hô, tiếng “thành công” hoặc âm thanh có thể khiến người xem tưởng nguồn đã xác nhận một kết quả.
+- Âm thanh Flow/Veo gốc không đưa vào bản mix cuối để tránh thoại, nhạc hoặc tiếng rác không kiểm soát.
+- Báo cáo stem và số cue thực: qa/sfx_ambience_v7.json.
+
+4. CHUỖI MIX V8 SUNO
+
+Nguồn vào:
+
+- A1: audio/vo/vale_unified_v7/VO_VALE_UNIFIED_V7_48K.wav
+- A2: audio/music/SCORE_SUNO_V8_48K.wav
+- A3: audio/sfx/SFX_AMBIENCE_V7_48K.wav
+
+Bản mix khóa: audio/mix/FULL_MIX_DELIVERY_V8_SUNO_48K.wav.
+Mix dùng sidechain duck theo waveform lời, compressor voice nhẹ và limiter cuối; mục tiêu phát YouTube/lớp học là tiếng nói đứng trước nhưng vẫn giữ không gian điện ảnh. AAC trong MP4 được đo riêng sau encode.
+
+Kết quả đo bản MP4 cuối:
+
+- Loudness tích hợp: -16,3 LUFS.
+- True peak: -1,4 dBFS.
+- Audio: AAC-LC, 48 kHz, stereo.
+
+5. NHỊP ÂM THANH THEO CHƯƠNG
+
+- 00:00–00:46 — Mở hộp đen: nền phòng, tap, servo/hộp đen, nhấn title.
+- 00:46–01:51 — Sử dụng, thiết kế, quản trị: âm thanh thao tác chỉ xuất hiện khi có hành động; không tạo tiếng báo lỗi cho tình huống giả định.
+- 01:51–03:16 — Bản đồ lập trường: score trung tính, không thêm tiếng lật trang.
+- 03:16–05:10 — Meta-choice và bất định tương đối: nhịp tổng hợp vừa, servo tiết chế.
+- 05:10–07:10 — Mã kỹ thuật và nồi hơi: kim loại/servo và hơi nước rất nhỏ; không âm thanh tai nạn.
+- 07:10–09:07 — Dân chủ hóa: nhịp phản hồi tiết chế; không khẩu hiệu hay tiếng đám đông.
+- 09:07–12:17 — Teletel/Internet và nhóm ALS: texture mạng/modem nhỏ; không tình cảm hóa bệnh tật.
+- 12:17–14:40 — Năm câu hỏi của Nhóm 14: cue thưa theo các thao tác và chuyển ý có nguyên nhân.
+- 14:40–15:32 — Kết luận/cảm ơn: nhạc mở nhẹ, voice luôn rõ.
+- 15:32–16:12 — Credit không lời: nhạc kết cùng motif tăng vừa rồi fade sạch; không SFX lật trang/click; chỉ hiện credit phim, học phần, thành viên và lời cảm ơn.
+
+6. KIỂM TRA VÀ GIỚI HẠN
+
+- Phụ đề burn-in trong video: 267 cue, tối đa 2 dòng, Unicode tiếng Việt NFC, không overlap, transcript identity PASS.
+- Full video/audio decode scan PASS; không có black-run bất thường.
+- Không có black-run hoặc freeze bất thường theo cổng QA V8.
+- Đo kỹ thuật không thay thế việc người nộp nghe thử trên loa laptop, tai nghe và điện thoại. Nếu phát hiện câu phát âm cần sửa, chỉ thay pickup bằng Vale rồi chạy lại gate; không trộn thêm giọng khác.
+
+Các master V4–V7 và candidate trùng lặp đã được chuyển vào Thùng rác sau khi bản V8 root qua full-decode QA. File giao nộp hiện hành ở root là Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4.

@@ -1,0 +1,446 @@
+FLOW / VEO VISUAL PROMPTS — PRODUCTION SET 1.0
+Project: Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg
+Aspect ratio: 16:9
+Final timeline: 1920×1080, 30 fps; retain the highest-resolution clean source available.
+
+======================================================================
+AS-BUILT NOTE — 06 SEPTEMBER 2026
+======================================================================
+
+This complete prompt set records creative intentions, not camera metadata or proof that every queued generation was made. The delivery uses 30 selected Flow/Veo clips and 17 original motion-graphic videos, arranged into 149 shots across 100 scenes. Shot reuse is an intentional return to the same clinic/design motif; it is not 149 unique generated clips.
+
+Actual selections, shot durations, overlays and FFmpeg treatment are recorded in qa/final_v8/as_built_shot_manifest.json and scripts/final_visual_plan.py. The source/hash inventory is assets/final_motion_asset_inventory.json. Actual sound cues are in qa/final_v8/audio_cue_manifest.json; use these rather than assuming every original prompt action received literal foley.
+
+Final resolution is 1920×1080. Two selected 1280×720 clips remain at native pixel size in a 1080p canvas; they are not enlarged. Required visible provider watermarks are preserved. Negative constraints exclude invented model-generated marks, not legitimate provider attribution. No watermark-removal requirement applies to the delivery.
+
+======================================================================
+HOW TO ASSEMBLE EACH PROMPT
+======================================================================
+
+For every generated shot, submit the complete MASTER PREFIX, then the relevant identity/environment lock, then the SCENE BLOCK, and finish with MASTER NEGATIVE. These are reusable locked components, not optional suggestions. Do not ask the model to render captions, citations, interface labels or philosophical terminology; all typography is added in post-production.
+
+For a storyboard duration longer than the model's native clip length, generate the first clean clip, choose the strongest end frame, then use Extend or Frames-to-Video for the remaining time. Do not slow a clip below 80% merely to fill duration. Generate one candidate first. Generate a second candidate only when the first fails anatomy, action, continuity, evidence labeling space or camera intent.
+
+======================================================================
+MASTER PREFIX — USE VERBATIM FOR EVERY FLOW SHOT
+======================================================================
+
+Premium academic documentary visual essay, cinematic realism, physically plausible contemporary or period environment as specified, restrained and intelligent visual language, natural human behavior, subtle camera movement with one motivated move only, realistic optics and depth of field, detailed real materials, natural skin texture, controlled saturation, high contrast while retaining shadow detail, Rec.709-friendly color, clean 16:9 composition, 30 fps motion cadence, no presentation avatar, no commercial-advertising performance. Leave readable negative space for post-production typography when requested. Generate only diegetic room ambience and object sounds; no dialogue, no voice-over, no music.
+
+======================================================================
+MASTER NEGATIVE — USE VERBATIM FOR EVERY FLOW SHOT
+======================================================================
+
+No generated text, no letters, no numbers, no subtitles, no logos, no brands, no invented decorative watermarks, no fake document, no fake quotation, no fake historical evidence, no public figure, no Andrew Feenberg likeness, no news-report framing, no talking to camera, no lip-sync speech, no AI presenter, no hologram, no neon grid, no random network nodes, no cyberpunk, no fantasy control room, no floating UI, no excessive particles, no glitch, no flash transition, no whip zoom, no artificial camera shake. No deformed face, no wax skin, no duplicated person, no changing identity, no extra fingers, no fused fingers, no broken wrist, no impossible object interaction, no morphing props, no unstable architecture, no illegible screens, no impossible physics, no motion smear, no frame warping, no low-resolution texture.
+
+======================================================================
+IDENTITY AND OBJECT LOCKS
+======================================================================
+
+CHAR_MAI_LOCK
+
+The same fictional Vietnamese woman in every referenced scene: 52 years old, oval face, medium neutral Vietnamese skin tone with natural pores and faint lines around the eyes, shoulder-length straight black hair with a few gray strands at both temples, consistent side part, calm intelligence with restrained concern, pale olive linen blouse with a simple collar, charcoal trousers, small silver analog watch, stone-colored canvas tote, matte charcoal smartphone with a plain unbranded case. Normal anatomy and natural posture. She never addresses the camera.
+
+CHAR_DESIGN_TEAM_LOCK
+
+The same fictional four-person Vietnamese design team in every referenced scene: two women and two men, ages 28 to 45, distinct realistic faces and stable identities, understated smart-casual clothing in navy, warm gray, olive and off-white, no uniforms and no company branding. They behave like thoughtful professionals, not villains. Their actions are quiet, precise and collaborative. One seat reserved for an affected participant remains visibly empty until the participation sequence.
+
+BLACK_BOX_01_LOCK
+
+The same physical object in every referenced scene: a 28-centimeter cube made of matte black ceramic-metal composite with subtle microtexture, 3-millimeter softened edges, one extremely thin amber light seam wrapping around the cube. When opened, it reveals five mechanically plausible semi-transparent optical and metal layers, precision rails and physical decision pathways. It is an elegant scientific exhibit, not a futuristic supercomputer. There is no writing anywhere on the object.
+
+ENV_HOSPITAL_DAY_LOCK
+
+A believable contemporary Vietnamese outpatient clinic: light concrete, pale oak, gray upholstered seats, frosted glass, soft tropical daylight, restrained activity in the background, clean but not luxurious, natural skin tones, no readable signs, no logos, no identifiable institution.
+
+ENV_DESIGN_STUDIO_LOCK
+
+A grounded professional design studio with a dark wood table, paper prototypes without writing, milled aluminum samples, ordinary 24-to-27-inch monitors with blank or defocused screens, left-side window light and restrained tungsten desk lamps. No futuristic interface, no corporate logo.
+
+ENV_CONCEPT_STAGE_LOCK
+
+A deep black studio with a matte basalt floor and extremely light atmospheric haze only where it reveals light. Obsidian, deep navy, warm paper, amber and participatory teal palette. No grid background.
+
+ENV_STEAM_WORKSHOP_LOCK
+
+A historically plausible generic nineteenth-century steamboat boiler workshop used only as illustrative reconstruction: riveted iron, brass valves, dark timber, high industrial windows, thin steam, soot used sparingly, practical warm furnace light. No specific named ship, no dates, no signs, no documents, no modern tools.
+
+ENV_1995_HOME_LOCK
+
+A modest mid-1990s home interior with beige CRT computer, wired keyboard, external modem, landline telephone, blank paper notes, tungsten desk lamp and restrained household details. No smartphone, no flat screen, no modern LED lighting, no brand marks, no readable computer interface.
+
+======================================================================
+REFERENCE IMAGE CREATION PROMPTS
+======================================================================
+
+REF_CHAR_MAI_MASTER — still image, landscape 16:9
+
+Create a neutral cinematic casting reference of CHAR_MAI_LOCK standing naturally in ENV_HOSPITAL_DAY_LOCK. Three-quarter body, 50 mm lens, eye level, soft tropical window light, accurate hands visible but relaxed, phone and canvas tote both visible, subtle realistic expression, clear face, hair, clothing and accessories for identity reuse. Background softly detailed, not blurred into abstraction. No text and no other foreground person.
+
+REF_DESIGN_TEAM_MASTER — still image, landscape 16:9
+
+Create a cinematic ensemble identity reference of CHAR_DESIGN_TEAM_LOCK around the table in ENV_DESIGN_STUDIO_LOCK. All four faces clearly visible without looking at camera, natural seated and standing positions, blank paper prototypes and one exact BLACK_BOX_01_LOCK, empty participant chair at the near end of the table, 35 mm lens, natural window and tungsten balance. No text.
+
+REF_BLACK_BOX_MASTER — still image, landscape 16:9
+
+Create a premium product-documentary reference of BLACK_BOX_01_LOCK closed on ENV_CONCEPT_STAGE_LOCK. 50 mm lens, three-quarter view, seam glowing amber at low intensity, detailed matte ceramic-metal texture, subtle floor reflection, generous negative space on right, controlled rim light, no writing.
+
+REF_BLACK_BOX_OPEN — still image, landscape 16:9
+
+Create the same BLACK_BOX_01_LOCK opened into exactly five mechanically plausible layers on ENV_CONCEPT_STAGE_LOCK. Preserve outer dimensions, material and seam geometry from REF_BLACK_BOX_MASTER. The layers remain connected by precision rails; amber path passes through the core and a separate teal return path can enter from the near side. No text.
+
+REF_1995_USER_MASTER — still image, landscape 16:9
+
+Create a respectful documentary reconstruction reference inside ENV_1995_HOME_LOCK: one fictional middle-aged adult at a beige CRT, seen in side three-quarter profile, hands resting naturally on the wired keyboard, thoughtful expression, no visible medical diagnosis, no readable screen, no logo. 50 mm lens, tungsten lamp and low cool window fill, period-plausible details.
+
+======================================================================
+SCENE PROMPTS — OPENING AND THE THREE LEVELS
+======================================================================
+
+S001 — mode: Ingredients/Frames-to-Video; references: REF_CHAR_MAI_MASTER; native 7–8 seconds
+
+ENV_HOSPITAL_DAY_LOCK and CHAR_MAI_LOCK. Low tracking shot from rear three-quarter at walking pace. Mai enters a clinic corridor, slows beside frosted glass, brings the matte charcoal phone out of her stone canvas tote and stops naturally. She does not look at camera. 35 mm lens, shoulder-height dolly, soft tropical daylight, realistic background patients crossing at a safe distance. End with the phone settled in her hand and clean negative space at upper left for a reconstruction label.
+
+S002 — mode: Frames-to-Video from a selected S001 end-frame plus macro reference; native 7–8 seconds
+
+Extreme realistic macro insert of CHAR_MAI_LOCK's right hand holding the same matte charcoal phone while her left index finger performs one clean tap on a blank neutral interface area. Exactly five fingers per hand, correct nail and joint anatomy, stable phone geometry, no visible text or icons. 100 mm macro lens at a 35-degree angle, three-centimeter motivated push-in, soft window reflection, screen exposure controlled. End on a small amber reflection at the touch point for a match cut.
+
+S003 — mode: Frames-to-Video; reference: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds
+
+BLACK_BOX_01_LOCK on ENV_CONCEPT_STAGE_LOCK. Start extreme close on the amber seam matching S002's touch reflection. Pull back slowly as the shell separates along physically plausible rails into exactly five layers. An amber light path enters the first layer and moves through specific channels, never becoming floating particles. 50 mm-to-35 mm dolly perspective, precise mechanical inertia, subtle volumetric light, high-detail materials, stable geometry, negative space on left for three post-production keywords.
+
+S004 — mode: Extend S003 or Frames-to-Video; references: REF_BLACK_BOX_OPEN and REF_CHAR_MAI_MASTER; 8 seconds plus 2-second extension
+
+Conceptual but physically staged scene on ENV_CONCEPT_STAGE_LOCK. From the opened BLACK_BOX_01_LOCK, one amber pathway splits into three solid luminous channels: one reaches a grounded design workbench, one reaches a restrained governance table, and one passes beside CHAR_MAI_LOCK without touching her. After a deliberate pause, a teal return channel begins at Mai's hand and enters the cube through a visible port, changing one internal rail. 35 mm overhead-leaning perspective, slow 20-degree arc, no floating interface.
+
+S006 — mode: Ingredients/Frames-to-Video; reference: REF_CHAR_MAI_MASTER; 8 seconds plus 2-second extension
+
+ENV_HOSPITAL_DAY_LOCK and CHAR_MAI_LOCK. Observational medium shot of Mai seated in a gray waiting chair, phone held low in both hands, reading quietly. Two or three background people cross at different depths with realistic motion and no duplicated faces. Mai remains the same identity and clothing. 50 mm lens, locked camera with natural parallax, daylight skin tones, no melodramatic expression. Preserve uncluttered upper-left and lower-left areas for a clear hypothetical-scenario label and subtitles.
+
+S007 — mode: Text-to-Video; native 8 seconds plus 2-second extension
+
+Premium physical tabletop exhibit in a dark wood studio: one unbranded matte charcoal smartphone rests flat while the camera performs a single slow lateral slider move through three upright optical-glass planes separated by real depth. Each plane has a distinct subtle material cue—fingerprint reflection, engineering trace, institutional seal shape—but absolutely no writing. 50 mm lens, soft window key and amber edge light, stable glass refraction, clean geometry. End with all three planes visible in depth for post-production labels.
+
+S008 — mode: Ingredients/Frames-to-Video; reference: REF_CHAR_MAI_MASTER; 8 seconds plus 4-second extension
+
+ENV_HOSPITAL_DAY_LOCK and CHAR_MAI_LOCK. Over-the-shoulder shot: Mai scrolls once through three blank rectangular scheduling choices composited later, pauses and hovers without selecting. The phone and hands remain perfectly stable and anatomically correct. 85 mm lens, very subtle push-in, face reflected softly at the right edge, no generated interface content. The action must convey that all choices already exist inside a fixed menu. Hold the final clean frame for post-production UI.
+
+S009 — mode: Ingredients-to-Video; references: REF_DESIGN_TEAM_MASTER and REF_BLACK_BOX_MASTER; 8 seconds plus 3-second extension
+
+ENV_DESIGN_STUDIO_LOCK and CHAR_DESIGN_TEAM_LOCK. Wide observational shot around the dark wood table. One designer quietly arranges blank paper cards; another connects a real amber fiber line from a stack of neutral data blocks into BLACK_BOX_01_LOCK. The two others review a physical prototype. The empty participant chair and stone-colored tote position are prominent in the near foreground, but CHAR_MAI is absent. 35 mm lens, slow lateral track, stable identities, natural gestures, no readable screens.
+
+S010 — mode: Text-to-Video; 8 seconds plus 3-second extension
+
+Grounded small governance meeting room, no brand. Overhead shot of four natural adult hands following a circular lifecycle diagram made only from blank shapes on warm paper. A closed, unmarked complaint folder is passed to the one person with a restrained signing action; no stamps, letters or fake documents are visible. Camera tilts from overhead toward the responsible hand in one smooth move. 50 mm perspective, serious natural lighting, realistic paper physics and hand anatomy.
+
+S012 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; 8 seconds plus 2-second extension
+
+Physically composed split-depth scene rather than a graphic card. On the left through clear clinic glass, CHAR_MAI_LOCK uses her phone in ENV_HOSPITAL_DAY_LOCK. On the right beyond a second closed glass door, CHAR_DESIGN_TEAM_LOCK works around the design table while the participant chair is empty. Both sides share continuous architecture and believable perspective. 50 mm lens, very slow push toward the closed design-room door, natural daylight balanced with warm studio practicals. No one acknowledges camera.
+
+S014 — mode: generate three matched inserts; references: REF_CHAR_MAI_MASTER only for palette, not identity; three 6–8-second clips
+
+Create three respectful contemporary documentary inserts with the same clinic palette: first, an older Vietnamese adult's anatomically correct hand taking extra time to use an unbranded phone; second, a person using a mobility aid approaching a physically narrow route without distress; third, a patient looking at an unbranded phone while the signal state will be composited later. 85 mm observational close-ups, natural light, no pity framing, no medical claim, no readable text. Each frame leaves space for an amber path added in post.
+
+S015 — mode: Text-to-Video; 8 seconds plus 3-second extension
+
+A precision mechanical hand tool on a warm-paper work surface, filmed as sober product-documentary observation. Two different pairs of anatomically correct hands enter at separate moments and orient the same tool toward two different generic tasks, while the tool remains centered and unchanged. 50 mm lens, restrained high-key side light, one slow 15-degree arc, realistic metal wear, no symbolic labels, no weapon and no brand.
+
+S017 — mode: Extend/Frames-to-Video from S015 end frame; 8 seconds plus 4-second extension
+
+Continue with the exact same mechanical tool, surface and lighting. Roll it slowly to reveal underside guides and shaped fittings that permit some actions and exclude others. As the camera remains macro-focused on those designed constraints, the soft but recognizable shadows of four designers cross the warm-paper background. 100 mm macro, stable object geometry, one controlled rotation, no human face, no text. End on one precisely shaped fitting for a cut into the 2×2 design diagram.
+
+======================================================================
+SCENE PROMPTS — THE FOUR POSITIONS AND META-CHOICE
+======================================================================
+
+S023 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+Restrained conceptual architecture on ENV_CONCEPT_STAGE_LOCK. A solitary ordinary adult walks through a technically ordered corridor. The corridor's matte structural panels move on visible mechanical tracks and gradually narrow alternative doorways while keeping the forward path open; the person is not trapped or harmed. 35 mm lens at eye level, single slow advance, deep navy and distant amber practical light, realistic scale and weight. The image represents a value-laden autonomous technological way of life without horror or science-fiction spectacle.
+
+S024 — mode: Ingredients-to-Video; references: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+BLACK_BOX_01_LOCK opened on ENV_CONCEPT_STAGE_LOCK. Four anatomically correct adult hands, entering from distinct sides without overlapping, place one teal precision module into an available rail. The existing amber pathway then changes direction through a mechanically visible switch while the overall system continues operating smoothly. 50 mm isometric view, slow 20-degree arc, realistic contact and weight, no magical glow, no text. Preserve clean top-left space for the Critical Theory quadrant label.
+
+S026 — mode: Frames-to-Video; references: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+On ENV_CONCEPT_STAGE_LOCK, amber and teal physical tension cables pull BLACK_BOX_01_LOCK in opposing directions. The cube does not crack or explode. Its five sections slide along designed rails and settle into a new stable configuration with a human-scale access opening and visible feedback port. 50 mm hero medium shot, subtle orbit, controlled inertial movement, detailed matte material, restrained haze. The transformation must look engineered and reversible, not like liquid morphing.
+
+S027 — mode: Text-to-Video plate; native 8 seconds plus 5-second extension
+
+Macro lateral tracking across six different real surfaces arranged as one continuous museum exhibit: neutral tool steel, milled design aluminum, amber glass, dark institutional wood, teal translucent material and a final reconfigured black ceramic. A thin amber decision line travels continuously from surface to surface. Leave each surface completely blank and stable so the six Vietnamese motif words can be composited later. 85 mm macro, shallow-but-readable depth, raking light, no generated characters.
+
+S028 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+A believable contemporary public transit or civic access space with no identifiable city, brand or readable sign. Ordinary adults follow routes defined by gates, barriers, stairs and information screens with blank content. The architecture visibly channels movement without coercive behavior. Elevated 24 mm establishing shot, single slow crane forward, blue-hour natural ambient light with warm practicals, realistic crowd density and distinct faces, no futuristic station, no advertising. Leave upper-left negative space for the chapter title.
+
+S029 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+Geometric documentary composition of two adjacent real pedestrian routes in the same civic building: one route is wide, well lit and direct; the other is physically narrow with three ordinary obstacles and a longer turn. Different adults select paths in response to the architecture without spoken instruction. 35 mm locked wide shot followed by a slow pan, natural directional daylight, realistic accessibility details, no signage or moralizing color. Keep both endpoints visible.
+
+S031 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+Conceptual physical set on ENV_CONCEPT_STAGE_LOCK. An ordinary adult stands before a large matte-black routing frame containing two small blank controls. Instead of pressing either control, the person uses both hands to lift the entire lightweight but plausible rail frame from its mount and seat it into a second engineered configuration. 50 mm lens, slow 20-degree arc, accurate hand contact, visible latches and weight, amber route changes after the frame locks, no magic, no text.
+
+S032 — mode: Text-to-Video; one continuous 8-second shot plus 4-second extension
+
+Build three connected practical tableaus in one sober architectural space. During a single slow lateral dolly, first a sensor door opens for one adult, then a different access gate remains physically closed for another, then the camera reveals a third person behind glass holding the only mechanical control panel. No distress and no villain performance. 35 mm lens, distinct depth planes, natural light pools, correct door physics and timing, no readable interface. End with all three relations understandable in one frame.
+
+S033 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; native 8 seconds plus 4-second extension
+
+One layered long-lens view across three real spaces: CHAR_MAI_LOCK's hand using the phone in the near clinic, CHAR_DESIGN_TEAM_LOCK around the table behind the first glass plane, and a small governance group beyond the second plane. Perform three clean rack focuses from use to design to governance. A teal route will be composited later, so keep a clear visual corridor across all layers. 85 mm lens, balanced daylight and tungsten, no readable displays, stable identities.
+
+S034 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+Top-down physical design experiment on a dark wood table. The same four tangible constraints—one weight, one fixed aperture, one energy input and one base plate—surround three clearly different mechanical modules. A technician's accurate hands test each module under the same simple force and light action; all three remain functional. 50 mm overhead perspective, slow drift, realistic mechanics, blank status areas for later PASS marks, no laboratory fantasy and no text.
+
+S038 — mode: Frames-to-Video; references: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; 8 seconds plus 6-second extension
+
+BLACK_BOX_01_LOCK on ENV_CONCEPT_STAGE_LOCK divides along real rails into three alternative working configurations sharing the same core. The first is enclosed and centralized, the second routes most output toward an extraction channel, and the third incorporates a visible teal human-feedback port. All three operate; camera does not crown a winner. 35 mm wide hero view, slow crane up to reveal the branching paths, stable hard-surface geometry, restrained amber and teal, no liquid morphing, no text.
+
+======================================================================
+SCENE PROMPTS — TECHNICAL CODE
+======================================================================
+
+S039 — mode: Frames-to-Video; references: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 3-second extension
+
+BLACK_BOX_01_LOCK begins closed on ENV_CONCEPT_STAGE_LOCK. A 100 mm macro camera travels slowly along the amber seam. The surface then opens in a precise medical-display-like cutaway, revealing layers made from standards blocks, material samples, physical threshold gates and approval pathways, all unmarked and mechanically plausible. Preserve the exact cube identity and seam. Raking amber light reveals microtexture; no futuristic circuitry, no characters and no writing. End with the internal layers stable for post-production labels.
+
+S040 — mode: Text-to-Video; native 8 seconds plus 3-second extension
+
+Start on a defocused ordinary computer monitor showing only abstract pale line texture with no characters. Perform one clean rack focus away from the screen to a real workbench holding a bolt, a precisely cut wall-thickness sample, a brass safety valve and an unmarked physical approval folder. The monitor falls fully out of focus while the material objects become crisp. 85 mm lens, grounded studio light, anatomically correct technician hand briefly testing the valve, no fake code, no readable paperwork.
+
+S043 — mode: Text-to-Video; apply ENV_STEAM_WORKSHOP_LOCK; native 8 seconds plus 4-second extension
+
+ENV_STEAM_WORKSHOP_LOCK. Respectful illustrative reconstruction of two skilled workers inspecting a large riveted boiler rather than staging an accident. One worker checks a seam with a period-plausible hand tool while another observes a brass valve. 35 mm eye-level slow dolly into the workshop, thin steam behaving physically, warm furnace light and cool window shafts, realistic soot and textile clothing, stable faces and hands. Leave lower-left clean for the mandatory reconstruction label.
+
+S044 — mode: Text-to-Video; apply ENV_STEAM_WORKSHOP_LOCK; native 8 seconds plus 4-second extension
+
+At a heavy workbench in ENV_STEAM_WORKSHOP_LOCK, a fictional ship owner and a fictional safety inspector silently compare two cutaway metal wall samples, one visibly thinner and one thicker. They remain calm and serious; no theatrical argument. The samples are the focus and both people retain natural anatomy. 50 mm two-shot, slow lateral drift, warm practical light, restrained power distance across the table, no documents, numbers, official seals or identifiable historical persons.
+
+S045 — mode: Text-to-Video; apply ENV_STEAM_WORKSHOP_LOCK; generate two matched 6–8-second macro clips
+
+Clip A: an anatomically correct worker's hand uses a period-plausible caliper to compare the wall of a riveted iron sample, with no visible scale numbers. Clip B: the same worker carefully seats a brass safety valve into a matching flange and tightens it with a plausible tool. 100 mm macro, raking warm light, exact metal textures, slow ten-centimeter slider move, correct contact, no slipping geometry, no modern equipment and no text. Match the circular caliper jaws to the valve for editing.
+
+S047 — mode: Text-to-Video; apply ENV_STEAM_WORKSHOP_LOCK; native 8 seconds plus 4-second extension
+
+A finished riveted boiler stands under neutral inspection light. In the dim background, two human silhouettes and one amber path suggest an earlier disagreement, then gradually recede and become invisible while the boiler remains solid and unchanged. The light seam itself appears to sink into the metal along a real rivet line, not as magic. 50 mm locked tableau with one slow focus pull from background silhouettes to boiler surface. No accident, no text, no false archival look.
+
+S049 — mode: Frames-to-Video; references: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+Opened BLACK_BOX_01_LOCK in an exploded hard-surface view on ENV_CONCEPT_STAGE_LOCK. Three distinct internal layers made from physically credible structures correspond visually to safety, access and privacy without written symbols. Assemble all three into a stable load-bearing mechanism. Briefly withdraw one layer and show a realistic loss of balance, then return it; no collapse or explosion. 50 mm isometric lens, slow assembly movement, amber core and restrained teal integrated layers, no floating graphics.
+
+S050 — mode: Ingredients-to-Video; references: REF_DESIGN_TEAM_MASTER and REF_CHAR_MAI_MASTER for the exact tote only; native 8 seconds plus 4-second extension
+
+ENV_DESIGN_STUDIO_LOCK and CHAR_DESIGN_TEAM_LOCK. Camera sits at the low eye height of the empty participant chair. The stone-colored canvas tote associated with CHAR_MAI_LOCK rests beside the empty chair, but Mai is absent. Across the table, all four designers quietly review a blank monitor and physical model. 50 mm lens, nearly imperceptible push-in, foreground chair and tote sharp enough to read, team slightly deeper, stable identities, no readable dashboard or generated text.
+
+S051 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; native 8 seconds plus 3-second extension
+
+Layered long-lens view through clinic glass. A blank green performance panel is held in the near foreground for later compositing; beyond it, CHAR_MAI_LOCK cannot complete one phone action and a clinic staff member offers calm manual assistance. Farther behind glass, CHAR_DESIGN_TEAM_LOCK continues working. 85 mm lens, one rack focus from the empty panel to Mai and staff, natural non-dramatic behavior, correct hands, no readable interface and no expression of catastrophe.
+
+S053 — mode: Frames-to-Video; reference: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+Opened BLACK_BOX_01_LOCK on ENV_CONCEPT_STAGE_LOCK, surrounded at a respectful distance by several distinct anatomically correct adult hands. Most hands have no physical connection to the cube. Only one small engineered access port is visible, with an amber route leading inside. Perform one slow 35 mm push toward that port and stop before entering. Hands remain still or make tiny natural adjustments; no reaching pile, no crowd, no text and no mystical ritual.
+
+S054 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+A restrained civic-hall tableau: two anonymous, simple technical devices sit on small plinths beside a plain ballot box. One blank ballot drops naturally. After a short hold, the camera performs one slow lateral move away from the ballot setup and reveals a real design table where device internals are being configured. 50 mm lens, neutral institutional light, no comedy, no labels, no flags, no people voting on screen, no generated writing. Leave room for a post-production strike-through.
+
+S055 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+A believable public technology access space. A wide door opens and several distinct adults enter, but a solid teal decision pathway remains blocked by glass before reaching a closed design room above. The camera cranes glides upward to reveal the hidden decision room and a separate, currently disconnected feedback conduit. 35 mm architectural view, daylight below and subdued warm light above, realistic crowd and glass reflections, no signs or words, no social-media iconography.
+
+S057 — mode: generate four matched 6–8-second documentary clips; no identity reference required
+
+Four grounded actions with the same amber-to-teal visual continuity: A, an affected adult records a concrete consequence in a notebook with blank paper; B, a user adapts an unbranded device for an unintended but physically plausible use; C, a small community group compares experiences around a simple table; D, a representative inserts a teal physical requirement card into an open design model. Use 50 mm lenses, natural human gestures, distinct real environments, no chanting crowd, no placards, no readable text and no heroic performance.
+
+S059 — mode: Frames-to-Video; reference: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+On ENV_CONCEPT_STAGE_LOCK, a narrow efficiency frame initially measures only one amber output channel from BLACK_BOX_01_LOCK. The camera slowly pulls back to reveal affected people, material waste and an environmental context that were outside the frame. Teal input paths from those contexts enter existing ports and the mechanism rebalances across several variables while still operating. 35 mm lens, engineered changes, no magical transformation, no numbers or labels, clean negative space for the Group 14 interpretation tag.
+
+S060 — mode: Text-to-Video; native 8 seconds plus 4-second extension
+
+A blank warm-paper feedback card travels on a narrow teal mechanical rail toward BLACK_BOX_01_LOCK but meets a solid concrete stop before reaching the decision mechanism. The card makes one restrained impact and remains readable as blank; the cube continues unchanged. Side-on 50 mm view, realistic paper stiffness and rail movement, dark neutral studio, small red light only at the dead end, no words or symbols. Leave wall surface clean for post-production DECISION LOCKED typography.
+
+S061 — mode: Ingredients-to-Video; references: REF_DESIGN_TEAM_MASTER; native 8 seconds plus 4-second extension
+
+ENV_DESIGN_STUDIO_LOCK transformed into a small consultation meeting. A fictional affected participant speaks silently with natural hand gestures while CHAR_DESIGN_TEAM_LOCK listens. The camera executes a slow arc and reveals that the participant's blank notes have been placed aside while the physical product model remains locked under a clear glass cover. No one behaves dismissively or villainously; the limitation is procedural. 50 mm lens, natural daylight, stable faces and hands, no readable documents or lip-sync dialogue.
+
+S063 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; native 8 seconds plus 6-second extension
+
+ENV_DESIGN_STUDIO_LOCK, CHAR_MAI_LOCK and CHAR_DESIGN_TEAM_LOCK. At a genuine co-design table, one engineer holds an unmarked technical cutaway, Mai points to one concrete physical scenario card, and a neutral facilitator connects both to BLACK_BOX_01_LOCK with a teal module. Nobody dominates the center; eye lines form a balanced triangle around the shared object. 50 mm lens, slow 25-degree orbit, accurate hands and object contact, calm professional behavior, daylight with warm practicals, no readable screen.
+
+======================================================================
+SCENE PROMPTS — NETWORK APPROPRIATION AND ALS CASE
+======================================================================
+
+S065 — mode: Text-to-Video; period reconstruction; native 8 seconds plus 3-second extension
+
+A generic early-1990s computer-network operations room used as illustrative reconstruction. Beige CRT terminals, period-plausible racks, wired peripherals and one or two fictional engineers monitor a visibly one-directional physical data-flow display with no legible characters. 35 mm slow dolly past equipment, modest fluorescent light, subtle CRT glow, no modern flat panels, no LED wall, no logo, no Internet brand, no fake screenshot and no public figure. Leave lower-left clear for the reconstruction label.
+
+S067 — mode: generate two matched Ingredients/Frames-to-Video clips; reference: REF_1995_USER_MASTER; 6–8 seconds each
+
+Two different fictional adults in two distinct ENV_1995_HOME_LOCK interiors type slowly on beige CRT computers. Film each in matching side three-quarter profile with 50 mm lenses and restrained push-ins. Their identities must remain stable within each clip, hands anatomically correct, screens blank and light bloom controlled. They pause and react subtly as if receiving a human message, without speech or exaggerated emotion. No logo or readable interface. Preserve a horizontal visual corridor between screen edges for a post-production peer signal.
+
+S071 — mode: Ingredients-to-Video; reference: REF_1995_USER_MASTER; native 8 seconds plus 4-second extension
+
+ENV_1995_HOME_LOCK. A respectful fictional caregiver pulls a simple chair beside another adult seated comfortably at a beige CRT. They look at the same blank screen and exchange a quiet, supportive glance without speaking. Do not depict a specific diagnosis, visible suffering or medical equipment. 35 mm slow doorway dolly, tungsten desk lamp with low cool window fill, period-correct computer, modem and landline, stable hands and faces, no logo or screen text. Leave lower-left clear for the mandatory reconstruction label.
+
+S072 — mode: Text-to-Video plate; native 8 seconds plus 4-second extension
+
+Night exterior of many distinct modest mid-1990s homes and apartment windows across an abstract, non-identifiable community. Warm desk-lamp windows illuminate gradually at different real depths, suggesting readers connecting from home. No map outline, no world globe, no network-node grid, no address, no modern skyline. 50 mm elevated view, one slow pull upward, deep navy night with warm windows. Leave a large clean area at center-right for accurate post-production statistics.
+
+S073 — mode: generate three matched close-up clips; reference: REF_1995_USER_MASTER; 6–8 seconds each
+
+Respectful mid-1990s documentary reconstruction close-ups: A, a natural hand pauses over a wired keyboard; B, a caregiver's eyes read a beige CRT with quiet concentration; C, a stable blank cursor glow reflects softly on a face while fingers resume typing. 85 mm lens, warm desk lamp, modest depth of field that preserves period context, no tears, no visible diagnosis, no medical spectacle, no readable text, no brand, no deformed hands and no face morphing.
+
+S074 — mode: Text-to-Video conceptual plate; native 8 seconds plus 4-second extension
+
+Two fictional adults sit in separate dark but warm rooms at a large physical distance within one poetic studio composition. A thin teal strip resembling blank lines of writing travels between the rooms without any letters, then aligns with a narrow architectural seam that opens into soft light. 50 mm lens, slow push toward the opening, physically plausible panels, understated emotion, no claim of direct face-to-face contact, no internet icon, no network grid, no text and no sentimental glow explosion.
+
+S075 — mode: generate three matched macro clips; period reconstruction; 6–8 seconds each
+
+Different anatomically correct adult hands in ENV_1995_HOME_LOCK write short marks on completely blank cards; the pen tips touch paper properly and no characters are generated. Use the same top-down angle, 85-to-100 mm macro lens and warm desk-light direction for every clip. Each hand places its card at the same frame coordinate so match cuts can combine them into one ordered stack. No names, no institutional seal, no medical document and no visible diagnosis.
+
+S076 — mode: Text-to-Video plate; native 8 seconds plus 4-second extension
+
+A stack of blank priority cards travels along a tangible teal path from a small group table toward a restrained anonymous institutional building model. A natural adult hand receives the stack at the endpoint; the shot stops immediately after the handoff and shows no response, approval or policy change. 50 mm side-on tracking shot, neutral daylight, realistic card and hand physics, community at left and institution at right, no logo, no organization name, no document text. Leave upper-right clear for the evidence-limit caption.
+
+S078 — mode: Frames-to-Video; reference: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+Opened BLACK_BOX_01_LOCK configured as a grounded network mechanism on ENV_CONCEPT_STAGE_LOCK. A teal pathway originating from several user-side ports travels backward into the core and mechanically repositions exactly three internal layers. Keep the three layers blank for later labels corresponding to design, participant interests and power. 35 mm slow arc, amber original routing plus teal return path, visible gears and rails, stable geometry, no floating nodes, no data rain and no triumphal explosion.
+
+S079 — mode: transition video; use selected end frame from S067/S072 and REF_CHAR_MAI_MASTER; 8 seconds plus 4-second extension
+
+Create a restrained temporal match dissolve from several warm mid-1990s home windows to the frosted windows of ENV_HOSPITAL_DAY_LOCK in the present. One teal path persists through the transition and reaches CHAR_MAI_LOCK's matte phone, while two dim alternative paths stop short to imply that potential is not guaranteed. 35 mm slow forward move, period details dissolve by matched shapes rather than liquid morphing, stable architecture, no dates, no text, no nostalgia filter and no futuristic effect.
+
+======================================================================
+SCENE PROMPTS — GROUP 14 METHODOLOGICAL TRANSFER
+======================================================================
+
+S080 — mode: Ingredients/Frames-to-Video; references: REF_CHAR_MAI_MASTER and the selected final frame of S006; native 8 seconds plus 4-second extension
+
+ENV_HOSPITAL_DAY_LOCK and CHAR_MAI_LOCK. Return to the exact waiting-chair position, wardrobe, tote and matte phone established in S006, now observed from a slightly closer symmetrical angle. Mai reads the blank phone screen, pauses, and looks through the frosted glass toward the clinic desk without looking at camera. A faint reflection of BLACK_BOX_01_LOCK appears only as a practical composited cue in the glass and must not become a fantasy object. 50 mm lens, one slow five-percent push-in, continuous hospital daylight, accurate hands and stable identity. Leave upper-left and lower-left clean for the mandatory Group 14 methodological-transfer label and citation.
+
+S081 — mode: Text-to-Video insert; native 6–8 seconds; use only as a human-hand layer over a post-production diagram
+
+A grounded technical test bench viewed from directly overhead. One anatomically correct adult hand places a small unmarked circular test token into a precise mechanical fixture; a restrained green practical indicator illuminates once, then the hand takes responsibility by entering a plain signature gesture on a separate blank paper log without producing any legible mark. The surrounding table remains intentionally empty so three analytical layers can be composited later. 50 mm orthographic-feeling perspective, neutral softbox light, one slow crane pull-back, no interface, no generated word, no official document, no logo.
+
+S082 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER, REF_DESIGN_TEAM_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+Build a real architectural corridor inside ENV_DESIGN_STUDIO_LOCK containing five open rectangular gate frames made from matte black metal with restrained amber edges. CHAR_MAI_LOCK and CHAR_DESIGN_TEAM_LOCK enter the corridor together from different sides and walk toward the first gate at the same measured pace; no person leads or performs heroically. A physical teal floor inlay connects all five gates to BLACK_BOX_01_LOCK at the far end. 24 mm wide lens with controlled facial perspective, one slow dolly through the first gate, accurate walking and stable identities, natural window light with warm practicals. The gate surfaces are blank for five post-production questions.
+
+S083 — mode: Ingredients-to-Video plate; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; generate two matched 6–8-second clips for clean hand coverage
+
+ENV_DESIGN_STUDIO_LOCK. Top-down collaborative table with CHAR_MAI_LOCK and two members of CHAR_DESIGN_TEAM_LOCK represented by distinct anatomically correct hands. Four blank warm-paper objective cards surround a physical clinic-schedule model made from unmarked slots. The participants deliberately exchange the positions of two cards, pause to compare the resulting configuration, then leave all four visible. 50 mm overhead perspective, one slow clockwise drift, realistic paper friction and finger contact, soft left-window light with amber card-edge reflections. No generated writing; reserve each card for post-production labels.
+
+S084 — mode: Frames-to-Video; references: REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+BLACK_BOX_01_LOCK opened in a sectional macro view on ENV_CONCEPT_STAGE_LOCK. The camera follows one amber decision path through exactly four physically different mechanisms in sequence: an adjustable threshold gate, a balanced weighting arm, a removable blank data tray and a teal exception bypass. Each mechanism performs one restrained mechanical action and remains stable after adjustment. 85 mm macro perspective, one continuous probe move, dark ceramic and brushed metal with accurate contact and inertia, no source code, no numbers, no symbols and no floating interface. Leave negative space along the lower edge for post-production terminology.
+
+S085 — mode: matched Text/Ingredients-to-Video series; generate four 6–8-second clips plus one optional empty-chair plate; reference palette: REF_DESIGN_TEAM_MASTER
+
+Create four respectful documentary portraits entering the exact same empty participant-chair composition in ENV_DESIGN_STUDIO_LOCK. Clip A: an older Vietnamese adult carrying a simple non-smart mobile device sits naturally. Clip B: a Vietnamese adult who uses a mobility aid approaches and sits with the aid remaining correctly positioned. Clip C: a Vietnamese adult reviews a blank bilingual-support card with no visible letters. Clip D: a clinic reception worker in ordinary professional clothing sits after completing a practical desk task. Use different fictional identities, no stereotypes, no visible diagnosis and no pity framing. 50 mm eye-level camera, identical locked framing and chair position, individualized but naturally matched daylight, stable hands and faces. End every clip with the person looking toward the shared design object, not camera; keep one additional chair unoccupied in the background to represent an unknown stakeholder.
+
+S086 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER, REF_DESIGN_TEAM_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+ENV_DESIGN_STUDIO_LOCK configured as a genuine co-design workshop. A facilitator uses an unmarked physical cutaway to explain one mechanism; CHAR_MAI_LOCK points to a concrete blank scenario card; one engineer listens and then unlocks a still-open module from BLACK_BOX_01_LOCK so the group can reposition it together. Eye lines form a balanced triangle and every hand touches only its intended object. 50 mm medium view moving into an 85 mm insert through one restrained orbit, balanced daylight with a teal practical accent, calm professional behavior, no intelligible discussion, no lip-sync, no readable notes and no staged applause.
+
+S087 — mode: Frames-to-Video; references: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 4-second extension
+
+On ENV_CONCEPT_STAGE_LOCK, a tangible amber deployment rail reaches BLACK_BOX_01_LOCK and appears to end. Without a visual flourish, the rail bends through a visible engineered joint into a continuous circular lifecycle containing three blank physical stations: a monitoring lens, an appeal port and a redesign workbench. A teal feedback carriage completes one circuit, unlocks the cube labeled only later as version one, and shifts one internal layer into a stable second configuration. 35 mm isometric view, camera follows the carriage once around the loop, realistic mechanics, no text, no software dashboard and no magical transformation.
+
+S088 — mode: generate three matched Ingredients/Text-to-Video clips; references: REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER where relevant; 6–8 seconds each
+
+Create a restrained procedural montage with consistent left-to-right motion. Clip A: in a clean operations room, an analyst studies a blank impact-monitoring panel and points to one physical amber marker, with no generated charts or numbers. Clip B: a designated responsible person writes one short unmarked entry in a plain accountability log and closes it, with no seal or fake official document. Clip C: in ENV_DESIGN_STUDIO_LOCK, CHAR_DESIGN_TEAM_LOCK replaces one physical rule module in BLACK_BOX_01_LOCK while CHAR_MAI_LOCK later sees a newly opened assistance route at the clinic desk. 50 mm documentary lenses, clean operational light rather than corporate gloss, exact hand-object contact, no celebration and no readable text. Preserve matching lateral actions for edit transitions.
+
+S089 — mode: Frames-to-Video; references: REF_BLACK_BOX_OPEN; native 8 seconds plus 6-second extension
+
+Hero exploded assembly of BLACK_BOX_01_LOCK on ENV_CONCEPT_STAGE_LOCK. Exactly five distinct teal-accented layers slide onto precision rails one by one and mechanically lock around the still-visible amber core. The final shell remains partly open through a transparent inspection window and a real feedback port instead of sealing completely. 50 mm lens, slow assembly followed by one restrained twenty-degree orbit, high-detail ceramic, glass and brushed metal, stable geometry and plausible weight. Keep broad negative space on the left for five post-production criteria; no generated labels, no floating pieces and no triumphal light burst.
+
+S090 — mode: Ingredients-to-Video; references: REF_CHAR_MAI_MASTER, REF_DESIGN_TEAM_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 5-second extension
+
+ENV_DESIGN_STUDIO_LOCK joined visually to ENV_HOSPITAL_DAY_LOCK through an open glass door. CHAR_MAI_LOCK and CHAR_DESIGN_TEAM_LOCK stand around the now-operating open BLACK_BOX_01_LOCK and quietly observe one tested physical pathway; no person occupies a heroic center. The camera pulls backward through the open door, revealing the clinic corridor and several distinct affected adults connected to the decision process by a real teal floor inlay. 35 mm lens, one slow pull-back, window daylight meeting restrained tungsten studio light, stable group identities and realistic depth. No cheering, no posed team portrait and no readable screen.
+
+======================================================================
+SCENE PROMPTS — CONCLUSION AND CREDIT PLATE
+======================================================================
+
+S091 — mode: Frames-to-Video; references: REF_BLACK_BOX_MASTER and REF_BLACK_BOX_OPEN; native 8 seconds plus 3-second extension
+
+Return BLACK_BOX_01_LOCK to the exact opening position on ENV_CONCEPT_STAGE_LOCK, now with one side partially transparent so the five stable layers and restrained teal return path are visible. The amber seam forms only a soft curved reflection with empty negative space on the right; it must not generate a literal punctuation mark. 50 mm locked hero composition with one extremely slow push-in, obsidian surface, controlled internal teal and amber, fine material detail. End on a clean steady frame suitable for a long central-question title and later credit reuse.
+
+S092 — mode: Frames-to-Video; references: REF_BLACK_BOX_OPEN and selected S091 end frame; native 8 seconds plus 3-second extension
+
+Perform one physically plausible macro probe through four stable internal layers of BLACK_BOX_01_LOCK: a problem-framing aperture, a standards gauge, a procedural routing gate and a load-bearing design structure. In each layer, a subtle human material trace—finger contact, worn handle, seating position or affected-user reflection—shows that social choices and consequences are connected to the mechanism. 50-to-85 mm macro perspective, continuous slow forward movement, restrained amber and teal, crisp material detail, no faces trapped in machinery, no text and no abstract data tunnel.
+
+S093 — mode: Frames-to-Video; references: REF_BLACK_BOX_OPEN, REF_CHAR_MAI_MASTER and REF_DESIGN_TEAM_MASTER; native 8 seconds plus 3-second extension
+
+Wide ENV_CONCEPT_STAGE_LOCK tableau. Several distinct affected adults, CHAR_MAI_LOCK and members of CHAR_DESIGN_TEAM_LOCK remain at respectful distances around BLACK_BOX_01_LOCK. Separate teal physical lines from their grounded positions enter existing engineered ports; the cube opens along rails into a stable multi-path configuration while its amber structural core continues operating. 35 mm lens, one slow crane upward, anatomically correct people with natural stillness, exact line-to-port connections, no synchronized crowd gesture, no equality spectacle, no explosion and no magical morph.
+
+S095 — mode: Ingredients/Frames-to-Video; references: REF_CHAR_MAI_MASTER, REF_BLACK_BOX_OPEN and the selected S080 clinic frame; native 8 seconds plus 3-second extension
+
+Late-afternoon continuation inside ENV_HOSPITAL_DAY_LOCK. CHAR_MAI_LOCK rises naturally from the same waiting chair, places the same phone in her stone-colored tote and walks through an already-open clinic doorway. The camera does not follow her as a hero; it pulls back and settles on BLACK_BOX_01_LOCK open on a grounded consultation table, with restrained amber and teal floor inlays continuing toward several distinct people in the real corridor depth. 35 mm lens, one slow pull-back, clean natural highlights, stable identity and accurate hands. Leave center-left and upper-right clear for the exact concluding sentence and thank-you typography.
+
+S096 — generation policy: DO NOT SPEND A NEW GENERATION BY DEFAULT
+
+Reuse the clean final segment of S091 at approximately 90–100% native speed, reframe only within the safe 16:9 crop, and add the opening credit title in post-production. Generate a dedicated plate only if the S091 frame fails the seven-second hold because of geometry drift, compression, flicker or insufficient negative space. If a replacement is required, repeat the S091 prompt with no people, no additional motion and a locked camera.
+
+======================================================================
+ADDITIONAL INSERT PROMPTS FOR HYBRID POST-PRODUCTION SCENES
+======================================================================
+
+S005 — generation policy: REUSE BEFORE GENERATING
+
+Use the most stable four-to-eight-second segment from S003, S004 or S091 in which BLACK_BOX_01_LOCK occupies the left third and the right side remains clean. If no segment passes, create a Frames-to-Video title plate from REF_BLACK_BOX_MASTER: the exact closed cube rotates no more than four degrees while the camera pushes in four percent; the amber seam brightens once and settles. 50 mm eye-level hero composition on ENV_CONCEPT_STAGE_LOCK, no generated title, no question mark, no letters. All greeting, group, topic and central-question typography is added in post-production.
+
+S013 — mode: Text-to-Video plate only if the deterministic 3D/post version lacks sufficient material realism; native 8 seconds plus 2-second extension
+
+A precise tabletop scheduling model made from clear acrylic time blocks fills an unmarked physical calendar tray from left to right. A small mechanical clock advances and an amber performance column rises as the last gap closes, while four distinct affected adults remain softly recognizable beyond a literal framing edge and never enter the measured area. 85 mm macro lens, one slow lateral slider move, cool neutral key on acrylic with restrained amber edge light, realistic block contact and reflections. No numbers, dates, labels, UI, medical claim or moralizing expression; reserve the performance label for post-production.
+
+S020 — mode: generate two matched inserts for a deterministic two-axis diagram; native 6–8 seconds each
+
+Clip A, autonomy end: on a clean dark workbench, a physical conveyor moves a small neutral human-scale marker along one fixed amber route without any hand present. Clip B, human-control end: an anatomically correct adult hand seats a teal precision module into an open mechanical routing frame and changes the route through a visible switch. Use identical 50 mm top-down-leaning optics, scale, surface and lateral camera motion so the clips can occupy opposite ends of one post-production axis. No text, no literal robot, no coercive imagery, no hand errors and no magical response.
+
+S021 — mode: Text-to-Video insert for one quadrant; native 8 seconds plus 4-second extension
+
+On a warm neutral practical workbench, two different anatomically correct adult hands use the same unchanged precision tool toward two different ordinary external goals. The tool remains centered, value-neutral in appearance and mechanically identical; the purpose is indicated only by distinct physical workpieces beyond it. 50 mm isometric view, one slow push toward the tool, natural material texture, no weapon, no symbol, no generated label and no implication that this visual states Feenberg's own conclusion. Leave upper-left clear for the Instrumentalism quadrant typography.
+
+S030 — mode: Text-to-Video conceptual 3D plate; native 8 seconds plus 4-second extension
+
+One continuous precision mechanism lies diagonally across ENV_CONCEPT_STAGE_LOCK. At the near end, an ordinary input lever changes one initial gear; through visible shafts and linkages the adjustment alters the shape and position of the physical output aperture at the far end. The camera performs one deliberate rack focus from input means to output end while the entire causal connection remains partly visible. 100 mm macro lens, amber edge light on dark metal, physically plausible inertia and contact, no words, no icons, no isolated floating gears and no claim that means and ends are identical.
+
+S052 — mode: Text/Frames-to-Video insert for deterministic diagram; native 8 seconds plus 4-second extension
+
+Three physical requirement modules with different materials approach one open mechanism from separate directions. They initially obstruct one another, then a grounded redesign action changes the central rail geometry so all three become load-bearing parts of one stable operating structure. In the background, an empty participant chair rolls naturally into the shared table position and stops; no unseen force or celebratory gesture. 50 mm top-down view that lowers slightly toward eye level, one controlled transition, restrained teal entering an amber system, exact mechanical fit, no labels, no perfect-utopia imagery and no explosion. Post-production supplies the terms efficiency, safety and access.
+
+======================================================================
+FLOW PRODUCTION QUEUE AND CREDIT CONTROL
+======================================================================
+
+The executable queue is stored in `assets/flow_production_queue.csv`. `EXPECTED_CREDIT` is deliberately not a guessed number: Flow can change model availability, mode price and account allowances. Before each submission, read the exact cost displayed by the signed-in Flow interface and record it in `ACTUAL_CREDIT`. Never click a purchase, top-up, plan-change or paid-upgrade control. Stop a batch if the projected remaining balance would fall below the reserve.
+
+Batch order:
+
+1. `P0_REFERENCE` — create and approve the five reference stills. No moving scene starts before identity, object and period locks pass.
+2. `P1_PROOF` — S001–S006 opening proof, approximately 45–55 seconds after post-production. Review anatomy, continuity, visual argument, labels, voice/music balance and output resolution with the user before scaling.
+3. `P2_ACCOUNT_A` — contemporary clinic/design scenes and their inserts.
+4. `P3_ACCOUNT_B` — conceptual BLACK_BOX scenes, period reconstruction and network case.
+5. `P4_CONCLUSION` — methodological transfer, conclusion and any targeted retries.
+6. `P5_RESERVE` — held exclusively for rejected anatomy, identity, object-contact, historical-period or geometry failures.
+
+Credit rules:
+
+- Keep at least 20% of the combined visible credit balance untouched until the complete first assembly has been visually audited.
+- One first candidate per planned clip. A second candidate is authorized only against a written retry criterion in the queue.
+- Do not create a second generation merely for aesthetic variety when the first candidate passes argument, anatomy, continuity and technical quality.
+- Prefer reuse, post-production typography and deterministic motion graphics for diagram-heavy scenes.
+- Record account, model/mode shown by Flow, displayed credit cost, filename, date and QA verdict immediately after every download.
+- If either account shows an unexpected charge, subscription prompt or low balance, stop before submission and report the exact visible state without changing the account.
+
+======================================================================
+RETRY AND ACCEPTANCE GATE
+======================================================================
+
+A Flow clip is accepted only when all applicable checks pass: correct fictional identity; correct number and anatomy of hands; intended object contact; one motivated camera move; stable architecture and prop geometry; no readable AI text; no invented logo or decorative watermark; provider-required marks are retained; no unintended speech/music; adequate negative space for labels; period details plausible where relevant; generated reconstruction never presented as authentic evidence; source resolution at least 1280×720 and preferably the highest native export Flow provides; no severe compression, frame interpolation error or motion smear.
+
+Use exactly one targeted correction per retry. Preserve all passed invariants and rewrite only the failing action, anatomy, composition or continuity condition. A visually attractive clip that fails the philosophical purpose or evidence category is rejected.

@@ -1,0 +1,45 @@
+V4 TP.HCM END-CREDIT — FINAL QA REPORT
+Date: 2026-09-13 (Asia/Ho_Chi_Minh)
+
+DELIVERABLES
+1. CREDIT_TPHCM_OH_YEAH_V4.mp4
+   - Intended use: end credit for the main Feenberg documentary
+   - 1920x1080, 30 fps, 54.100 s
+   - H.264 High, progressive, Rec.709, yuv420p
+   - AAC-LC stereo, 48 kHz
+   - SHA-256: a96f6eb30342562e69b84c5e58c1d28d7b6da591a8969a35b8c013362cab4b93
+
+2. CREDIT_TPHCM_OH_YEAH_CLEAN_V4_4K.mp4
+   - Intended use: clean YouTube upload master without typography
+   - 3840x2160, 30 fps, 54.100 s
+   - H.264 High level 5.2, progressive, Rec.709, yuv420p
+   - AAC-LC stereo, 48 kHz
+   - Approximate total bitrate: 60.7 Mbps
+   - SHA-256: e8988958d6ab61b6f62327d788c301b757eb526072e37af0cff19d6c6a492018
+
+CONTENT QA
+- All 8 clips in assets/credit_tphcm/raw/incoming are included exactly once: PASS
+- Existing selected TP.HCM sources used exactly once: PASS
+- Total selected assets: 17; total unique assets: 17: PASS
+- Asset reuse count <= 2: PASS (actual count is 1 for every asset)
+- Real live-action footage/photography only; no generated city footage: PASS
+- Credit content retained from V3, including MSHV label: PASS
+- Typography composed after picture dissolves to avoid ghost text: PASS
+
+TECHNICAL QA
+- Full decode with ffmpeg -xerror: PASS
+- Black frame/run detection: PASS (no event)
+- Freeze detection: PASS (no event)
+- Transition contact-sheet review: PASS
+- Key credit-frame safe-area and Vietnamese-diacritic review: PASS
+- 4K clean master contains no typography overlays: PASS
+- Integrated music loudness: approximately -14.4 LUFS
+- True peak: approximately -2.5 dBTP
+
+NOTES
+- Music is sourced from the user's local oh-yeah.mp3 and begins at 11.500 s.
+- The 4K clean master still contains the music. Platform copyright systems may
+  identify it; a clean visual master is not the same as a copyright-free file.
+- FINAL_FEENBERG_DOCUMENTARY.mp4 was not modified or overwritten.
+
+STATUS: READY FOR USER REVIEW

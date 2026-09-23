@@ -1,0 +1,1294 @@
+1
+00:00:00,050 --> 00:00:03,177
+Người bệnh chạm “Đặt lịch”.
+Một giây sau, màn hình trả về một
+
+2
+00:00:03,210 --> 00:00:06,297
+khung giờ. Thao tác rất
+đơn giản. Nhưng trước đó,
+
+3
+00:00:06,330 --> 00:00:09,357
+ai đã chọn dữ liệu, tiêu
+chí ưu tiên, ngoại lệ và
+
+4
+00:00:09,390 --> 00:00:10,670
+quyền xem xét lại?
+
+5
+00:00:10,900 --> 00:00:13,947
+Nút bấm trông như một công cụ
+trung tính. Mở hộp đen thiết kế,
+
+6
+00:00:13,980 --> 00:00:16,460
+ta thấy giá trị, lợi ích và quyền lực.
+
+7
+00:00:17,500 --> 00:00:20,457
+Kính chào thầy và các bạn.
+Chúng em là Nhóm 14,
+
+8
+00:00:20,490 --> 00:00:24,367
+với chủ đề “Dân chủ hóa thiết
+kế và quản trị công nghệ theo
+
+9
+00:00:24,400 --> 00:00:28,777
+Andrew Feenberg”. Câu hỏi trung
+tâm: Công nghệ có thực sự trung
+
+10
+00:00:28,810 --> 00:00:33,237
+lập, hay những giá trị, lợi ích
+và quan hệ quyền lực có thể được
+
+11
+00:00:33,270 --> 00:00:36,380
+đưa vào ngay trong quá trình
+thiết kế và quản trị công nghệ?
+
+12
+00:00:37,580 --> 00:00:40,127
+Tình huống vừa rồi là minh
+họa giả định của Nhóm 14,
+
+13
+00:00:40,160 --> 00:00:44,097
+không phải trường hợp
+Feenberg nghiên cứu. Nó giúp
+
+14
+00:00:44,130 --> 00:00:45,540
+phân biệt ba tầng.
+
+15
+00:00:45,960 --> 00:00:48,507
+Thứ nhất là sử dụng: người bệnh
+chọn trong những phương án đã
+
+16
+00:00:48,540 --> 00:00:51,627
+có. Thứ hai là thiết kế:
+một nhóm quyết định dữ liệu,
+
+17
+00:00:51,660 --> 00:00:56,127
+cách xếp hạng và các lựa chọn
+được cung cấp. Thứ ba là quản trị:
+
+18
+00:00:56,160 --> 00:00:59,087
+ai đặt quy tắc, kiểm
+tra hậu quả, nhận khiếu
+
+19
+00:00:59,120 --> 00:01:00,520
+nại và sửa hệ thống?
+
+20
+00:01:01,580 --> 00:01:03,940
+Ba tầng liên quan nhưng không đồng nghĩa.
+
+21
+00:01:04,480 --> 00:01:07,130
+Được dùng ứng dụng không có
+nghĩa được tham gia thiết kế;
+
+22
+00:01:07,660 --> 00:01:09,727
+quyền truy cập cũng chưa
+phải tiếng nói trong
+
+23
+00:01:09,760 --> 00:01:11,580
+quyết định công nghệ.
+
+24
+00:01:12,020 --> 00:01:15,420
+Giả sử hệ thống chỉ nhằm giảm
+thời gian trống của phòng khám.
+
+25
+00:01:16,000 --> 00:01:18,767
+Nó vẫn có thể chạy đúng đặc tả,
+trong khi người cao tuổi,
+
+26
+00:01:18,800 --> 00:01:22,807
+người khuyết tật hoặc bệnh nhân
+có kết nối mạng không ổn định
+
+27
+00:01:22,840 --> 00:01:26,530
+gặp bất lợi. Lỗi ở đây không
+nhất thiết là một dòng mã hỏng.
+
+28
+00:01:27,160 --> 00:01:29,127
+Hệ thống có thể hoạt động
+chính xác theo một mục tiêu
+
+29
+00:01:29,160 --> 00:01:30,680
+được lựa chọn quá hẹp.
+
+30
+00:01:31,460 --> 00:01:34,527
+Mâu thuẫn triết học xuất hiện:
+hiệu quả được hiểu theo nghĩa
+
+31
+00:01:34,560 --> 00:01:38,040
+nào, cho ai, và điều gì
+bị đẩy ra ngoài phép tính?
+
+32
+00:01:38,330 --> 00:01:41,907
+Đây không chỉ là câu hỏi mã lệnh
+đúng hay sai. Đó là câu hỏi về
+
+33
+00:01:41,940 --> 00:01:45,620
+cách một lựa chọn xã hội
+trở thành cấu trúc kỹ thuật.
+
+34
+00:01:46,160 --> 00:01:48,810
+Cách nhìn đầu tiên: công
+nghệ chỉ là phương tiện;
+
+35
+00:01:49,440 --> 00:01:53,380
+kết quả tùy mục đích sử dụng.
+Feenberg gọi đây là thuyết công
+
+36
+00:01:53,600 --> 00:01:56,947
+cụ: công nghệ được xem là
+trung tính về giá trị và do
+
+37
+00:01:56,980 --> 00:01:58,620
+con người kiểm soát.
+
+38
+00:01:59,200 --> 00:02:01,320
+Cách nhìn này nhắc trách
+nhiệm của người dùng.
+
+39
+00:02:01,400 --> 00:02:04,527
+Nhưng nếu dừng ở đó, ta bỏ
+qua câu hỏi ai đã lựa chọn cấu
+
+40
+00:02:04,560 --> 00:02:06,157
+trúc của phương tiện.
+
+41
+00:02:06,190 --> 00:02:09,077
+Feenberg định vị tranh luận bằng hai trục,
+
+42
+00:02:09,110 --> 00:02:13,270
+không phải bốn giai đoạn. Trục
+thứ nhất hỏi công nghệ trung tính
+
+43
+00:02:13,380 --> 00:02:17,127
+hay mang giá trị. Trục thứ hai
+hỏi công nghệ tự trị hay con
+
+44
+00:02:17,160 --> 00:02:18,780
+người có thể kiểm soát.
+
+45
+00:02:19,380 --> 00:02:22,077
+“Trung tính” kết hợp với “con
+người kiểm soát” tạo thành thuyết
+
+46
+00:02:22,110 --> 00:02:26,197
+công cụ. “Trung tính” kết hợp
+với “tự trị” là thuyết tất định
+
+47
+00:02:26,230 --> 00:02:29,937
+công nghệ: tiến bộ kỹ thuật được
+xem như lực định hình xã hội,
+
+48
+00:02:29,970 --> 00:02:31,600
+buộc xã hội thích nghi.
+
+49
+00:02:32,500 --> 00:02:35,660
+“Mang giá trị” kết hợp với
+“tự trị” là thuyết thực chất.
+
+50
+00:02:36,370 --> 00:02:39,037
+Lập trường này cho rằng lựa chọn
+công nghệ đồng thời kéo theo
+
+51
+00:02:39,070 --> 00:02:42,400
+một kiểu sống, nhưng con người
+khó kiểm soát quỹ đạo ấy.
+
+52
+00:02:43,160 --> 00:02:44,987
+Giao điểm cuối là lý
+thuyết phê phán công nghệ,
+
+53
+00:02:45,020 --> 00:02:48,747
+nơi Feenberg đặt lập trường của
+mình: công nghệ mang giá trị
+
+54
+00:02:48,780 --> 00:02:51,437
+nhưng vẫn có thể được
+con người định hướng.
+
+55
+00:02:51,470 --> 00:02:56,317
+Feenberg không xem công
+nghệ hoàn toàn trung tính,
+
+56
+00:02:56,350 --> 00:02:59,160
+cũng không xem nó là định
+mệnh bất khả cải biến.
+
+57
+00:02:59,500 --> 00:03:02,747
+Đây là điểm phải giữ thật chính
+xác. Nếu chỉ nói “công nghệ có
+
+58
+00:03:02,780 --> 00:03:06,820
+mặt tốt và mặt xấu”, ta vẫn
+đang bàn về hậu quả sử dụng.
+
+59
+00:03:08,130 --> 00:03:11,957
+Lý thuyết phê phán đi sâu hơn:
+ngay cấu trúc kỹ thuật đã phân bố
+
+60
+00:03:11,990 --> 00:03:15,170
+cơ hội, rủi ro và quyền hành
+động theo những cách khác nhau.
+
+61
+00:03:15,660 --> 00:03:18,200
+Khoảng căng ấy mở ra vấn đề dân chủ hóa.
+
+62
+00:03:18,960 --> 00:03:22,510
+Theo Feenberg, hệ thống kỹ thuật
+tạo thành khung cho đời sống:
+
+63
+00:03:22,620 --> 00:03:25,367
+nó phân phối khả năng hành động
+và khiến một số lựa chọn dễ hơn
+
+64
+00:03:25,400 --> 00:03:29,467
+lựa chọn khác. Phương tiện và
+mục đích vì thế không hoàn toàn
+
+65
+00:03:29,500 --> 00:03:32,780
+tách rời. Một lối vào chỉ
+có cầu thang chẳng hạn,
+
+66
+00:03:32,860 --> 00:03:36,697
+không chỉ “được dùng” theo nhiều
+mục đích; bản thân cấu trúc ấy
+
+67
+00:03:36,730 --> 00:03:40,987
+đã làm cho việc tiếp cận của các
+nhóm người trở nên khác nhau.
+
+68
+00:03:41,020 --> 00:03:46,100
+Feenberg gọi đây là meta-choice —
+lựa chọn ở cấp khung.
+
+69
+00:03:46,360 --> 00:03:49,337
+Ta không chỉ hỏi dùng công
+cụ vào việc tốt hay xấu,
+
+70
+00:03:49,370 --> 00:03:51,877
+mà hỏi môi trường kỹ
+thuật cho phép điều gì,
+
+71
+00:03:51,910 --> 00:03:54,100
+ngăn điều gì và trao quyền cho ai.
+
+72
+00:03:54,930 --> 00:03:57,437
+Lý thuyết phê phán giữ khả
+năng kiểm soát của con người,
+
+73
+00:03:57,470 --> 00:04:00,490
+nhưng phải đi tới cấp thiết
+kế và thiết chế quyết định.
+
+74
+00:04:00,960 --> 00:04:03,797
+Điểm then chốt là: tiêu chí khoa
+học và kỹ thuật thường không
+
+75
+00:04:03,830 --> 00:04:08,007
+chỉ định duy nhất một phương án.
+Có thể tồn tại nhiều giải pháp
+
+76
+00:04:08,040 --> 00:04:11,740
+khả thi; cách định nghĩa
+vấn đề cũng có thể đổi.
+
+77
+00:04:12,160 --> 00:04:15,577
+Đó là tính bất định tương
+đối của thiết kế. Vật liệu,
+
+78
+00:04:15,610 --> 00:04:19,980
+quy luật tự nhiên, chi phí
+và hạ tầng vẫn là ràng buộc.
+
+79
+00:04:20,013 --> 00:04:23,287
+Nhưng trong phạm vi khả thi,
+lựa chọn xã hội có thể dẫn công
+
+80
+00:04:23,320 --> 00:04:25,520
+nghệ theo những đường khác nhau.
+
+81
+00:04:26,160 --> 00:04:29,157
+Theo cách hiểu phi bản chất luận,
+hình thức đang thống trị không
+
+82
+00:04:29,190 --> 00:04:31,627
+phải bản chất bất biến của mọi công nghệ.
+
+83
+00:04:31,660 --> 00:04:35,617
+Feenberg dùng từ “ambivalent”
+để nhấn mạnh công nghệ có thể đi
+
+84
+00:04:35,650 --> 00:04:40,487
+theo những hướng phát triển khác
+nhau. Điều này không có nghĩa
+
+85
+00:04:40,520 --> 00:04:43,500
+muốn thiết kế thế nào cũng được,
+càng không bảo đảm kết quả tốt.
+
+86
+00:04:45,480 --> 00:04:47,917
+Nó chỉ bác bỏ ý tưởng rằng tương
+lai kỹ thuật đã được viết sẵn
+
+87
+00:04:47,950 --> 00:04:50,880
+và xã hội chỉ còn cách thích nghi.
+
+88
+00:04:51,320 --> 00:04:54,157
+Về phương pháp, thay vì nhìn
+thiết bị hoàn tất rồi hỏi nó tốt
+
+89
+00:04:54,190 --> 00:04:56,940
+hay xấu, ta phải truy
+ngược quá trình hình thành:
+
+90
+00:04:57,440 --> 00:05:00,767
+vấn đề đã được định nghĩa ra sao,
+phương án nào từng có thể lựa
+
+91
+00:05:00,800 --> 00:05:05,140
+chọn, tiêu chí nào được ưu tiên,
+và phương án nào bị loại bỏ.
+
+92
+00:05:05,960 --> 00:05:08,740
+Chính ở đó, cái xã hội
+và cái kỹ thuật gặp nhau.
+
+93
+00:05:09,510 --> 00:05:13,280
+Khái niệm tiếp theo là mã
+kỹ thuật — technical code.
+
+94
+00:05:13,800 --> 00:05:16,527
+Mã kỹ thuật không phải mã
+nguồn hay mệnh lệnh bí mật.
+
+95
+00:05:16,560 --> 00:05:21,607
+Feenberg dùng khái niệm này để
+chỉ cấu trúc trung giới qua đó
+
+96
+00:05:21,640 --> 00:05:25,580
+một chân trời văn hóa–xã hội được
+hiện thực hóa ở cấp thiết kế.
+
+97
+00:05:25,960 --> 00:05:28,077
+Nói dễ hiểu hơn: điều một
+xã hội coi là bình thường,
+
+98
+00:05:28,110 --> 00:05:31,387
+cần thiết hoặc chấp nhận được
+được chuyển thành vật liệu,
+
+99
+00:05:31,420 --> 00:05:35,347
+thông số, tiêu chuẩn và thủ
+tục. Đây là lời giải thích,
+
+100
+00:05:35,380 --> 00:05:39,027
+không phải định nghĩa mã kỹ
+thuật như một đoạn mã máy tính.
+
+101
+00:05:39,060 --> 00:05:43,077
+Feenberg minh họa bằng quy định
+an toàn nồi hơi tàu thủy ở Hoa
+
+102
+00:05:43,110 --> 00:05:47,237
+Kỳ. Ban đầu, an toàn và chi phí
+là vấn đề tranh chấp xã hội và
+
+103
+00:05:47,270 --> 00:05:51,787
+chính trị. Khi quy chuẩn ổn định,
+độ dày thành nồi hay van an
+
+104
+00:05:51,820 --> 00:05:56,470
+toàn không còn là một lời khuyên
+đạo đức gắn thêm bên ngoài.
+
+105
+00:05:56,920 --> 00:05:58,677
+Chúng trở thành bộ phận
+của một nồi hơi được công
+
+106
+00:05:58,710 --> 00:06:00,030
+nhận là đúng chuẩn.
+
+107
+00:06:00,550 --> 00:06:04,560
+Điểm triết học là: phán đoán xã
+hội về an toàn có thể trở thành
+
+108
+00:06:04,593 --> 00:06:08,667
+cấu trúc kỹ thuật. Khi quá trình
+hoàn tất, lịch sử tranh chấp dễ
+
+109
+00:06:08,700 --> 00:06:12,560
+biến mất; kết quả ổn định trông
+như tất yếu thuần kỹ thuật.
+
+110
+00:06:13,040 --> 00:06:16,237
+“Mở hộp đen” vì thế không
+phải nghi ngờ mọi kỹ sư,
+
+111
+00:06:16,270 --> 00:06:19,747
+mà là phục hồi những lựa chọn và
+quan hệ quyền lực đã bị kết quả
+
+112
+00:06:19,780 --> 00:06:21,147
+kỹ thuật che khuất.
+
+113
+00:06:21,180 --> 00:06:25,067
+Feenberg mô tả quan hệ xã hội
+và kỹ thuật được “cô đọng” trong
+
+114
+00:06:25,100 --> 00:06:29,407
+thiết bị. Giá trị có thể trở
+thành một phần của điều được công
+
+115
+00:06:29,440 --> 00:06:31,720
+nhận là thiết kế tốt và hợp lệ.
+
+116
+00:06:32,060 --> 00:06:33,670
+Các giá trị không được
+đại diện ngang nhau.
+
+117
+00:06:34,440 --> 00:06:37,637
+Nhóm ngoài mạng lưới thiết kế ban
+đầu có thể gánh hậu quả mà chỉ
+
+118
+00:06:37,670 --> 00:06:41,877
+số chính không nhìn thấy;
+nhu cầu của họ dễ bị coi là “phi kỹ
+
+119
+00:06:41,910 --> 00:06:45,467
+thuật”. Nhưng khi nhu cầu ấy
+được chuyển thành tiêu chí kiểm
+
+120
+00:06:45,500 --> 00:06:49,007
+thử, yêu cầu tiếp cận, ngưỡng an
+toàn hoặc quy trình kháng nghị,
+
+121
+00:06:49,040 --> 00:06:51,457
+nó đã trở thành một phần
+của bài toán kỹ thuật.
+
+122
+00:06:51,490 --> 00:06:56,320
+Feenberg bác lựa chọn tất
+yếu giữa giá trị và hiệu quả.
+
+123
+00:06:56,940 --> 00:07:00,760
+Thiết kế không phải lúc nào cũng
+là trò chơi tổng bằng không:
+
+124
+00:07:01,380 --> 00:07:04,207
+một cấu trúc mới có thể đáp ứng
+nhiều chức năng và đòi hỏi xã
+
+125
+00:07:04,240 --> 00:07:08,217
+hội. Vấn đề là ai có cơ hội biến
+nhu cầu bị bỏ quên thành vấn
+
+126
+00:07:08,250 --> 00:07:09,540
+đề thiết kế hợp lệ.
+
+127
+00:07:10,300 --> 00:07:12,607
+Vậy dân chủ hóa công nghệ nghĩa là gì?
+
+128
+00:07:12,640 --> 00:07:16,347
+Feenberg nói rõ: không hợp lý
+nếu tổ chức bầu cử giữa các thiết
+
+129
+00:07:16,380 --> 00:07:20,447
+bị hay bản thiết kế. Ta cũng
+không được đồng nhất dân chủ hóa
+
+130
+00:07:20,480 --> 00:07:24,447
+với “ai cũng được dùng công nghệ”.
+Quyền truy cập có thể quan
+
+131
+00:07:24,480 --> 00:07:27,687
+trọng, nhưng chưa trả
+lời ai định nghĩa vấn đề,
+
+132
+00:07:27,720 --> 00:07:31,720
+ai đặt tiêu chuẩn và phản
+hồi có thể thay đổi điều gì.
+
+133
+00:07:32,890 --> 00:07:36,347
+Một nền tảng có hàng triệu người
+dùng vẫn có thể được thiết kế
+
+134
+00:07:36,380 --> 00:07:40,317
+và quản trị theo cách tiếng nói
+của họ không đi tới bất kỳ quyết
+
+135
+00:07:40,350 --> 00:07:41,790
+định có hiệu lực nào.
+
+136
+00:07:42,260 --> 00:07:45,887
+Trọng tâm ở đây không chỉ là
+quyền pháp lý, mà là sáng kiến và
+
+137
+00:07:45,920 --> 00:07:50,087
+sự tham gia. Từ kinh nghiệm
+sống bên trong một hệ thống kỹ
+
+138
+00:07:50,120 --> 00:07:53,867
+thuật, con người có thể phản đối,
+chiếm dụng, tổ chức tập thể và
+
+139
+00:07:53,900 --> 00:07:56,607
+buộc bối cảnh bị bỏ quên
+phải được nhìn nhận.
+
+140
+00:07:56,640 --> 00:08:00,417
+Feenberg gọi hướng đi này là
+“subversive rationalization” —
+
+141
+00:08:00,450 --> 00:08:03,727
+có thể hiểu là một kiểu hợp
+lý hóa mang tính cải biến;
+
+142
+00:08:03,760 --> 00:08:06,687
+về sau, ông dùng tên
+“democratic rationalization”,
+
+143
+00:08:06,720 --> 00:08:10,640
+tức hợp lý hóa dân chủ. Cốt lõi
+không phải phủ nhận lý tính hay
+
+144
+00:08:10,740 --> 00:08:14,437
+hiệu quả, mà mở rộng lý tính công
+nghệ để nội tại hóa những con
+
+145
+00:08:14,470 --> 00:08:18,370
+người, chi phí và bối cảnh
+từng bị đặt ngoài khung.
+
+146
+00:08:19,040 --> 00:08:23,137
+Sự tham gia phải có hiệu lực.
+Biểu mẫu góp ý sau khi quyết định
+
+147
+00:08:23,170 --> 00:08:26,407
+đã khóa, hoặc hội thảo không
+có đường dẫn tới sửa thiết kế,
+
+148
+00:08:26,440 --> 00:08:30,447
+chưa đủ để gọi là dân chủ hóa.
+Một quá trình tham gia có hiệu
+
+149
+00:08:30,480 --> 00:08:33,727
+lực cần diễn ra khi phương
+án còn có thể thay đổi,
+
+150
+00:08:33,760 --> 00:08:37,617
+cung cấp thông tin đủ để phản biện,
+và có cơ chế biến phản hồi
+
+151
+00:08:37,650 --> 00:08:40,120
+thành sửa đổi có thể kiểm tra.
+
+152
+00:08:40,680 --> 00:08:43,467
+Dân chủ hóa không phủ nhận chuyên
+môn, không biến mọi sở thích
+
+153
+00:08:43,500 --> 00:08:46,917
+thành yêu cầu kỹ thuật, và cũng
+không giả định mọi bên có quyền
+
+154
+00:08:46,950 --> 00:08:50,797
+lực ngang nhau. Chuyên gia hiểu
+những ràng buộc chuyên môn;
+
+155
+00:08:50,830 --> 00:08:54,487
+người chịu tác động hiểu những
+hậu quả mà mô hình hoặc phòng thí
+
+156
+00:08:54,520 --> 00:08:58,407
+nghiệm có thể không nhìn thấy.
+Câu hỏi là: ai tham gia,
+
+157
+00:08:58,440 --> 00:09:02,257
+khi nào, với thông tin và quyền
+phản biện gì; ý kiến có thể dẫn
+
+158
+00:09:02,290 --> 00:09:06,040
+tới thay đổi thiết kế hoặc
+quản trị bằng cơ chế nào?
+
+159
+00:09:06,780 --> 00:09:09,917
+Hãy theo dõi một quỹ đạo thực
+tế trong phân tích của Feenberg.
+
+160
+00:09:09,950 --> 00:09:13,870
+Trước hết là dữ kiện. Các mạng
+lớn như Teletel của Pháp và
+
+161
+00:09:13,903 --> 00:09:17,977
+Internet ban đầu được nhiều nhà
+kỹ trị, kỹ sư hình dung chủ yếu
+
+162
+00:09:18,010 --> 00:09:22,317
+như công cụ phân phối dữ liệu.
+Người dùng sớm chiếm dụng chúng
+
+163
+00:09:22,350 --> 00:09:25,677
+cho một mục đích không
+nằm ở trung tâm kế hoạch:
+
+164
+00:09:25,710 --> 00:09:28,240
+giao tiếp giữa người với người.
+
+165
+00:09:29,050 --> 00:09:32,207
+Đây không chỉ là dùng khác hướng
+dẫn. Cách diễn giải mới dần đi
+
+166
+00:09:32,240 --> 00:09:35,857
+vào thay đổi thiết kế, rồi làm
+đổi cả định nghĩa về chức năng
+
+167
+00:09:35,890 --> 00:09:40,257
+của máy tính. Giao tiếp trở thành
+chức năng chuẩn của công nghệ
+
+168
+00:09:40,290 --> 00:09:43,637
+từng được hình dung chủ yếu cho
+tính toán, lưu trữ và truyền dữ
+
+169
+00:09:43,670 --> 00:09:47,777
+liệu. Người dùng, vì thế, không
+đứng hoàn toàn bên ngoài thiết
+
+170
+00:09:47,810 --> 00:09:51,497
+kế; trong những điều kiện nhất định,
+cách họ chiếm dụng hệ thống
+
+171
+00:09:51,530 --> 00:09:54,060
+có thể tác động trở lại quỹ đạo kỹ thuật.
+
+172
+00:09:54,840 --> 00:09:57,917
+Tiếp theo là nhóm hỗ trợ bệnh
+nhân ALS trên bảng tin y tế
+
+173
+00:09:57,950 --> 00:10:02,080
+Prodigy. ALS là bệnh
+xơ cứng teo cơ một bên.
+
+174
+00:10:02,460 --> 00:10:04,987
+Khi Feenberg nghiên cứu nhóm vào năm 1995,
+
+175
+00:10:05,020 --> 00:10:09,000
+có khoảng năm trăm bệnh nhân
+và người chăm sóc đọc trao đổi;
+
+176
+00:10:09,520 --> 00:10:11,160
+vài chục người tham gia tích cực.
+
+177
+00:10:11,780 --> 00:10:14,767
+Họ không chỉ trao đổi dữ liệu
+y khoa, mà còn nói về sự phụ
+
+178
+00:10:14,800 --> 00:10:18,687
+thuộc, bệnh tật, cái chết và
+những khó khăn khó bộc lộ trực
+
+179
+00:10:18,720 --> 00:10:22,227
+tiếp. Feenberg nhận xét:
+trong trường hợp này,
+
+180
+00:10:22,260 --> 00:10:26,367
+giới hạn của giao tiếp bằng văn
+bản có thể mở cánh cửa vốn khép
+
+181
+00:10:26,400 --> 00:10:28,800
+kín ở tương tác mặt đối mặt.
+
+182
+00:10:29,020 --> 00:10:32,007
+Người tham gia còn lập một danh
+sách ưu tiên và gửi tới một tổ
+
+183
+00:10:32,040 --> 00:10:35,897
+chức về ALS tại Hoa Kỳ. Hành
+động ấy đánh dấu bước chuyển từ
+
+184
+00:10:35,930 --> 00:10:39,707
+trao đổi riêng lẻ sang việc
+phát biểu một lợi ích chung.
+
+185
+00:10:39,740 --> 00:10:43,467
+Ta chỉ nên kết luận đến
+mức bằng chứng cho phép:
+
+186
+00:10:43,500 --> 00:10:46,527
+cộng đồng đã hình thành tiếng nói
+tập thể và đưa ưu tiên tới một
+
+187
+00:10:46,560 --> 00:10:50,287
+tổ chức liên quan. Không có căn
+cứ ở đây để nói danh sách chắc
+
+188
+00:10:50,320 --> 00:10:54,650
+chắn được chấp nhận, làm đổi
+chính sách hay cải thiện điều trị.
+
+189
+00:10:55,360 --> 00:10:58,797
+Bây giờ là phân tích theo Feenberg.
+Người dùng không chỉ chọn
+
+190
+00:10:58,830 --> 00:11:03,307
+nội dung bên trong một công cụ
+đóng kín. Sự chiếm dụng làm lộ
+
+191
+00:11:03,340 --> 00:11:06,607
+một khả năng xã hội–kỹ thuật mà
+định nghĩa ban đầu xem là thứ
+
+192
+00:11:06,640 --> 00:11:10,477
+yếu. Năng lực hành động của
+người dùng tác động ngược vào quỹ
+
+193
+00:11:10,510 --> 00:11:12,320
+đạo phát triển của mạng.
+
+194
+00:11:13,620 --> 00:11:17,197
+Case biểu hiện ba lớp. Về thiết
+kế, hệ thống phân phối dữ liệu
+
+195
+00:11:17,230 --> 00:11:19,667
+trở thành hạ tầng giao tiếp. Về lợi ích,
+
+196
+00:11:19,700 --> 00:11:23,347
+kinh nghiệm bệnh nhân tạo ra ưu
+tiên không thể suy ra chỉ từ góc
+
+197
+00:11:23,380 --> 00:11:27,857
+nhìn vận hành. Về quyền lực,
+mạng mở khả năng chuyển những cá
+
+198
+00:11:27,890 --> 00:11:31,347
+nhân vốn chủ yếu là đối tượng của
+thực hành y khoa thành chủ thể
+
+199
+00:11:31,380 --> 00:11:32,610
+có tiếng nói tập thể.
+
+200
+00:11:33,060 --> 00:11:36,600
+Đây là điểm nối trực tiếp với
+dân chủ hóa thiết kế và quản trị.
+
+201
+00:11:37,860 --> 00:11:40,307
+Khi kinh nghiệm của người tham
+gia làm thay đổi chức năng,
+
+202
+00:11:40,340 --> 00:11:44,127
+ưu tiên hoặc quy trình của hệ
+thống, giá trị không còn chỉ là
+
+203
+00:11:44,160 --> 00:11:47,867
+lời bình luận bên ngoài. Nó bắt
+đầu đi vào cách công nghệ được
+
+204
+00:11:47,900 --> 00:11:52,697
+định nghĩa và tổ chức. Tuy vậy,
+khả năng ấy không tự động xảy
+
+205
+00:11:52,730 --> 00:11:55,847
+ra; nó phụ thuộc vào cấu
+trúc tiếp nhận phản hồi,
+
+206
+00:11:55,880 --> 00:11:59,740
+quyền truy cập thông tin và tương
+quan quyền lực giữa các bên.
+
+207
+00:12:00,340 --> 00:12:03,187
+Không nên lãng mạn hóa.
+Feenberg nói về tiềm năng,
+
+208
+00:12:03,220 --> 00:12:07,457
+không tuyên bố mọi cộng đồng
+trực tuyến đều dân chủ hay mọi sự
+
+209
+00:12:07,490 --> 00:12:12,087
+chiếm dụng đều tiến bộ. Case cho
+thấy thiết kế chưa khép kín và
+
+210
+00:12:12,120 --> 00:12:15,960
+người chịu tác động có thể
+trở thành tác nhân thay đổi.
+
+211
+00:12:16,950 --> 00:12:20,427
+Trở lại hệ thống phân lịch khám.
+Đây là tình huống giả định để
+
+212
+00:12:20,460 --> 00:12:23,267
+vận dụng phương pháp luận,
+không phải case do
+
+213
+00:12:23,300 --> 00:12:24,630
+Feenberg phân tích.
+
+214
+00:12:25,540 --> 00:12:28,407
+Theo thuyết công cụ, ta có thể
+hỏi thuật toán xếp lịch có chạy
+
+215
+00:12:28,440 --> 00:12:32,180
+đúng mục tiêu không và người
+vận hành có trách nhiệm không.
+
+216
+00:12:33,060 --> 00:12:36,287
+Hai câu hỏi ấy cần thiết,
+nhưng chưa đủ. Từ cách tiếp cận phê
+
+217
+00:12:36,320 --> 00:12:38,637
+phán, ta có thể mở rộng
+phân tích bằng năm câu
+
+218
+00:12:38,670 --> 00:12:40,120
+hỏi phương pháp luận.
+
+219
+00:12:40,720 --> 00:12:44,057
+Một: ai định nghĩa vấn đề? “Tối
+ưu lịch khám” là giảm thời gian
+
+220
+00:12:44,090 --> 00:12:47,097
+trống, giảm thời gian chờ,
+ưu tiên ca nguy cấp,
+
+221
+00:12:47,130 --> 00:12:50,700
+hay bảo đảm nhóm dễ bị tổn thương
+không bị loại khỏi dịch vụ?
+
+222
+00:12:51,480 --> 00:12:55,257
+Hai: giá trị nào đã thành tham
+số và mặc định? Một ngưỡng,
+
+223
+00:12:55,290 --> 00:12:59,100
+trọng số, trường dữ liệu hay quy
+tắc ngoại lệ có thể là nơi ưu
+
+224
+00:12:59,133 --> 00:13:03,287
+tiên xã hội đi vào cấu trúc kỹ
+thuật. Muốn thấy mã kỹ thuật,
+
+225
+00:13:03,320 --> 00:13:07,287
+hãy tìm chỗ một giá trị như hiệu
+quả, an toàn hay công bằng được
+
+226
+00:13:07,320 --> 00:13:10,240
+chuyển thành tiêu chuẩn có thể vận hành.
+
+227
+00:13:10,900 --> 00:13:14,190
+Ba: ai chịu tác động nhưng
+vắng mặt khi thiết kế?
+
+228
+00:13:14,500 --> 00:13:17,317
+Cần nhìn cả người thiếu thiết bị
+phù hợp, người cần hỗ trợ ngôn
+
+229
+00:13:17,350 --> 00:13:20,387
+ngữ, nhân viên tiếp nhận và
+người phải xử lý sai lệch của hệ
+
+230
+00:13:20,420 --> 00:13:23,757
+thống. “Người dùng” không
+phải một khối đồng nhất;
+
+231
+00:13:23,790 --> 00:13:27,140
+vị trí khác nhau tạo ra nhu
+cầu và rủi ro khác nhau.
+
+232
+00:13:27,710 --> 00:13:31,237
+Bốn: sự tham gia có quyền gì?
+Người tham gia cần thông tin dễ
+
+233
+00:13:31,270 --> 00:13:35,247
+hiểu, khả năng phản biện giả định,
+cơ chế kháng nghị quyết định
+
+234
+00:13:35,280 --> 00:13:39,140
+cụ thể, và đại diện ở những
+mốc còn có thể sửa hệ thống.
+
+235
+00:13:40,460 --> 00:13:42,707
+Nếu họ chỉ được nghe thông báo
+sau cùng, đó là tiếp nhận thông
+
+236
+00:13:42,740 --> 00:13:45,720
+tin, chưa phải tham gia
+định hình công nghệ.
+
+237
+00:13:45,920 --> 00:13:48,530
+Năm: phản hồi có đi
+đến tái thiết kế không?
+
+238
+00:13:49,590 --> 00:13:51,667
+Quản trị không kết thúc ở ngày triển khai.
+
+239
+00:13:51,700 --> 00:13:55,487
+Cần theo dõi tác động, xác định
+trách nhiệm, rồi sửa quy tắc,
+
+240
+00:13:55,520 --> 00:13:59,017
+dữ liệu hoặc giao diện khi bằng
+chứng cho thấy một lợi ích bị
+
+241
+00:13:59,050 --> 00:14:03,067
+loại trừ. Một vòng phản hồi chỉ
+có ý nghĩa khi người ta biết ai
+
+242
+00:14:03,100 --> 00:14:06,167
+tiếp nhận, tiêu chí xử lý
+là gì và quyết định sửa đổi
+
+243
+00:14:06,200 --> 00:14:07,900
+được lưu lại ra sao.
+
+244
+00:14:08,680 --> 00:14:12,307
+Từ đó, Nhóm 14 đề xuất
+năm điều kiện thực hành:
+
+245
+00:14:12,340 --> 00:14:15,427
+tham gia đủ sớm;
+có thông tin; có đại diện;
+
+246
+00:14:15,460 --> 00:14:18,680
+có quyền phản biện; và có dấu vết xử lý.
+
+247
+00:14:19,337 --> 00:14:21,587
+Chuyên môn vẫn thiết yếu, nhưng
+chuyên gia không độc quyền kinh
+
+248
+00:14:21,620 --> 00:14:25,147
+nghiệm sống của người chịu tác
+động. Dân chủ hóa không thay kỹ
+
+249
+00:14:25,180 --> 00:14:28,847
+thuật bằng ý kiến số đông;
+nó làm cho quá trình kỹ thuật có khả
+
+250
+00:14:28,880 --> 00:14:32,440
+năng nhận biết và sửa những
+loại trừ mà chính nó tạo ra.
+
+251
+00:14:32,670 --> 00:14:36,087
+Ta chuyển từ hỏi “công nghệ được
+dùng thế nào” sang hỏi “kiểu
+
+252
+00:14:36,120 --> 00:14:39,440
+thế giới nào đang được thiết
+kế, và ai được tham gia”.
+
+253
+00:14:39,780 --> 00:14:42,177
+Ta trở lại câu hỏi trung
+tâm. Công nghệ có thực
+
+254
+00:14:42,210 --> 00:14:43,540
+sự trung lập không?
+
+255
+00:14:44,440 --> 00:14:47,147
+Theo Feenberg, không thể xem
+công nghệ là phương tiện trống
+
+256
+00:14:47,180 --> 00:14:51,327
+rỗng: giá trị, lợi ích và quyền
+lực có thể đi vào cách định
+
+257
+00:14:51,360 --> 00:14:55,730
+nghĩa vấn đề, tiêu chuẩn,
+thủ tục và cấu trúc thiết kế.
+
+258
+00:14:56,920 --> 00:15:00,580
+Nhưng công nghệ cũng không phải
+số phận tự trị đã đóng kín.
+
+259
+00:15:01,110 --> 00:15:03,967
+Vì thiết kế có nhiều khả năng
+phát triển, con người có thể đưa
+
+260
+00:15:04,000 --> 00:15:06,760
+những nhu cầu từng bị gạt
+ra ngoài vào khung kỹ thuật.
+
+261
+00:15:07,420 --> 00:15:10,420
+Bài học phương pháp luận là:
+đừng dừng ở công dụng bề mặt.
+
+262
+00:15:11,140 --> 00:15:14,267
+Hãy lần ngược từ kết quả đến
+thiết kế; từ thiết kế đến mã kỹ
+
+263
+00:15:14,300 --> 00:15:18,250
+thuật, lợi ích và quyền lực;
+rồi hỏi cơ chế tham gia nào có thể
+
+264
+00:15:18,360 --> 00:15:20,140
+tạo ra cải biến thật.
+
+265
+00:15:21,020 --> 00:15:24,627
+Dân chủ hóa không chỉ là mở
+quyền truy cập. Đó là mở khả năng
+
+266
+00:15:24,660 --> 00:15:27,330
+cùng định hình khung
+kỹ thuật của đời sống.
+
+267
+00:15:27,770 --> 00:15:31,560
+Nhóm 14 xin trân trọng cảm ơn
+thầy và các bạn đã theo dõi.

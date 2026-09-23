@@ -1,0 +1,6 @@
+# Tooling used by the deterministic documentary pipeline.
+# FFmpeg/ffprobe are installed separately (see README.md).
+Pillow>=10.0
+PyMuPDF>=1.23
+python-docx>=1.1
+pypdf>=4.0

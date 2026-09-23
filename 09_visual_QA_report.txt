@@ -1,0 +1,26 @@
+VISUAL QA REPORT — V11 R6 · CIVIC DAYLIGHT / RED THREAD
+
+STATUS: PASS
+
+- 95 cảnh nội dung / 172 shot / 130 asset; timeline nội dung 965,067 giây.
+- Visual identity: footage người thật ánh sáng tự nhiên; warm ivory, deep cobalt, vermilion; motif “đường tham gia”.
+- Tỷ lệ hình động đo được: 45,0% footage thật riêng / 55,0% minh họa Flow–Veo; motion graphic và source-card thống kê riêng.
+- Mỗi asset xuất hiện tối đa hai lần; các cửa sổ chuyển động tái dùng không giao nhau.
+- Asset nội dung và 17 nguồn credit có giao rỗng; nội dung chính không lấy footage credit.
+- Footage thật không mang nhãn; chỉ cảnh Flow–Veo có nhãn nhỏ “MINH HỌA BẰNG AI”.
+- Ảnh Andrew Feenberg là ảnh người thật có provenance; không dùng chân dung AI.
+- Các clip da sáp/bột, màn hình trắng, thao tác lặp, cửa sai logic, pseudo-text và chuyển động phi vật lý đã bị blacklist.
+- Mỗi cảnh có VISUAL_ARGUMENT_LINK, dùng để kiểm hình có thực sự giải thích câu thoại hay không.
+- R6 sửa riêng chín source-card: không còn rail/đường gạch xuyên chữ, glyph thay thế, disclosure thừa hoặc shape bị cắt.
+- Typography quan trọng được dựng hậu kỳ; phụ đề 42 px nằm trong title-safe và tối đa hai dòng.
+- Full decode với `-xerror`: PASS; không black run ≥1,2 giây và không freeze ≥12 giây.
+- Credit V4: 54,1 giây, 17 asset thật duy nhất, MSHV chính xác, chuyển cầu 0,8 giây.
+- Final SHA-256: 22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788.
+
+Evidence cục bộ (không commit toàn bộ ảnh/render nặng):
+- qa/v11/source_cards_r6/visual_plan_validation_r6.json
+- qa/v11/visual_plan_validation_r3.json
+- qa/v11/r6_typography/frame_manifest.csv
+- qa/v11/delivery_r6/FINAL_V11_R6_DELIVERY_QA_REPORT.txt
+- qa/v11/delivery_r6/final_contact_sheet.jpg
+- qa/v11/delivery_r6/bridge_contact_sheet.jpg

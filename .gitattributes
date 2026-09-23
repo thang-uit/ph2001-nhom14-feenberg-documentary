@@ -1,0 +1,11 @@
+# Keep Vietnamese text stable across macOS, Linux and Windows.
+* text=auto eol=lf
+*.csv text working-tree-encoding=UTF-8
+*.srt text working-tree-encoding=UTF-8
+*.md text working-tree-encoding=UTF-8
+*.txt text working-tree-encoding=UTF-8
+*.py text working-tree-encoding=UTF-8
+*.sh text working-tree-encoding=UTF-8
+*.swift text working-tree-encoding=UTF-8
+*.svg text working-tree-encoding=UTF-8
+*.docx binary

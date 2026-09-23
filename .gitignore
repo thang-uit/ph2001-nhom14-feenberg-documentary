@@ -1,0 +1,93 @@
+# Feenberg documentary — public source repository policy
+#
+# GitHub's regular file limit is 100 MiB.  The project also keeps masters and
+# generated media outside Git so collaborators can clone quickly and restore
+# exact files from the group's offline/cloud archive.
+
+# Operating-system/editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and local production notes
+.env
+.env.*
+!.env.example
+PRODUCTION_PROGRESS_LOG.md
+docs/DRIVE_PRIVATE_NOTE.md
+**/*private*
+**/*secret*
+
+# Video/audio/image media (restore from the external-media manifest)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tif
+*.tiff
+
+# Generated render, cache, and machine-local directories
+assets/
+audio/
+build/
+renders/
+video/
+cache/
+tmp/
+temp/
+scripts/__pycache__/
+**/__pycache__/
+
+# Extracted/copyright-sensitive research copies are not redistributed.
+research/extracted/
+research/sources_external/
+
+# Generated QA images and absolute-path manifests are local evidence only.
+# A small, reviewed semantic/credit subset is force-added by the maintainer.
+qa/*
+!qa/v11/
+qa/v11/*
+!qa/v11/02_storyboard_v11.csv
+!qa/v11/timeline_manifest.json
+!qa/v11/visual_plan_validation_r3.json
+!qa/v11/graphics_manifest_r5.json
+!qa/v11/source_cards_r6/
+qa/v11/source_cards_r6/*
+!qa/v11/source_cards_r6/visual_plan_validation_r6.json
+!qa/credit_tphcm/
+qa/credit_tphcm/*
+!qa/credit_tphcm/v4/
+qa/credit_tphcm/v4/*
+!qa/credit_tphcm/v4/credit_storyboard.csv
+!qa/credit_tphcm/v4/credit_source_manifest.json
+!qa/credit_tphcm/v4/V4_FINAL_QA_REPORT.txt
+!qa/credit_tphcm/v4/v4_probe_1080.json
+
+# Legacy delivery reports that refer to superseded versions.
+CLEANUP_V11_R5_REPORT.txt
+# Root storyboard is the pre-V11 export; the current, semantic-linked plan is
+# qa/v11/02_storyboard_v11.csv.
+02_storyboard.csv
+
+# Local generated lists can be regenerated, but the reviewed CSV/Markdown
+# manifests are intentionally force-added by the maintainer when published.
+docs/_generated/
+!docs/assets/
+!docs/assets/**

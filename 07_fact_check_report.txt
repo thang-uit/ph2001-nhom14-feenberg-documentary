@@ -1,0 +1,246 @@
+FACT-CHECK REPORT — PHIÊN BẢN 2.2 (NỘI DUNG KHÓA, ĐƯỢC GIỮ TRONG V11 R6)
+Ngày cập nhật kiểm định: 10/09/2026
+Đối tượng: 01_narration.txt, phiên bản 3.0; bản Vale V8 Suno dài 16:12,567
+Chủ đề: Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg
+
+LƯU Ý V11 R6: Phần học thuật và lời thoại được giữ nguyên qua các bản picture
+edit. Thông số V8 bên dưới là lịch sử của lần fact-check ban đầu; delivery hiện
+hành là V11 R6, SHA-256
+22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788,
+với 95 cảnh nội dung + credit V4. Không dùng các số liệu V8 làm metadata giao nộp.
+
+======================================================================
+I. KẾT LUẬN
+======================================================================
+
+ACADEMIC SCRIPT QA: PASS
+ACADEMIC FINAL-VIDEO QA: PASS WITH REVIEW-SCOPE NOTE
+
+Kết luận PASS áp dụng cho lời thoại khóa, chữ hậu kỳ, nhãn loại bằng chứng, các trang nguồn thật, phụ đề và bản dựng delivery. Bản V8 giữ nguyên nội dung học thuật đã audit, retime thành 100 cảnh/154 shot, được kiểm qua four-sheet shot review, contact sheet cuối, các cảnh rủi ro và full decode; đây là kiểm mẫu hình ảnh có chủ đích, không phải tuyên bố đã xem thủ công từng frame. Các claim quan trọng đã được đối chiếu với claim ledger, source manifest và vị trí trang; không còn claim ở trạng thái `NEEDS SOURCE`.
+
+Không phát hiện:
+
+- sách, bài báo, DOI, năm, tên tạp chí hoặc số trang bịa đặt;
+- trích dẫn nguyên văn do AI tự tạo;
+- gán tình huống hệ thống phân lịch khám cho Feenberg;
+- đồng nhất dân chủ hóa công nghệ với phổ cập quyền sử dụng;
+- đồng nhất technical code với mã nguồn;
+- trình bày bốn lập trường như bốn giai đoạn lịch sử;
+- khẳng định case ALS tạo ra kết quả chính sách mà nguồn không báo cáo;
+- trộn lập trường của Feenberg với lập trường của Heidegger, Marcuse hoặc Habermas.
+
+Transcript đọc được khóa trực tiếp trong audio/vo/narration_spoken.txt và 05_subtitles.srt. Voice duy nhất là ChatGPT Vale, thu trong một lượt liền mạch và dài 932,551104 giây; storyboard và final mix khóa ở 972,566667 giây (16:12,567), gồm 40 giây credit cuối.
+
+======================================================================
+II. VÒNG PHÁT HIỆN VÀ SỬA LỖI
+======================================================================
+
+F01
+CLAIM BAN ĐẦU: “Dân chủ hóa cũng không đồng nghĩa ai cũng được dùng công nghệ” đặt ngay sau cụm “Feenberg nói rất rõ”.
+PROBLEM: Có thể khiến người xem tưởng đây là câu nguyên văn liền mạch của Feenberg.
+WHY: S01 PDF tr. 10 trực tiếp nói dân chủ hóa không phải bầu cử giữa thiết bị; phân biệt quyền truy cập với quyền tham gia là kết luận kiểm soát khái niệm của dự án.
+CORRECTION: Tách thành “Feenberg nói rõ...” và “Ta cũng không được đồng nhất...”.
+SOURCE: S01 PDF tr. 10–11.
+STATUS: CORRECTED.
+
+F02
+CLAIM RỦI RO: Bốn lập trường có thể bị nghe như một chuỗi phát triển lịch sử.
+PROBLEM: Đánh tráo cấu trúc phân loại.
+WHY: Feenberg tạo ma trận từ hai trục trung tính/mang giá trị và tự trị/con người kiểm soát.
+CORRECTION: Lời thoại nói rõ “hai trục, không phải bốn giai đoạn”.
+SOURCE: S01 PDF tr. 5–6.
+STATUS: CORRECTED.
+
+F03
+CLAIM BAN ĐẦU: Dịch `ambivalent` bằng “có tính hai mặt, hay khả biến”.
+PROBLEM: “Khả biến” có thể bị hiểu là tùy ý thay đổi và không diễn đạt hết nghĩa của `ambivalent` trong văn bản.
+WHY: S02 nhấn mạnh công nghệ sẵn có cho những kiểu phát triển rất khác nhau, không phủ nhận ràng buộc kỹ thuật.
+CORRECTION: Giữ nguyên thuật ngữ tiếng Anh và giải thích “có thể đi theo các hướng khác nhau”; ngay trước đó đã khóa điều kiện “bất định tương đối”.
+SOURCE: S02 PDF tr. 27–28; S03 PDF tr. 5.
+STATUS: CORRECTED.
+
+F04
+CLAIM RỦI RO: Nhóm ALS gửi danh sách ưu tiên nên có thể bị suy diễn là tổ chức đã chấp nhận hoặc đổi chính sách.
+PROBLEM: Nguồn không cung cấp kết quả đó.
+WHY: S02 chỉ ghi nhận danh sách được trình cho Amyotrophic Lateral Sclerosis Society of America.
+CORRECTION: Lời thoại có đoạn giới hạn bằng chứng, phủ định ba suy diễn: được chấp nhận, đổi chính sách, cải thiện điều trị.
+SOURCE: S02 PDF tr. 12.
+STATUS: CORRECTED.
+
+F05
+CLAIM RỦI RO: Hệ thống phân lịch khám có thể bị hiểu là case thực nghiệm hoặc ví dụ của Feenberg.
+PROBLEM: Bịa nguồn hoặc gán ghép tác giả.
+WHY: Không có case này trong các văn bản nguồn.
+CORRECTION: Báo rõ hai lần đây là “minh họa giả định/chuyển dụng phương pháp luận của Nhóm 14”; storyboard bắt buộc giữ nhãn trên hình.
+SOURCE: Nhóm 14; tuân thủ S05 P336 và lưu ý chuyển dụng sư phạm.
+STATUS: CORRECTED.
+
+F06
+CLAIM RỦI RO: Khán giả Công nghệ thông tin có thể hiểu `technical code` là source code.
+PROBLEM: Thay khái niệm triết học bằng thuật ngữ lập trình.
+WHY: Trong S03, technical code trung giới chân trời văn hóa ở cấp thiết kế và quy định xã hội đối với tham số kỹ thuật.
+CORRECTION: Lời thoại mở định nghĩa bằng “không phải mã nguồn hay mệnh lệnh bí mật”.
+SOURCE: S03 PDF tr. 13–15; S02 PDF tr. 26.
+STATUS: CORRECTED.
+
+F07
+CLAIM RỦI RO: Đồng nhất hoàn toàn `subversive rationalization` năm 1992 với `democratic rationalization` năm 2003 mà không giải thích.
+PROBLEM: Có thể làm sai lịch sử thuật ngữ.
+WHY: Bài năm 1992 mang nhan đề “Subversive Rationalization”; Dusek xác nhận bản sửa năm 2003 mang nhan đề “Democratic rationalization: technology, power, and freedom”.
+CORRECTION: Lời thoại nêu riêng hai tên và đánh dấu phần giải thích tiếng Việt là diễn giải của Nhóm 14.
+SOURCE: S03 PDF tr. 1, 18–20; S04 PDF tr. 225/trang in 217.
+STATUS: CORRECTED.
+
+F08
+CLAIM RỦI RO: Dùng số người chết/bị thương trong case nồi hơi để tăng kịch tính.
+PROBLEM: Số liệu không cần thiết cho cơ chế khái niệm, dễ kéo video sang kể lịch sử và đòi hỏi kiểm chéo độc lập sâu hơn.
+WHY: Mục đích của micro-case là cho thấy phán đoán xã hội đi vào chuẩn và thiết kế.
+CORRECTION: Bỏ số thương vong; chỉ giữ tranh chấp, quy chuẩn và các tham số thiết kế được Feenberg nêu.
+SOURCE: S03 PDF tr. 13–15.
+STATUS: CORRECTED.
+
+F09
+CLAIM RỦI RO: Hiển thị thông tin lớp, giảng viên và thành viên ở đầu phim trái chỉ dẫn người dùng.
+PROBLEM: Không đúng cấu trúc credit đã chốt.
+CORRECTION: Mở đầu chỉ chào thầy/các bạn, giới thiệu Nhóm 14 và chủ đề; tên giảng viên, lớp, MSSV và vai trò chỉ ở end credits.
+SOURCE: Yêu cầu trực tiếp của người dùng.
+STATUS: CORRECTED.
+
+F10
+CLAIM RỦI RO: “Dân chủ hóa” bị hiểu là mọi ý kiến đều phải thắng hoặc chuyên gia mất vai trò.
+PROBLEM: Đơn giản hóa sai quan hệ giữa chuyên môn, quyền lực và tham gia.
+CORRECTION: Lời thoại nói rõ dân chủ hóa không phủ nhận chuyên môn, không giả định quyền lực ngang nhau; tiêu chí là thời điểm, thông tin, quyền phản biện và đường dẫn đến thay đổi.
+SOURCE: Diễn giải kiểm soát từ S01 PDF tr. 10–11 và S03 PDF tr. 18–20.
+STATUS: CORRECTED.
+
+======================================================================
+III. KIỂM ĐỊNH THEO CỤM CLAIM
+======================================================================
+
+C001–C005 — MA TRẬN BỐN LẬP TRƯỜNG
+STATUS: VERIFIED.
+EVIDENCE: S01 PDF tr. 5–9.
+AUDIT: Các cặp trung tính/mang giá trị và tự trị/con người kiểm soát được giữ đúng; không dùng các thuật ngữ như từ đồng nghĩa.
+
+C006–C010 — LÝ THUYẾT PHÊ PHÁN, META-CHOICE VÀ DÂN CHỦ
+STATUS: VERIFIED.
+EVIDENCE: S01 PDF tr. 9–11.
+AUDIT: Không tuyên bố công nghệ trung tính; không hiểu kiểm soát như lựa chọn sử dụng đơn thuần; giữ nguyên cảnh báo dân chủ hóa không phải bầu cử giữa thiết bị.
+
+C011–C018 — TÍNH BẤT ĐỊNH TƯƠNG ĐỐI, MÃ KỸ THUẬT VÀ HỢP LÝ HÓA
+STATUS: VERIFIED.
+EVIDENCE: S03 PDF tr. 1–5, 12–20; trang in 301–305, 312–320.
+AUDIT: `Technical code` được diễn giải ở cấp thiết kế; “subversive rationalization” được dùng theo văn bản 1992; các đề xuất quản trị mới được gắn nhãn diễn giải/chuyển dụng.
+
+C019 — TÊN BẢN SỬA 2003
+STATUS: VERIFIED.
+EVIDENCE: S04 PDF tr. 225/trang in 217.
+AUDIT: Không tự tạo DOI hoặc thông tin nhà xuất bản cho bản sửa; chỉ nêu tên đã được thư mục Dusek xác nhận.
+
+C020–C025 — MẠNG MÁY TÍNH VÀ NHÓM ALS
+STATUS: VERIFIED WITH EXPLICIT LIMIT.
+EVIDENCE: S02 PDF tr. 10–12, 16.
+AUDIT: Giữ “khoảng 500” và “vài chục”; không thêm giới tính, quốc gia, kết quả chính sách, hiệu quả y tế hoặc quan hệ nhân quả không có trong nguồn.
+
+C026–C027 — GIÁ TRỊ ĐI VÀO THIẾT KẾ VÀ TÍNH AMBIVALENT
+STATUS: VERIFIED.
+EVIDENCE: S02 PDF tr. 24, 27–28.
+AUDIT: Không nói thiết kế tùy ý; vẫn nêu ràng buộc vật chất, kinh tế và hạ tầng.
+
+C028 — HỆ THỐNG PHÂN LỊCH KHÁM
+STATUS: ILLUSTRATIVE EXAMPLE.
+EVIDENCE: Không áp dụng; đây là tình huống giả định của Nhóm 14.
+AUDIT: Nhãn nguồn xuất hiện trong lời thoại và phải xuất hiện trên hình.
+
+C029–C030 — KHUNG NĂM CÂU HỎI VÀ ĐỀ XUẤT QUẢN TRỊ
+STATUS: INTERPRETATION / PEDAGOGICAL TRANSFER.
+EVIDENCE BASIS: S01 PDF tr. 9–11; S03 PDF tr. 12–20; yêu cầu vận dụng của S05.
+AUDIT: Không đặt trong ngoặc kép; không dùng “Feenberg đề xuất năm bước”; chủ thể phát ngôn là Nhóm 14.
+
+======================================================================
+IV. KIỂM SOÁT KHÁI NIỆM
+======================================================================
+
+1. TECHNOLOGY USE ≠ TECHNOLOGY DESIGN
+PASS. Phân biệt trực tiếp ở chương 00:41–01:55.
+
+2. ACCESS ≠ PARTICIPATION IN DECISION-MAKING
+PASS. Phân biệt trực tiếp ở chương 00:41–01:55 và 06:47–08:29.
+
+3. INSTRUMENTALISM ≠ CRITICAL THEORY
+PASS. Hai cách tiếp cận được trình bày tách biệt; ưu điểm/giới hạn của thuyết công cụ không bị biếm họa.
+
+4. SUBSTANTIVISM ≠ CRITICAL THEORY
+PASS. Cả hai đều “mang giá trị”, nhưng khác ở trục tự trị/khả năng kiểm soát.
+
+5. TECHNOLOGICAL DETERMINISM ≠ SUBSTANTIVISM
+PASS. Cả hai ở phía tự trị, nhưng khác ở trung tính/mang giá trị.
+
+6. TECHNICAL CODE ≠ SOURCE CODE
+PASS. Phủ định trực tiếp trước định nghĩa.
+
+7. DEMOCRATIZATION ≠ ELECTION BETWEEN DEVICES
+PASS. Phủ định trực tiếp, đúng S01 PDF tr. 10.
+
+8. DEMOCRATIZATION ≠ UNIVERSAL ACCESS
+PASS. Quyền truy cập được thừa nhận nhưng không thay thế quyền tham gia quyết định.
+
+9. USER AGENCY ≠ TOTAL USER CONTROL
+PASS. Case nói “tác động ngược”, “tiềm năng”; không nói người dùng sở hữu toàn quyền.
+
+10. UNDERDETERMINATION ≠ ARBITRARINESS
+PASS. Có từ “tương đối” và liệt kê ràng buộc.
+
+11. GROUP INTERPRETATION ≠ FEENBERG'S DIRECT CLAIM
+PASS. Chuyển dụng hệ thống phân lịch và khung năm câu hỏi được báo chủ thể.
+
+======================================================================
+V. KIỂM TRA TRÍCH DẪN VÀ NGÔN NGỮ
+======================================================================
+
+- Trích dẫn dài nguyên văn: 0.
+- Câu đặt trong ngoặc kép nhưng có nguy cơ giả trích dẫn: 0. Các cụm trong ngoặc kép là nhãn lập trường, thuật ngữ, câu hỏi hoặc văn bản giao diện giả định.
+- Tên tác giả nhất quán: Andrew Feenberg / Feenberg.
+- Thuật ngữ tiếng Việt nhất quán: thuyết công cụ; thuyết tất định công nghệ; thuyết thực chất; lý thuyết phê phán công nghệ; mã kỹ thuật; hợp lý hóa dân chủ; dân chủ hóa công nghệ.
+- Tên bệnh: ALS; lời thoại mở rộng một lần thành `amyotrophic lateral sclerosis`.
+- Dấu tiếng Việt: kiểm tra thủ công PASS.
+- Câu quá dài gây khó đọc: đã rút gọn ở phiên bản 2.0; cần kiểm tiếp trên giọng TTS thật.
+
+======================================================================
+VI. ĐIỀU KIỆN PHẢI GIỮ Ở STORYBOARD VÀ BẢN DỰNG
+======================================================================
+
+1. Tất cả cảnh AI mô tả Teletel, Prodigy, bệnh nhân ALS hoặc nồi hơi phải ghi `MINH HỌA BẰNG AI`.
+2. Không tạo ảnh giả Andrew Feenberg, tài liệu giả, giao diện Prodigy giả có chữ đọc được, hay ảnh lịch sử giả.
+3. Các nguồn S01–S04 phải hiện lower-third đúng trang tại lần xuất hiện claim quan trọng.
+4. Cảnh hệ thống phân lịch phải hiện `TÌNH HUỐNG GIẢ ĐỊNH — NHÓM 14`.
+5. Đồ hình 2×2 phải giữ đúng hai trục và bốn giao điểm; không đảo ô.
+6. Mã kỹ thuật phải được minh họa bằng sự chuyển giá trị thành tham số/tiêu chuẩn, không bằng màn hình code ngẫu nhiên.
+7. Không dùng hình chỉ mang tính trang trí tại nơi đang phát biểu claim nguồn.
+8. End credits phải đủ thời gian đọc cho tên lớp, giảng viên, thành viên/MSSV và lời cảm ơn theo yêu cầu người dùng; không chèn ghi chú kỹ thuật.
+
+======================================================================
+VII. TRẠNG THÁI QA TỔNG THỂ HIỆN TẠI
+======================================================================
+
+ACADEMIC QA — SCRIPT: PASS; FINAL VIDEO: PASS WITH REVIEW-SCOPE NOTE
+NARRATION QA — TEXT VÀ FINAL AUDIO: PASS
+LANGUAGE QA — TEXT, TÊN RIÊNG VÀ DẤU TIẾNG VIỆT: PASS
+SUBTITLE QA — 267 CUE, EXACT TRANSCRIPT, NO OVERLAP: PASS
+VISUAL QA — SOURCE/RECONSTRUCTION ASSET GATE: PASS; FINAL SCENE/SHOT SAMPLE: PASS
+AUDIO QA — 48 KHZ, -16,3 LUFS, TRUE PEAK -1,4 DBFS: PASS
+TIMING QA — STORYBOARD 100 CẢNH LIÊN TỤC, 972,566667 GIÂY: PASS; FINAL CONTAINER: PASS
+YOUTUBE QA — PASS: H.264 High/AAC-LC/Rec.709/faststart; 1920×1080/30 fps/48 kHz
+
+FINAL ACADEMIC STATUS: PASS WITH EXPLICIT LIMITS: không tự bảo đảm điểm số và không thay việc người nộp nghe thử.
+
+======================================================================
+VIII. GHI NHẬN KIỂM ĐỊNH BẢN DỰNG CUỐI
+======================================================================
+
+- Citation trên hình dùng tên tác giả/năm và số trang PDF thật; mã nội bộ S01/S02/S03 không được trình bày cho khán giả như trích dẫn.
+- Cảnh nồi hơi và bối cảnh mạng thập niên 1990 mang nhãn `MINH HỌA BẰNG AI`; hình AI không được trình bày như tư liệu lịch sử.
+- Tình huống phân lịch khám và khung năm câu hỏi được gắn rõ là minh họa/chuyển dụng của Nhóm 14.
+- Asset S039 bị loại vì pseudo-lettering; S038 bị loại vì lệch ẩn dụ; S093 bị loại vì hình người CGI/giáp; cả hai candidate mạng S065 bị loại vì chữ CRT giả, cáp phát sáng và bối cảnh lịch sử không đáng tin.
+- Cảnh S039 trong final dùng đồ họa `MÃ KỸ THUẬT` tạo hậu kỳ; không có source code hay chữ AI.
+- Bản ALS, technical-code và 15 clip Flow/Veo V8 mới đã qua frame-contact QA; các shot CGI/CRT trống/diagram xấu bị loại khỏi edit. Kết quả kỹ thuật và SHA-256 cuối đã khóa trong `qa/final_video_QA_report.txt` sau render Vale V8 Suno 16:12,567.

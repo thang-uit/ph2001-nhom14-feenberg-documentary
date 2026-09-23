@@ -1,0 +1,12 @@
+{
+  "schema_version": "v11-timeline-1",
+  "content_scene_count": 95,
+  "content_duration_seconds": 965.066,
+  "credit_duration_seconds": 54.1,
+  "crossfade_seconds": 0.8,
+  "programme_duration_seconds": 1018.366667,
+  "credit_asset": "CREDIT_TPHCM_OH_YEAH_V4.mp4",
+  "subtitle_source": "qa/v9/05_subtitles_v9.srt",
+  "voice_source": "audio/vo/vale_unified_v9/VO_VALE_UNIFIED_V9_WITH_BREATHS_48K.wav",
+  "semantic_field": "VISUAL_ARGUMENT_LINK"
+}

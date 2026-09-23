@@ -1,0 +1,27 @@
+FINAL V11 R6 QA REPORT — FEENBERG DOCUMENTARY
+
+STATUS: PASS
+File: Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4
+SHA-256: 22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788
+
+FACTS
+- Video: H.264 High, 1920×1080, 30 fps, Rec.709, 9.24 Mbps, 30.551 frames.
+- Audio: AAC-LC stereo 48 kHz; duration 1018,367 giây; faststart.
+- Timeline: 95 cảnh nội dung + 54,1 giây credit − 0,8 giây bridge.
+- Subtitles: 42 px, 267 cue, exact transcript, tối đa hai dòng, cue cuối 964,060 giây.
+- Narration: một master Vale khóa, checksum PASS.
+- Visual plan: 172 shot / 130 asset, reuse ≤2; footage động 45,0% thật / 55,0% AI.
+- Content/credit asset separation: giao rỗng; credit có 17 nguồn duy nhất.
+- Disclosure: chỉ placement Flow–Veo mang nhãn `MINH HỌA BẰNG AI`; footage thật không có nhãn.
+- Full audio/video decode với `-xerror`: PASS.
+- Final audio: −15,8 LUFS integrated, −2,0 dBFS true peak.
+- Black/freeze scan: không black ≥1,2 giây và không freeze ≥12 giây.
+
+MANUAL GATES
+- Motion/physics/faces/style: đã rà source strip và contact sheet; asset lỗi giữ trong blacklist.
+- Typography: source-card R6 đã rà đầu/giữa/cuối; không đường xuyên chữ, shape cắt hoặc replacement glyph.
+- Semantic match: mỗi scene có VISUAL_ARGUMENT_LINK; spot-check gồm S013 và S079.
+- Bridge/credit: frame cầu nối đã rà; programme audio bit-identical với R5.
+
+FAILURES
+- Không có.

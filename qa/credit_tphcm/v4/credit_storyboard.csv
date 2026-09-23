@@ -1,0 +1,18 @@
+scene_id,start_time,end_time,source,overlay,purpose
+V4C01,0.000,4.800,pexels_aerial_skyline_32427394.mp4,title,Toàn cảnh mở đầu, đặt nhịp đô thị và tên video.
+V4C02,4.350,8.850,incoming/15980643_3840_2160_25fps.mp4,producer,Không gian trước Bưu điện Thành phố và dòng người thật.
+V4C03,8.400,12.900,pexels_city_hall_39357829.mp4,teacher,Nhận diện kiến trúc và bối cảnh thành phố.
+V4C04,12.450,15.250,incoming/12205461_3840_2160_30fps.mp4,None,Cận cảnh chợ đèn và người dân, đưa nhịp sống vào credit.
+V4C05,14.800,17.400,incoming/14305269_3840_2160_30fps.mp4,None,Chi tiết ẩm thực thật, tạo một nhịp cắt cảm giác.
+V4C06,16.950,22.450,incoming/16602191_3840_2160_30fps.mp4,members_a,Đường phố ban ngày làm nền cho bốn thành viên đầu.
+V4C07,22.000,24.600,incoming/15300802_3840_2160_60fps.mp4,None,Giao lộ và chuyển động giao thông thực tế.
+V4C08,24.150,26.950,pexels_busy_street_37886978.mp4,None,Match cut từ giao lộ sang nhịp xe trung tâm.
+V4C09,26.500,31.500,incoming/12602357_3840_2160_25fps.mp4,members_b,Dòng xe đêm làm nền cho ba thành viên còn lại.
+V4C10,31.050,33.650,pexels_day_night_3963629.mp4,None,Nhịp chuyển ngày–đêm nối phần credit sang đô thị ban đêm.
+V4C11,33.200,35.800,incoming/14194592_3840_2160_30fps.mp4,None,Blue hour trên sông, hạ nhịp trước chuỗi đêm.
+V4C12,35.350,37.950,incoming/12984242_3840_2160_30fps.mp4,None,Toàn cảnh đêm với tháp phát sáng, mở rộng không gian.
+V4C13,37.500,40.100,pexels_ben_thanh_29185453.mp4,None,Bến Thành và ánh đèn giao thông thật.
+V4C14,39.650,42.250,pexels_night_traffic_29185408.mp4,None,Cận nhịp xe đêm, không lặp lại shot trước.
+V4C15,41.800,44.400,pexels_night_skyline_31111952.mp4,None,Skyline đêm chuyển động thật trước lời cảm ơn.
+V4C16,43.950,46.550,pexels_river_skyline_31975717.mp4,None,Mặt nước và ánh phản chiếu, tạo khoảng thở cuối.
+V4C17,46.100,54.100,pexels_landmark_31111825.mp4,thanks,Khung skyline kết, giữ lời cảm ơn đủ lâu để đọc.

@@ -1,0 +1,45 @@
+HỒ SƠ SẢN XUẤT — BẢN KHÓA V11 R6
+DÂN CHỦ HÓA THIẾT KẾ VÀ QUẢN TRỊ CÔNG NGHỆ THEO ANDREW FEENBERG
+Nhóm 14 | Triết học | PH2001.26.1.CH.02 | TS Nguyễn Hữu Sơn
+
+1. BẢN GIAO
+
+- File: Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4
+- Thời lượng: 1018,366667 giây (16:58,367), trong yêu cầu 15–20 phút.
+- 95 cảnh nội dung, 172 shot, 130 asset; credit V4 dài 54,1 giây; bridge 0,8 giây.
+- H.264 High, 1920×1080/30 fps, Rec.709, progressive, AAC-LC stereo 48 kHz, faststart.
+- SHA-256: 22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788.
+
+2. CẤU TRÚC LẬP LUẬN
+
+- Mở bằng tình huống giả định về hệ thống phân lịch và câu hỏi “ai quyết định công nghệ hoạt động thế nào?”.
+- Tách ba tầng sử dụng, thiết kế và quản trị; phân biệt tiếp cận với tham gia quyết định.
+- Trình bày ma trận hai trục và bốn lập trường, không biến chúng thành bốn giai đoạn lịch sử.
+- Giải thích meta-choice, bất định tương đối và tính khả biến của quỹ đạo công nghệ.
+- Định nghĩa technical code, giải thích bằng case quy chuẩn an toàn nồi hơi.
+- Định nghĩa dân chủ hóa và lý tính hóa dân chủ; participation phải có hiệu lực tới thiết kế/quản trị.
+- Phân tích Teletel/Internet và nhóm hỗ trợ ALS với ranh giới bằng chứng rõ ràng.
+- Chuyển dụng sang năm câu hỏi phương pháp luận của Nhóm 14; kết luận và cảm ơn.
+
+3. KHÓA HỌC THUẬT
+
+Nguồn ưu tiên là tài liệu giảng viên, văn bản gốc Feenberg và nguồn học thuật đã lập hash. Claim ledger ở research/claim_ledger.csv; từ điển thuật ngữ ở research/terminology_dictionary.csv. Không bịa trích dẫn, không gán ví dụ của nhóm cho Feenberg, không dùng hình AI làm chứng cứ lịch sử.
+
+4. HÌNH VÀ STYLE
+
+Style duy nhất: Civic Daylight / Red Thread — footage người thật ánh sáng tự nhiên; warm ivory, deep cobalt, vermilion; đồ họa editorial sáng. Footage động đo được khoảng 45,0% thật / 55,0% Flow–Veo. Asset reuse tối đa hai, nội dung và credit tách biệt tuyệt đối. Mỗi scene có VISUAL_ARGUMENT_LINK để kiểm hình–lời.
+
+5. GIỌNG, NHẠC VÀ PHỤ ĐỀ
+
+- Một master Vale duy nhất: audio/vo/vale_unified_v9/VO_VALE_UNIFIED_V9_WITH_BREATHS_48K.wav.
+- Nhạc nội dung: Feenberg-NhacNen.mp3 / master SCORE_SUNO_V8_48K.wav; credit V4 dùng oh-yeah.mp3.
+- 267 cue phụ đề trùng transcript khóa, Unicode tiếng Việt, tối đa hai dòng.
+- Final audio khoảng −15,8 LUFS integrated, true peak −2,0 dBFS.
+
+6. QA BẮT BUỘC
+
+Academic, narration, language, subtitle, visual, semantic-match, physics/continuity, audio, timing, full-decode và YouTube QA đều PASS cho V11 R6. Không promote bản sửa mới nếu bất kỳ gate nào chưa PASS. Chi tiết bất biến nằm trong AGENTS.md và docs/PRODUCTION_HISTORY.md.
+
+7. MEDIA NGOÀI GIT
+
+Repo công khai giữ code, kịch bản, claim ledger và tài liệu cộng tác. MP4/MOV/WAV/MP3, asset, render và PDF bên thứ ba nằm ngoài Git. Dùng docs/EXTERNAL_MEDIA_INDEX.csv để khôi phục đúng đường dẫn và xác minh SHA-256; docs/HEAVY_FILES_TO_UPLOAD_DRIVE.md là danh sách ưu tiên file từ 50 MiB.

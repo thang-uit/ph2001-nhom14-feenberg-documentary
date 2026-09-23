@@ -1,0 +1,16 @@
+SUBTITLE QA REPORT — WAVEFORM-ALIGNED FINAL VOICE (V11 R6)
+Status: PASS
+Final asset: Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg.mp4 (V11 R6; Vale master)
+Final asset SHA-256: 22e39eced2b8454d1ad8fdbe35d7f3d34e7e7a2cce63cc34400d99b513feb788
+Locked narration words: 3166
+Whisper timing words: 3164
+Exact timing anchors: 3117 (98.5%)
+Subtitle cues: 267
+Subtitle text source: locked narration only; ASR wording is never used.
+Unicode: NFC Vietnamese
+Maximum lines per cue: 2
+Maximum characters per line: 42
+Overlap check: PASS
+Transcript identity check: PASS
+Errors: none
+R6 note: picture/source-card typography was patched in isolation; the complete R5 programme audio and subtitle timing remain bit-identical.
