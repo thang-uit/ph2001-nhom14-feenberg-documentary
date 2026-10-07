@@ -1,0 +1,995 @@
+1
+00:00:00,800 --> 00:00:05,975
+Một người mở ứng dụng trên điện thoại, xác thực danh tính, và vài giây sau, giấy tờ
+của mình hiện lên.
+
+2
+00:00:05,975 --> 00:00:10,599
+Nhưng cùng thao tác ấy cũng tạo ra dữ liệu: ai xác thực, vào lúc nào, cho thủ tục gì.
+
+3
+00:00:11,799 --> 00:00:14,357
+Vậy dân chủ nằm ở đâu trong một hệ thống như thế?
+
+4
+00:00:14,357 --> 00:00:15,852
+Ở chỗ ai cũng được dùng?
+
+5
+00:00:15,852 --> 00:00:17,709
+Ở chỗ ai cũng được gửi góp ý?
+
+6
+00:00:17,709 --> 00:00:22,985
+Hay ở chỗ những người chịu tác động thật sự được tham gia, và có thể làm thay đổi
+cách hệ thống ấy được thiết kế và quản trị?
+
+7
+00:00:24,515 --> 00:00:26,078
+Kính chào thầy và các bạn.
+
+8
+00:00:26,078 --> 00:00:31,476
+Chúng em là Nhóm 14, với chủ đề: dân chủ hóa thiết kế và quản trị công nghệ theo
+Andrew Feenberg.
+
+9
+00:00:31,476 --> 00:00:35,731
+Trước hết, chúng em định nghĩa hai khái niệm nền tảng: dân chủ, và dân chủ hóa.
+
+10
+00:00:40,931 --> 00:00:45,908
+Chữ “dân chủ” bắt nguồn từ tiếng Hy Lạp cổ: “demos” là nhân dân, “kratos” là cai
+trị.
+
+11
+00:00:45,908 --> 00:00:49,710
+Nghĩa gốc là nhân dân cai trị, về sau được hiểu là quyền lực thuộc về nhân dân.
+
+12
+00:00:50,690 --> 00:00:56,915
+Theo cách tiếp cận Mác – Lênin trong giáo trình Chủ nghĩa xã hội khoa học, dân chủ
+là một giá trị xã hội phản ánh những quyền cơ bản của con người,
+
+13
+00:00:56,915 --> 00:00:58,213
+và được hiểu trên ba phương diện.
+
+14
+00:00:58,543 --> 00:01:03,267
+Về quyền lực: dân chủ là quyền lực thuộc về nhân dân, nhân dân là chủ nhân của nhà
+nước.
+
+15
+00:01:03,267 --> 00:01:08,232
+Về chế độ xã hội và trong lĩnh vực chính trị: dân chủ là một hình thức, hay hình thái
+nhà nước.
+
+16
+00:01:08,232 --> 00:01:11,467
+Về tổ chức và quản lý xã hội: dân chủ là một nguyên tắc.
+
+17
+00:01:11,467 --> 00:01:14,948
+Dân chủ cũng mang tính lịch sử, phát triển cùng lịch sử xã hội loài người.
+
+18
+00:01:16,148 --> 00:01:22,505
+Trong tác phẩm “Nhà nước và cách mạng”, Lênin viết: chế độ dân chủ là một hình
+thức nhà nước, một trong những hình thái của nhà nước.
+
+19
+00:01:22,505 --> 00:01:26,827
+Nhưng mặt khác, chế độ dân chủ có nghĩa là chính thức thừa nhận quyền bình đẳng
+giữa những công dân,
+
+20
+00:01:26,827 --> 00:01:30,582
+thừa nhận cho mọi người được quyền ngang nhau trong việc xác định cơ cấu nhà
+nước và quản lý nhà nước.
+
+21
+00:01:30,912 --> 00:01:36,416
+Điều nhóm em giữ lại từ định nghĩa này: dân chủ gắn với quyền ngang nhau của
+công dân trong việc tổ chức và thực hiện quyền lực công.
+
+22
+00:01:37,616 --> 00:01:41,193
+Ở Việt Nam, Chủ tịch Hồ Chí Minh viết: “Nước ta là nước dân chủ.
+
+23
+00:01:41,193 --> 00:01:42,910
+Bao nhiêu lợi ích đều vì dân.
+
+24
+00:01:42,910 --> 00:01:44,884
+Bao nhiêu quyền hạn đều của dân.”
+
+25
+00:01:44,884 --> 00:01:52,454
+Hiến pháp năm 2013 khẳng định tất cả quyền lực nhà nước thuộc về Nhân dân; công
+dân có quyền tham gia quản lý nhà nước và xã hội, thảo luận và kiến nghị;
+
+26
+00:01:52,454 --> 00:01:56,876
+còn Nhà nước phải công khai, minh bạch trong việc tiếp nhận và phản hồi ý kiến,
+kiến nghị của công dân.
+
+27
+00:01:58,076 --> 00:02:01,201
+Từ các nguồn trên, nhóm em dùng một định nghĩa làm việc gồm ba lớp.
+
+28
+00:02:01,531 --> 00:02:06,416
+Lớp chủ thể: quyền quyết định những vấn đề chung thuộc về nhân dân, đặc biệt là
+những người chịu tác động.
+
+29
+00:02:06,416 --> 00:02:13,937
+Lớp thiết chế: quyền ấy phải được tổ chức thành quyền được biết, quy trình tham
+gia, cơ quan đại diện, cơ chế giám sát, giải trình và kiểm soát quyền lực.
+
+30
+00:02:13,937 --> 00:02:18,183
+Lớp giá trị: bình đẳng, phẩm giá, bảo vệ quyền con người và khả năng phản biện.
+
+31
+00:02:19,383 --> 00:02:22,501
+Cần nói rõ: dân chủ mang tính lịch sử – cụ thể.
+
+32
+00:02:22,501 --> 00:02:26,426
+Mỗi quốc gia thực hiện dân chủ qua lịch sử, thể chế và hệ giá trị của mình.
+
+33
+00:02:26,426 --> 00:02:29,137
+Nhưng điều đó không có nghĩa là mỗi nơi muốn hiểu sao cũng được.
+
+34
+00:02:29,137 --> 00:02:36,718
+Ở đâu, dân chủ cũng phải trả lời được những câu hỏi có thể kiểm tra: người dân có
+được biết, được bàn, được quyết định, được giám sát và được bảo vệ hay không.
+
+35
+00:02:37,048 --> 00:02:41,809
+Vì thế, dân chủ không chỉ là đa số biểu quyết; và một biểu mẫu góp ý cũng chưa
+phải là dân chủ.
+
+36
+00:02:47,009 --> 00:02:53,506
+Nếu dân chủ là giá trị và hình thức tổ chức quyền lực, thì dân chủ hóa là một quá
+trình: quá trình mở rộng, trong một cấu trúc cụ thể,
+
+37
+00:02:53,506 --> 00:03:00,608
+năm yếu tố của người chịu tác động: quyền được biết, quyền tham gia có hiệu lực,
+quyền phản biện, quyền yêu cầu giải trình, và khả năng tác động đến quyết định.
+
+38
+00:03:01,808 --> 00:03:08,157
+Luật Thực hiện dân chủ ở cơ sở năm 2022 cũng tách dân chủ thành nhiều nấc: những
+nội dung phải công khai để người dân biết;
+
+39
+00:03:08,157 --> 00:03:15,056
+những nội dung Nhân dân bàn và quyết định; những nội dung Nhân dân tham gia ý
+kiến trước khi cơ quan có thẩm quyền quyết định; và nội dung kiểm tra, giám sát.
+
+40
+00:03:15,386 --> 00:03:19,372
+Các nấc ấy cho thấy: được biết khác với được bàn; được góp ý khác với được quyết
+định.
+
+41
+00:03:20,572 --> 00:03:25,072
+Vì vậy, dân chủ hóa không đồng nghĩa với việc ai cũng được dùng một ứng dụng hay
+gửi ý kiến.
+
+42
+00:03:25,072 --> 00:03:28,670
+Chuyển một thủ tục giấy lên màn hình là số hóa, chưa phải dân chủ hóa.
+
+43
+00:03:28,670 --> 00:03:33,142
+Dân chủ hóa cũng không phải thay chuyên môn bằng biểu quyết, và không phải
+công khai mọi dữ liệu cá nhân.
+
+44
+00:03:34,342 --> 00:03:42,773
+Sự tham gia chỉ có hiệu lực khi có đủ điều kiện: thông tin đủ để hiểu; kênh tiếp cận
+cho cả người yếu thế; được nói mà không sợ bị trả đũa; được phản hồi có lý do;
+
+45
+00:03:42,773 --> 00:03:48,212
+có đường kháng nghị; có người chịu trách nhiệm; và có khả năng sửa quy tắc hay
+thiết kế khi có bằng chứng về tác động bất công.
+
+46
+00:03:49,412 --> 00:03:52,528
+Để thấy rõ các mức tham gia, nhóm em dùng một ma trận.
+
+47
+00:03:52,528 --> 00:03:58,241
+Hàng là các quyền: được biết, được tham vấn, được cùng quyết định, và được giám
+sát, yêu cầu sửa đổi.
+
+48
+00:03:58,241 --> 00:04:01,377
+Cột là mức độ: chưa có, hình thức, hay có hiệu lực.
+
+49
+00:04:01,707 --> 00:04:05,514
+Một hệ thống có thể có hiệu lực ở quyền này, nhưng chỉ hình thức ở quyền khác.
+
+50
+00:04:05,514 --> 00:04:11,889
+Chẳng hạn, tham vấn có trả lời là mức cao nhất của quyền được tham vấn, nhưng
+vẫn chưa phải là cùng quyết định: đó là hai quyền khác nhau.
+
+51
+00:04:13,089 --> 00:04:16,649
+Cũng cần nói rõ: một thay đổi thiết kế chưa tự chứng minh tính dân chủ.
+
+52
+00:04:16,649 --> 00:04:21,902
+Thay đổi có thể chỉ đến từ ý muốn của người quản lý, từ nhóm có tiếng nói mạnh
+nhất, thậm chí làm hại nhóm yếu thế.
+
+53
+00:04:22,232 --> 00:04:29,556
+Vì vậy phải hỏi bốn câu: thay đổi ấy xuất phát từ kinh nghiệm của ai; đi qua quy trình
+nào; phục vụ lợi ích của ai; và ai chịu trách nhiệm giải trình về nó.
+
+54
+00:04:34,756 --> 00:04:37,429
+Vậy vì sao môn triết học lại hỏi về dân chủ trong công nghệ?
+
+55
+00:04:37,759 --> 00:04:44,531
+Bởi triết học luôn hỏi: ai là chủ thể; quyền lực được chính danh bằng cách nào; giá trị
+nào đáng được bảo vệ; và ai chịu trách nhiệm.
+
+56
+00:04:44,531 --> 00:04:47,996
+Dân chủ biến những câu hỏi ấy thành quyền, thiết chế và quy trình cụ thể.
+
+57
+00:04:49,196 --> 00:04:54,669
+Cầu nối từ định nghĩa dân chủ sang công nghệ không nằm ở sự giống nhau của câu
+chữ, mà ở một thực tế: ngày nay,
+
+58
+00:04:54,669 --> 00:04:57,072
+quyền lực công được thực hiện một phần qua chính các hệ thống kỹ thuật.
+
+59
+00:04:57,402 --> 00:05:04,511
+Khi cơ quan nhà nước xác thực danh tính, cấp giấy tờ, xét điều kiện hưởng chính
+sách hay xử lý dữ liệu công dân qua phần mềm, thì một trường dữ liệu bắt buộc,
+
+60
+00:05:04,511 --> 00:05:11,345
+một tiêu chí phân loại, một mức phân quyền đều quyết định ai được phục vụ, ai bị từ
+chối, ai được xem dữ liệu, và ai có thể khiếu nại.
+
+61
+00:05:11,345 --> 00:05:13,962
+Những quy tắc kỹ thuật ấy tác động như một quyết định quản lý.
+
+62
+00:05:15,162 --> 00:05:21,571
+Feenberg cũng mở đầu một bài viết năm 1992 bằng nhận định: công nghệ là một
+trong những nguồn quyền lực công chủ yếu của xã hội hiện đại.
+
+63
+00:05:21,901 --> 00:05:26,788
+Từ đó, nhóm em lập luận: nếu dân chủ là quyền ngang nhau của công dân trong việc
+quản lý nhà nước,
+
+64
+00:05:26,788 --> 00:05:30,278
+thì quyền ấy phải vươn tới cả những hệ thống kỹ thuật mà qua đó quyền lực công
+được thực hiện.
+
+65
+00:05:31,478 --> 00:05:33,309
+Ở đây cần định nghĩa ba khái niệm.
+
+66
+00:05:33,309 --> 00:05:41,405
+Công nghệ không chỉ là thiết bị; đó là hệ thống xã hội – kỹ thuật gồm máy móc,
+phần mềm, dữ liệu, tiêu chuẩn, quy trình, con người và thiết chế.
+
+67
+00:05:41,405 --> 00:05:47,643
+Thiết kế công nghệ là lựa chọn cấu trúc, chức năng, dữ liệu, tiêu chuẩn và quyền truy
+cập, không chỉ là trang trí giao diện.
+
+68
+00:05:47,643 --> 00:05:54,559
+Quản trị công nghệ là phân bổ quyền quyết định, trách nhiệm, giám sát, đánh giá,
+sửa đổi và kháng nghị trong suốt vòng đời của hệ thống.
+
+69
+00:05:54,559 --> 00:06:01,840
+Còn giá trị công nghệ là những ưu tiên như hiệu quả, an toàn, công bằng, riêng tư
+hay phẩm giá, được cụ thể hóa thành lựa chọn kỹ thuật và quản trị.
+
+70
+00:06:03,040 --> 00:06:06,052
+Từ đây, dân chủ và công nghệ gặp nhau theo hai chiều.
+
+71
+00:06:06,052 --> 00:06:11,975
+Chiều thứ nhất: ứng dụng công nghệ để thực hiện dân chủ trong quản trị xã hội,
+giúp người dân được biết thông tin, gửi kiến nghị,
+
+72
+00:06:11,975 --> 00:06:13,557
+giám sát và khiếu nại thuận tiện hơn.
+
+73
+00:06:13,887 --> 00:06:19,690
+Chiều thứ hai: dân chủ hóa chính công nghệ, tức là những người chịu tác động được
+tham gia vào việc thiết kế và quản trị các hệ thống ấy.
+
+74
+00:06:20,020 --> 00:06:26,132
+Hai chiều gắn với nhau: một nền tảng số chỉ thật sự phục vụ dân chủ khi người dùng
+nó có tiếng nói trong cách nó được làm ra và vận hành.
+
+75
+00:06:27,332 --> 00:06:34,423
+Từ đó rút ra một phân biệt then chốt: một người có thể sử dụng một hệ thống mỗi
+ngày, mà không hề có tiếng nói trong việc thiết kế hay quản trị hệ thống ấy.
+
+76
+00:06:34,423 --> 00:06:36,618
+Đây chính là chỗ Andrew Feenberg bước vào.
+
+77
+00:06:41,818 --> 00:06:48,962
+Andrew Feenberg là nhà triết học công nghệ người Mỹ, giáo sư danh dự tại Đại học
+Simon Fraser, Canada, gắn với lý thuyết phê phán về công nghệ.
+
+78
+00:06:49,942 --> 00:06:55,785
+Feenberg xếp các quan niệm về công nghệ theo hai trục: trung tính hay mang giá
+trị; tự trị hay do con người kiểm soát.
+
+79
+00:06:55,785 --> 00:07:01,100
+Thuyết công cụ coi công nghệ là phương tiện trung tính; thuyết tất định coi công
+nghệ tự vận động và định hình xã hội.
+
+80
+00:07:01,100 --> 00:07:05,435
+Lý thuyết phê phán cho rằng công nghệ vừa mang giá trị, vừa có thể được con người
+định hướng.
+
+81
+00:07:05,435 --> 00:07:12,496
+Theo ông, vấn đề là ta chưa có những thiết chế phù hợp để kiểm soát công nghệ, và
+công nghệ có thể được đưa vào một quá trình thiết kế, phát triển dân chủ hơn.
+
+82
+00:07:13,696 --> 00:07:16,264
+Ý thứ nhất là tính bất định tương đối của thiết kế.
+
+83
+00:07:16,264 --> 00:07:19,324
+Trong cùng ràng buộc kỹ thuật, thường có nhiều phương án khả thi.
+
+84
+00:07:19,324 --> 00:07:22,134
+Nhưng “tương đối” nghĩa là không phải muốn thiết kế thế nào cũng được.
+
+85
+00:07:23,114 --> 00:07:26,049
+Ý thứ hai là mã kỹ thuật, hay “technical code”.
+
+86
+00:07:26,049 --> 00:07:27,778
+Đây không phải mã nguồn phần mềm.
+
+87
+00:07:27,778 --> 00:07:33,117
+Mã kỹ thuật là cách những quan hệ xã hội, lợi ích và một chân trời văn hóa lắng đọng
+vào các tham số thiết kế.
+
+88
+00:07:33,117 --> 00:07:37,864
+Khi đã ổn định, kết quả của những lựa chọn và xung đột xã hội lại hiện ra như thể đó
+là “tất yếu kỹ thuật”.
+
+89
+00:07:38,844 --> 00:07:41,062
+Ý thứ ba là năng lực hành động của người dùng.
+
+90
+00:07:41,062 --> 00:07:46,670
+Feenberg nêu ví dụ: thư điện tử trên Internet do những người dùng thành thạo đưa
+vào, vốn không có trong kế hoạch ban đầu của nhà thiết kế;
+
+91
+00:07:46,670 --> 00:07:52,512
+vậy mà trong bài giảng năm 2003, ông nhận xét đó đã là chức năng được dùng
+nhiều nhất của Internet.
+
+92
+00:07:52,512 --> 00:07:56,069
+Năng lực ấy có thật, nhưng có điều kiện, không phải toàn quyền kiểm soát.
+
+93
+00:07:57,049 --> 00:08:04,403
+Ý thứ tư là hợp lý hóa dân chủ: mở rộng tính hợp lý kỹ thuật để tính đến bối cảnh, chi
+phí và kinh nghiệm từng bị gạt ra ngoài, thông qua sáng kiến,
+
+94
+00:08:04,403 --> 00:08:08,620
+phản kháng và tham gia của người chịu tác động, có thể dẫn tới thay đổi thực hành
+hoặc thiết kế.
+
+95
+00:08:08,620 --> 00:08:13,081
+Nó không phủ nhận hiệu quả; nó hỏi thêm: hiệu quả cho ai, và chi phí do ai gánh.
+
+96
+00:08:14,281 --> 00:08:20,998
+Feenberg gọi những gì người chịu tác động đòi hỏi là “lợi ích của người tham gia”:
+ai bị cuốn vào một hệ thống kỹ thuật đều có những lợi ích nảy sinh từ chính vị trí ấy.
+
+97
+00:08:21,328 --> 00:08:28,284
+Các lợi ích ấy đi vào công nghệ qua ba con đường: tranh luận công khai về công
+nghệ, buộc thiết kế phải thay đổi; đối thoại giữa chuyên gia và người dùng,
+
+98
+00:08:28,284 --> 00:08:33,454
+như trong thiết kế có sự tham gia; và chiếm dụng sáng tạo, khi người dùng tạo ra
+chức năng mới cho công nghệ sẵn có.
+
+99
+00:08:34,654 --> 00:08:37,088
+Vậy Feenberg hiểu dân chủ trong công nghệ thế nào?
+
+100
+00:08:37,088 --> 00:08:42,577
+Trong các văn bản nhóm sử dụng, ông không đưa ra định nghĩa dân chủ tổng quát,
+mà đặt vấn đề mở rộng dân chủ.
+
+101
+00:08:42,577 --> 00:08:47,542
+Feenberg nhắc lại lập luận của Mác: dân chủ phải được mở rộng từ lĩnh vực chính trị
+sang thế giới lao động.
+
+102
+00:08:47,542 --> 00:08:54,685
+Còn ông lập luận: nếu dân chủ không vươn tới những lĩnh vực đời sống được công
+nghệ trung giới, giá trị sử dụng của nó sẽ suy giảm và sự tham gia sẽ tàn lụi.
+
+103
+00:08:55,665 --> 00:09:00,405
+Feenberg cũng nói rõ: tổ chức bầu cử giữa các thiết bị hay các bản thiết kế là điều
+không hợp lý.
+
+104
+00:09:00,405 --> 00:09:06,106
+Theo ông, dân chủ hóa công nghệ trước hết không phải vấn đề quyền pháp lý, mà là
+vấn đề sáng kiến và tham gia.
+
+105
+00:09:06,106 --> 00:09:11,705
+Hình thức pháp lý sẽ trống rỗng nếu không xuất phát từ kinh nghiệm và nhu cầu của
+những cá nhân đang kháng cự một bá quyền mang tính kỹ thuật.
+
+106
+00:09:12,685 --> 00:09:17,880
+Đặt vào bối cảnh Việt Nam, nhóm em đọc ý này như sau: quy định pháp luật về
+quyền tham gia là khung cần thiết,
+
+107
+00:09:17,880 --> 00:09:22,575
+nhưng chỉ có ý nghĩa khi người dân thực sự sử dụng được nó, và khi tiếng nói của họ
+có đường đi tới quyết định thiết kế.
+
+108
+00:09:27,775 --> 00:09:32,658
+Hãy xem một tình huống chính Feenberg đã phân tích: người bệnh AIDS ở Mỹ cuối
+thập niên 1980.
+
+109
+00:09:32,988 --> 00:09:37,391
+Khi đó, thuốc mới chủ yếu chỉ đến được với người bệnh qua các thử nghiệm lâm
+sàng có đối chứng.
+
+110
+00:09:37,391 --> 00:09:41,507
+Số chỗ rất ít, điều kiện tham gia rất chặt, và một phần người tham gia nhận giả dược.
+
+111
+00:09:41,837 --> 00:09:47,680
+Theo Feenberg, thiết kế ấy coi người bệnh là đối tượng thụ động; mong muốn được
+tham gia nghiên cứu của họ bị xem là không hợp lý.
+
+112
+00:09:48,880 --> 00:09:50,785
+Nhưng người bệnh đã lên tiếng tập thể.
+
+113
+00:09:50,785 --> 00:09:55,306
+Họ tự học về thuốc và về quy trình thử nghiệm, đưa ra những yêu cầu cụ thể tới cơ
+quan quản lý, và biểu tình,
+
+114
+00:09:55,306 --> 00:10:01,672
+như cuộc tập trung của hơn một nghìn người trước trụ sở Cục Quản lý Thực phẩm và
+Dược phẩm Hoa Kỳ vào tháng 10 năm 1988.
+
+115
+00:10:02,002 --> 00:10:04,479
+Dưới sức ép ấy, thể chế thay đổi từng bước.
+
+116
+00:10:04,479 --> 00:10:09,409
+Năm 1987, một quy định cho phép dùng thuốc đang thử nghiệm để điều trị ngoài
+thử nghiệm chính thức.
+
+117
+00:10:09,409 --> 00:10:15,553
+Năm 1992, chính sách “đường song song” cho người không vào được thử nghiệm
+vẫn được dùng thuốc, cùng cơ chế phê duyệt nhanh.
+
+118
+00:10:16,753 --> 00:10:22,964
+Feenberg tóm lại: vì không thể có được sự hợp tác của người bệnh theo quy trình cũ,
+người bệnh cuối cùng đã buộc thiết kế thử nghiệm phải thay đổi,
+
+119
+00:10:22,964 --> 00:10:25,557
+thêm mục tiêu chăm sóc số đông người bệnh vào mục đích khoa học.
+
+120
+00:10:25,557 --> 00:10:27,928
+Ông coi đó là thay đổi mang tính dân chủ và tiến bộ.
+
+121
+00:10:28,258 --> 00:10:35,028
+Nhưng đó không phải chiến thắng trọn vẹn: giới nghiên cứu lo dữ liệu kém tin cậy
+hơn, và tranh luận giữa tiếp cận nhanh với kiểm chứng khoa học vẫn tiếp diễn.
+
+122
+00:10:36,228 --> 00:10:41,926
+Đặt tình huống này vào bốn câu hỏi ở trên, ta thấy vì sao đây là dân chủ hóa, chứ
+không chỉ là một thay đổi thiết kế.
+
+123
+00:10:41,926 --> 00:10:46,926
+Thay đổi xuất phát từ kinh nghiệm của chính người chịu tác động; đi qua tranh luận
+công khai và đối thoại với chuyên gia;
+
+124
+00:10:46,926 --> 00:10:52,592
+phục vụ lợi ích của số đông người bệnh mà không bỏ yêu cầu kiểm chứng khoa học;
+và được thể chế hóa thành quy định có cơ quan chịu trách nhiệm.
+
+125
+00:10:52,922 --> 00:10:55,112
+Đó là con đường từ phản hồi đến sửa thiết kế.
+
+126
+00:11:00,312 --> 00:11:03,780
+Nhóm em chọn một ví dụ gần gũi: VNeID, ứng dụng định danh quốc gia.
+
+127
+00:11:03,780 --> 00:11:09,925
+Luật Căn cước định nghĩa đây là ứng dụng trên thiết bị số để phục vụ định danh điện
+tử và xác thực điện tử trong giải quyết thủ tục hành chính,
+
+128
+00:11:09,925 --> 00:11:12,937
+dịch vụ công và các giao dịch khác trên môi trường điện tử.
+
+129
+00:11:13,917 --> 00:11:16,810
+Đây là ví dụ phân tích về quản trị dữ liệu công dân.
+
+130
+00:11:16,810 --> 00:11:22,611
+Nhóm không kết luận VNeID “là dân chủ” hay “không dân chủ”, và một ứng dụng
+cũng không đại diện cho toàn bộ nền dân chủ Việt Nam.
+
+131
+00:11:23,811 --> 00:11:29,897
+Đặt ma trận vào hệ thống này, ta hỏi: người dân được biết dữ liệu nào được thu
+thập, để làm gì, ai được truy cập?
+
+132
+00:11:29,897 --> 00:11:33,775
+Họ tham gia từ khi xác định nhu cầu, hay chỉ sau khi hệ thống đã vận hành?
+
+133
+00:11:33,775 --> 00:11:37,451
+Khi dữ liệu sai, có đường kháng nghị không, và ai kiểm tra người vận hành?
+
+134
+00:11:38,651 --> 00:11:41,288
+Pháp luật hiện hành đã đặt nền cho một số câu trả lời.
+
+135
+00:11:41,288 --> 00:11:45,120
+Hiến pháp bảo đảm quyền bất khả xâm phạm về đời sống riêng tư và bí mật cá
+nhân.
+
+136
+00:11:45,120 --> 00:11:53,978
+Luật Bảo vệ dữ liệu cá nhân năm 2025 quy định quyền được biết về việc xử lý dữ
+liệu, đồng ý hoặc rút lại đồng ý, xem và yêu cầu chỉnh sửa, khiếu nại và khởi kiện.
+
+137
+00:11:53,978 --> 00:12:01,092
+Đồng thời, luật cho phép xử lý dữ liệu không cần sự đồng ý trong một số trường
+hợp, trong đó có phục vụ hoạt động quản lý nhà nước theo quy định của pháp luật,
+
+138
+00:12:01,092 --> 00:12:02,743
+và khi đó phải có cơ chế giám sát.
+
+139
+00:12:03,943 --> 00:12:11,208
+Đọc theo Feenberg, những lựa chọn tưởng như thuần kỹ thuật, như trường dữ liệu
+bắt buộc, phương thức xác thực, phân quyền xem, thời hạn lưu nhật ký,
+
+140
+00:12:11,208 --> 00:12:13,812
+đều là nơi các ưu tiên có thể lắng đọng thành mã kỹ thuật.
+
+141
+00:12:13,812 --> 00:12:20,599
+Một thiết kế tối ưu cho người có điện thoại thông minh và kỹ năng số có thể vô tình
+đẩy người cao tuổi, người khuyết tật hay người không có thiết bị ra ngoài lề.
+
+142
+00:12:20,599 --> 00:12:23,337
+Câu hỏi là: kinh nghiệm của ai được tính đến khi thiết kế.
+
+143
+00:12:24,537 --> 00:12:26,419
+Vậy đưa dân chủ vào giai đoạn nào?
+
+144
+00:12:26,419 --> 00:12:29,574
+Theo nhóm: vào mọi giai đoạn, bằng cơ chế khác nhau.
+
+145
+00:12:29,574 --> 00:12:32,331
+Xác định nhu cầu: lập bản đồ người chịu tác động.
+
+146
+00:12:32,331 --> 00:12:35,625
+Thiết kế: công khai mục đích, dữ liệu, tiêu chí.
+
+147
+00:12:35,625 --> 00:12:38,020
+Thử nghiệm: thử với nhóm dễ bị bỏ sót.
+
+148
+00:12:38,020 --> 00:12:41,279
+Vận hành: kênh hỗ trợ, chỉnh sửa, khiếu nại.
+
+149
+00:12:41,279 --> 00:12:43,218
+Giám sát: kiểm tra độc lập.
+
+150
+00:12:43,218 --> 00:12:45,918
+Tái thiết kế: phản hồi phải có khả năng làm đổi quy tắc.
+
+151
+00:12:46,898 --> 00:12:51,325
+Người quyết định cuối cùng vẫn là cơ quan có thẩm quyền; kỹ sư vẫn chịu trách
+nhiệm chuyên môn.
+
+152
+00:12:51,325 --> 00:12:55,612
+Dân chủ hóa không trao toàn quyền mọi chi tiết, càng không cho ai đọc dữ liệu của
+người khác.
+
+153
+00:12:55,612 --> 00:12:59,879
+Nó đòi hỏi tiếng nói của người chịu tác động có đường đi tới quyết định, và quyết
+định phải có lý do.
+
+154
+00:13:01,079 --> 00:13:05,238
+Người ta thường nghĩ quản lý hiệu quả và bảo vệ quyền người dân là hai đầu của
+một cán cân.
+
+155
+00:13:05,238 --> 00:13:08,454
+Thực tế không luôn như vậy: thiết kế tốt có thể cải thiện cả hai.
+
+156
+00:13:08,784 --> 00:13:16,129
+Luật đã yêu cầu chỉ thu thập dữ liệu đúng phạm vi, đúng mục đích cụ thể, rõ ràng:
+thu ít hơn thì lộ ít hơn, và tốn ít chi phí lưu trữ hơn.
+
+157
+00:13:16,129 --> 00:13:21,561
+Nhật ký truy cập vừa giúp người dân biết ai đã xem hồ sơ của mình, vừa giúp người
+quản lý phát hiện việc tra cứu trái phép.
+
+158
+00:13:21,561 --> 00:13:27,763
+Một kênh sửa dữ liệu sai dễ dùng vừa bảo vệ quyền, vừa làm cơ sở dữ liệu chính xác
+hơn, vì người dân thường là người phát hiện lỗi sớm nhất.
+
+159
+00:13:28,093 --> 00:13:33,121
+Còn khi có xung đột thật, Hiến pháp chỉ cho phép hạn chế quyền theo quy định của
+luật, và chỉ khi thật cần thiết.
+
+160
+00:13:38,321 --> 00:13:44,155
+Có bốn khái niệm hay bị dùng lẫn: quyền riêng tư là quyền con người; bảo vệ dữ liệu
+cá nhân là quy tắc xử lý dữ liệu;
+
+161
+00:13:44,155 --> 00:13:48,360
+an toàn thông tin là biện pháp chống truy cập trái phép; phân quyền là quyết định ai
+được xem gì.
+
+162
+00:13:48,360 --> 00:13:50,887
+Một hệ thống rất an toàn vẫn có thể phân quyền quá rộng.
+
+163
+00:13:52,087 --> 00:13:54,562
+Giờ hãy xét một mô hình minh họa do nhóm tự dựng.
+
+164
+00:13:54,562 --> 00:13:57,260
+Phương án A: một ô “gửi ý kiến”.
+
+165
+00:13:57,260 --> 00:13:59,626
+Người dân gửi đi, rồi không biết ý kiến đi đâu.
+
+166
+00:13:59,956 --> 00:14:08,228
+Phương án B: vẫn ô ấy, nhưng có tiêu chí xử lý được công bố, có mã theo dõi không
+lộ danh tính, có phản hồi kèm lý do, có bản tổng hợp đã khử nhận dạng,
+
+167
+00:14:08,228 --> 00:14:11,906
+có kênh yêu cầu xem xét lại, và có nhật ký những thay đổi được thực hiện sau góp ý.
+
+168
+00:14:12,236 --> 00:14:14,225
+Cả hai đều cho phép “góp ý”.
+
+169
+00:14:14,225 --> 00:14:17,301
+Nhưng chỉ phương án B tạo ra con đường để ý kiến chạm tới quyết định.
+
+170
+00:14:18,501 --> 00:14:23,293
+Kiểm duyệt cũng không phải lúc nào cũng xấu: lọc thư rác hay chặn nội dung xâm
+phạm người khác là cần thiết.
+
+171
+00:14:23,293 --> 00:14:28,561
+Vấn đề là tiêu chí lọc có được công bố, và người bị lọc có được biết lý do, đề nghị
+xem xét lại hay không.
+
+172
+00:14:28,561 --> 00:14:31,377
+Thiếu những điều ấy, “được góp ý” chỉ còn là tham gia hình thức.
+
+173
+00:14:36,577 --> 00:14:43,944
+Một câu hỏi thường gặp: đăng ký bằng sáng chế, bảo hộ quyền tác giả, kể cả với sản
+phẩm có dùng trí tuệ nhân tạo, có phải là dân chủ hóa công nghệ?
+
+174
+00:14:45,144 --> 00:14:50,956
+Theo Luật Sở hữu trí tuệ Việt Nam, quyền tác giả phát sinh từ khi tác phẩm được
+sáng tạo và thể hiện dưới một hình thức vật chất nhất định,
+
+175
+00:14:50,956 --> 00:14:56,984
+không phụ thuộc vào việc đã đăng ký hay chưa; còn quyền đối với sáng chế được
+xác lập trên cơ sở văn bằng bảo hộ do cơ quan nhà nước cấp.
+
+176
+00:14:56,984 --> 00:14:59,508
+Đây là cơ chế pháp lý bảo vệ quyền và giải quyết tranh chấp.
+
+177
+00:15:00,488 --> 00:15:07,293
+Ở một nghĩa, đây là biểu hiện của dân chủ: pháp luật bảo vệ bình đẳng quyền của
+người sáng tạo, và chống xâm phạm bản quyền chính là bảo vệ quyền ấy.
+
+178
+00:15:07,623 --> 00:15:15,199
+Nhưng để góp phần dân chủ hóa công nghệ, cần thêm điều kiện: thủ tục phải tiếp
+cận được với cả người ít nguồn lực, và tri thức không bị tập trung vào số ít chủ thể.
+
+179
+00:15:15,199 --> 00:15:19,988
+Bảo vệ quyền sở hữu là nền tảng; sự tham gia của người chịu tác động vào quyết
+định thiết kế là bước tiếp theo.
+
+180
+00:15:20,968 --> 00:15:28,765
+Với trí tuệ nhân tạo, luật sửa đổi năm 2025 giao Chính phủ quy định riêng cho sản
+phẩm có sử dụng AI; nhóm không đưa ra kết luận chung cho mọi trường hợp.
+
+181
+00:15:33,965 --> 00:15:37,017
+Đây là luận điểm của Nhóm 14, không phải trích dẫn Feenberg.
+
+182
+00:15:37,347 --> 00:15:41,204
+Dân chủ hóa công nghệ không dừng ở mở rộng quyền truy cập hay cho phép gửi ý
+kiến.
+
+183
+00:15:41,204 --> 00:15:48,588
+Nó đòi hỏi những người chịu tác động có kênh tham gia có ý nghĩa vào việc xác định
+vấn đề, tiêu chí thiết kế, cơ chế dữ liệu, kiểm soát quyền lực, bảo mật,
+
+184
+00:15:48,588 --> 00:15:54,820
+giám sát và kháng nghị; và sự tham gia ấy phải tạo ra phản hồi có thể kiểm chứng,
+trong giới hạn kỹ thuật, pháp lý và an toàn.
+
+185
+00:15:56,020 --> 00:16:02,653
+Vì vậy, nên: xác định người chịu tác động trước khi thiết kế; công khai mục đích, dữ
+liệu và trách nhiệm trong mức không xâm phạm riêng tư;
+
+186
+00:16:02,653 --> 00:16:09,233
+tham vấn sớm và trả lời có lý do; phân quyền tối thiểu, có nhật ký truy cập và đường
+kháng nghị; đánh giá tác động trước và sau triển khai.
+
+187
+00:16:10,213 --> 00:16:18,174
+Không nên: đồng nhất tải ứng dụng với dân chủ hóa; góp ý tượng trưng; nhân danh
+hiệu quả để đóng kênh kiểm tra; nhân danh minh bạch để công khai dữ liệu cá nhân;
+
+188
+00:16:18,174 --> 00:16:19,819
+hay lấy biểu quyết thay cho kiểm chứng kỹ thuật.
+
+189
+00:16:21,019 --> 00:16:22,359
+Vậy có làm được không?
+
+190
+00:16:22,359 --> 00:16:23,742
+Được, nhưng không dễ.
+
+191
+00:16:24,072 --> 00:16:26,849
+Trở ngại thứ nhất là chi phí và thời gian để tham vấn.
+
+192
+00:16:26,849 --> 00:16:31,358
+Thứ hai là khoảng cách số: người cao tuổi, người thiếu thiết bị hay kỹ năng dễ bị bỏ
+lại.
+
+193
+00:16:31,358 --> 00:16:35,949
+Thứ ba là an toàn hệ thống: càng mở kênh tham gia, càng phải bảo vệ dữ liệu chặt
+hơn.
+
+194
+00:16:35,949 --> 00:16:40,864
+Thứ tư là bất cân xứng thông tin giữa chuyên gia và người dân, cùng những giới hạn
+pháp lý về bí mật và an ninh.
+
+195
+00:16:41,194 --> 00:16:45,284
+Vì vậy, dân chủ hóa cần đi từng bước, có lộ trình và có người chịu trách nhiệm.
+
+196
+00:16:46,484 --> 00:16:51,651
+Giải pháp phải trả lời ba câu hỏi: ai giám sát, ai có quyền yêu cầu sửa đổi, và ai chịu
+trách nhiệm khắc phục.
+
+197
+00:16:51,981 --> 00:16:54,880
+Với một hệ thống như VNeID, pháp luật hiện hành đã có câu trả lời.
+
+198
+00:16:54,880 --> 00:17:02,578
+Giám sát: Quốc hội, Hội đồng nhân dân, Mặt trận Tổ quốc, cơ quan chuyên trách bảo
+vệ dữ liệu cá nhân, và ở cấp xã có Ban Thanh tra nhân dân.
+
+199
+00:17:02,578 --> 00:17:10,547
+Yêu cầu sửa đổi: chính người dân, qua quyền yêu cầu điều chỉnh thông tin theo Luật
+Căn cước, quyền yêu cầu chỉnh sửa dữ liệu cá nhân, quyền khiếu nại và kiến nghị.
+
+200
+00:17:10,547 --> 00:17:16,796
+Khắc phục: cơ quan quản lý căn cước và bên kiểm soát dữ liệu phải sửa sai; người
+giải quyết khiếu nại phải trả lời trong thời hạn luật định;
+
+201
+00:17:16,796 --> 00:17:20,710
+và khi hành vi trái pháp luật gây thiệt hại, có cơ chế bồi thường của Nhà nước.
+
+202
+00:17:21,910 --> 00:17:29,203
+Trên nền đó, nhóm em đề xuất bổ sung: kiểm toán kỹ thuật độc lập định kỳ, có công
+bố bản tóm tắt; nhật ký thay đổi công khai cho mỗi phiên bản;
+
+203
+00:17:29,203 --> 00:17:36,809
+tính năng cho người dân biết ai đã xem dữ liệu của mình; và bộ chỉ số như tỷ lệ phản
+hồi có lý do, thời gian xử lý kháng nghị, số thay đổi thiết kế sau phản hồi.
+
+204
+00:17:37,139 --> 00:17:42,658
+Các đề xuất này không xóa được mọi xung đột, nhưng làm cho xung đột được nhìn
+thấy, được tranh luận và có người chịu trách nhiệm.
+
+205
+00:17:47,858 --> 00:17:51,144
+Quay lại câu hỏi ban đầu: dân chủ nằm ở đâu trong một hệ thống công nghệ?
+
+206
+00:17:51,694 --> 00:17:54,675
+Nó không nằm ở việc được dùng, và cũng không chỉ nằm ở một ô góp ý.
+
+207
+00:17:54,675 --> 00:18:01,590
+Nó nằm ở chỗ người chịu tác động được biết, được tham vấn có trả lời, được tham
+gia quyết định trong phạm vi phù hợp, được giám sát và yêu cầu sửa đổi;
+
+208
+00:18:01,590 --> 00:18:04,005
+và ở chỗ có người chịu trách nhiệm khắc phục khi hệ thống sai.
+
+209
+00:18:05,205 --> 00:18:08,468
+Trong phạm vi Việt Nam, giá trị dân chủ ấy đã có điểm tựa.
+
+210
+00:18:08,468 --> 00:18:16,155
+Hiến pháp khẳng định quyền lực nhà nước thuộc về Nhân dân, công dân được tham
+gia quản lý và được phản hồi kiến nghị; phương châm dân biết, dân bàn, dân làm,
+
+211
+00:18:16,155 --> 00:18:19,185
+dân kiểm tra, dân giám sát, dân thụ hưởng là định hướng.
+
+212
+00:18:19,515 --> 00:18:24,031
+Thách thức là đưa những nguyên tắc ấy vào chính thiết kế và quản trị các hệ thống
+số mà người dân dùng hằng ngày.
+
+213
+00:18:25,231 --> 00:18:31,701
+Về phương pháp luận, Feenberg giúp chúng em tránh hai sai lầm: coi công nghệ là
+công cụ trung tính, và coi công nghệ là định mệnh.
+
+214
+00:18:31,701 --> 00:18:34,621
+Công nghệ mang giá trị, nhưng có thể được định hướng.
+
+215
+00:18:34,621 --> 00:18:37,712
+Và ai được tham gia định hướng nó, chính là một câu hỏi của dân chủ.
+
+216
+00:18:38,912 --> 00:18:43,120
+Nhóm 14 xin chân thành cảm ơn thầy Nguyễn Hữu Sơn đã hướng dẫn nhóm trong
+suốt học phần.
+
+217
+00:18:43,120 --> 00:18:44,451
+Cảm ơn các bạn đã theo dõi.

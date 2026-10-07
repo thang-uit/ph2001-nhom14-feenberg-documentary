@@ -1,6 +1,7 @@
-# Tooling used by the deterministic documentary pipeline.
-# FFmpeg/ffprobe are installed separately (see README.md).
-Pillow>=10.0
-PyMuPDF>=1.23
-python-docx>=1.1
-pypdf>=4.0
+# Python 3.10+ (macOS). Install: ./setup.sh (or: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt)
+edge-tts==7.2.8          # narration voice (Microsoft Edge TTS, fr-FR-VivienneMultilingualNeural)
+pillow==11.3.0           # subtitle line breaking with real font metrics, paper texture
+python-docx==1.2.0       # script DOCX for the lecturer
+imageio-ffmpeg==0.6.0    # bundled ffmpeg binary (no Homebrew needed)
+# Optional QA (speech-to-text check of the narration):
+# faster-whisper==1.2.1
