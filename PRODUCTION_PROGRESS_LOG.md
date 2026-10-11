@@ -1,5 +1,11 @@
 # Nhật ký dự án — bản công khai
 
+## 2026-10-11 — Chuẩn hóa README song ngữ
+
+- Thêm banner SVG vector cho README, dùng đúng palette ivory–cobalt–vermilion của V13.
+- Tổ chức lại README với mục lục, liên kết sản phẩm, hướng dẫn clone/LFS, QA và quy trình dựng.
+- Bổ sung bản dịch tiếng Anh tương ứng; không thay đổi master video, lời thoại, phụ đề hay asset dựng phim.
+
 ## 2026-10-11 — Phụ đề tiếng Anh
 
 - Tạo `delivery/PhuDe_V13_en.srt` từ lời thoại V13, dịch thủ công theo ngữ cảnh học thuật và giữ nguyên 217 cue/timestamp của phụ đề tiếng Việt.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg</title>
+  <desc id="desc">Banner phim tài liệu Triết học PH2001. Nền ivory, chữ charcoal, các vòng cobalt và sợi chỉ vermilion biểu trưng cho sự tham gia trong thiết kế công nghệ.</desc>
+  <rect width="1600" height="560" rx="28" fill="#F4EFE5"/>
+  <g font-family="Avenir Next, Arial, sans-serif">
+    <rect x="74" y="66" width="38" height="5" rx="2.5" fill="#E04C32"/>
+    <text x="132" y="77" font-size="18" font-weight="600" letter-spacing="2.2" fill="#254CCA">PHIM TÀI LIỆU TRIẾT HỌC · PH2001</text>
+    <g fill="#252930" font-weight="700" font-size="68" letter-spacing="-1.8">
+      <text x="74" y="178">Dân chủ hóa</text>
+      <text x="74" y="268">thiết kế &amp; quản trị</text>
+      <text x="74" y="358">công nghệ</text>
+    </g>
+    <text x="78" y="411" font-size="25" font-weight="500" fill="#254CCA">Theo Andrew Feenberg</text>
+    <text x="78" y="487" font-size="18" fill="#555D68">Kịch bản có nguồn · Hình ảnh điện ảnh · Mã nguồn có thể dựng lại</text>
+  </g>
+  <path d="M1000 70V490" stroke="#D7D0C4" stroke-width="1"/>
+  <g fill="none" stroke="#254CCA" stroke-width="3">
+    <circle cx="1287" cy="254" r="142"/>
+    <circle cx="1287" cy="254" r="99" stroke-opacity="0.4"/>
+    <path d="M1164 183L1287 254L1410 183M1287 254V396" stroke-opacity="0.35"/>
+  </g>
+  <path d="M1126 368C1107 269 1163 219 1232 257S1350 310 1407 218C1439 166 1484 158 1514 179" fill="none" stroke="#E04C32" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#254CCA" stroke="#F4EFE5" stroke-width="7">
+    <circle cx="1164" cy="183" r="18"/>
+    <circle cx="1410" cy="183" r="18"/>
+    <circle cx="1287" cy="396" r="18"/>
+  </g>
+  <circle cx="1287" cy="254" r="30" fill="#F4EFE5"/>
+  <circle cx="1287" cy="254" r="15" fill="#E04C32"/>
+  <g font-family="Avenir Next, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="1" fill="#254CCA">
+    <text x="1164" y="146" text-anchor="middle">THIẾT KẾ</text>
+    <text x="1410" y="146" text-anchor="middle">GIÁ TRỊ</text>
+    <text x="1287" y="437" text-anchor="middle">THAM GIA</text>
+  </g>
+  <text x="1287" y="487" text-anchor="middle" font-family="Avenir Next, Arial, sans-serif" font-size="17" letter-spacing="2" fill="#555D68">FEENBERG DOCUMENTARY · V13</text>
+</svg>

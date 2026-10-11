@@ -1,8 +1,25 @@
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="Dân chủ hóa thiết kế và quản trị công nghệ theo Andrew Feenberg" width="100%">
+</p>
+
+<p align="center">
+  <b>🇻🇳 Tiếng Việt</b> &nbsp;·&nbsp; <a href="#english">🇬🇧 English</a>
+</p>
+
+<p align="center">
+  <img alt="V13" src="https://img.shields.io/badge/phiên_bản-V13-254CCA?style=flat-square">
+  <img alt="Remotion" src="https://img.shields.io/badge/engine-Remotion-101827?style=flat-square">
+  <img alt="Git LFS" src="https://img.shields.io/badge/media-Git_LFS-E04C32?style=flat-square">
+  <img alt="Full HD and 2K" src="https://img.shields.io/badge/delivery-Full_HD_%7C_2K-2E8B57?style=flat-square">
+</p>
+
 # Dân chủ hóa thiết kế và quản trị công nghệ theo Feenberg
 
-![V13](https://img.shields.io/badge/phi%C3%AAn_b%E1%BA%A3n-V13-254CCA?style=flat-square) ![Remotion](https://img.shields.io/badge/React-Remotion-101827?style=flat-square) ![Git LFS](https://img.shields.io/badge/media-Git_LFS-E04C32?style=flat-square)
-
 **Một dự án phim tài liệu học thuật · Một repo thống nhất · Có thể tiếp tục chỉnh sửa trên máy khác.**
+
+<a id="vietnamese"></a>
+
+## 🇻🇳 Tiếng Việt
 
 Kho mã nguồn của Nhóm 14, học phần Triết học PH2001. **V13 là nguồn duy nhất của
 repo hiện tại**: kịch bản, đồ họa, footage, giọng đọc, âm nhạc, credit và hai
@@ -14,6 +31,24 @@ bản dựng cũ, gói transfer hoặc archive đã loại khỏi sản phẩm h
 > Việc chuẩn hóa repo không thay đổi nội dung phim hoặc file master.
 
 [Xem sản phẩm](#sản-phẩm-hiện-hành) · [Cài đặt](#cài-đặt-trên-máy-mới) · [Sửa phim](#quy-trình-chỉnh-sửa) · [Media & bảo mật](#media-bản-quyền-và-bảo-mật)
+
+### 📚 Mục lục
+
+- [Tiếng Việt](#vietnamese)
+  - [Sản phẩm hiện hành](#sản-phẩm-hiện-hành)
+  - [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+  - [Cài đặt trên máy mới](#cài-đặt-trên-máy-mới)
+  - [Luồng sản xuất](#luồng-sản-xuất)
+  - [Quy trình chỉnh sửa](#quy-trình-chỉnh-sửa)
+  - [Kiểm tra & đóng góp](#kiểm-tra--đóng-góp)
+  - [Media, bản quyền và bảo mật](#media-bản-quyền-và-bảo-mật)
+- [English](#english)
+  - [Current deliverables](#current-deliverables)
+  - [Repository layout](#repository-layout)
+  - [Setup on a new Mac](#setup-on-a-new-mac)
+  - [Editing and rendering workflow](#editing-and-rendering-workflow)
+  - [Quality checks](#quality-checks)
+  - [Media, licensing and security](#media-licensing-and-security)
 
 ## Sản phẩm hiện hành
 
@@ -35,6 +70,7 @@ Hai master là MP4, H.264 High, 30 fps, progressive, pixel vuông, Rec.709 SDR;
 
 ```text
 ph2001-nhom14-feenberg-documentary/
+├── .github/assets/banner.svg      banner README dạng vector, sắc nét ở mọi kích thước
 ├── AGENTS.md                     quy tắc học thuật, hình ảnh, âm thanh, bảo mật
 ├── README.md                     tài liệu bắt đầu làm việc
 ├── PRODUCTION_PROGRESS_LOG.md    nhật ký công khai, không có tài khoản cá nhân
@@ -231,3 +267,150 @@ dev-only của `@remotion/eslint-config-flat` (Remotion đang khóa
 đổi framework chỉ để che cảnh báo; cần đánh giá nâng Remotion riêng trước khi
 thay lockfile. Nội dung media bên thứ ba vẫn tuân theo giấy phép riêng; repo
 chưa áp dụng một giấy phép mở chung cho toàn bộ mã nguồn và media.
+
+---
+
+<a id="english"></a>
+
+## 🇬🇧 English
+
+### Overview
+
+This repository contains the source and media for the academic documentary
+**“Democratizing Technology Design and Governance through Andrew Feenberg”**,
+produced for the **PH2001 Philosophy** course. **V13 is the only maintained
+source version.**
+
+The repository brings together the narration source, research notes, Remotion
+graphics, footage, photographs, voice, music, subtitles, credit and two delivery
+masters. It intentionally excludes experiments, retired cuts, transfer packages
+and archives that are not part of the current film.
+
+> **Central question:** Is democracy in a technological system merely the ability
+> to use it and submit feedback, or does it require affected people to
+> participate in—and influence—the system’s design and governance?
+
+This is an educational and research project. The README documents the files that
+are actually present; it is not a claim that every academic source has been
+approved by the lecturer or that third-party media are relicensed by this
+repository.
+
+### Current deliverables
+
+| File | Purpose |
+| --- | --- |
+| [Full-HD master](delivery/Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg_V13_1080p.mp4) | Presentation and submission |
+| [2K master](delivery/Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg_V13_2K_1440p.mp4) | Storage or YouTube upload |
+| [Review script](delivery/KICH_BAN_TRINH_DUYET_FEENBERG_NHOM_14.docx) | Current script with supplied formatting preserved |
+| [Vietnamese subtitles](delivery/PhuDe_V13.srt) | Subtitles aligned to the narration timeline |
+| [English subtitles](delivery/PhuDe_V13_en.srt) | English subtitles with the same V13 timestamps |
+| [YouTube thumbnail](delivery/thumbnail_youtube_feenberg_v1.png) | 1920×1080 thumbnail |
+
+The film runs for approximately **19 minutes 41 seconds**, including the
+original 54.1-second credit and a 0.8-second soft join. Both masters are
+MP4/H.264 High Profile, 30 fps, progressive, square pixels, Rec.709 SDR, with
+48 kHz AAC-LC audio. The 2K master is rendered at 2560×1440; 1080p source
+footage is not presented as native 4K detail.
+
+### Academic direction
+
+- Define democracy, democratization, technology, design, governance and
+  technological values before analysing the case.
+- Separate verified facts, Feenberg-based interpretation, illustrative examples
+  and the group’s proposals.
+- Keep technological determinism, instrumentalism, substantivism, technical
+  code, technological politics and democratic rationalization distinct.
+- Do not equate access with decision-making participation, or a feedback form
+  with feedback that can actually change design or governance.
+- Do not invent quotations, figures, page numbers, legal claims or statements by
+  Feenberg. Claims and source notes are kept in
+  [scripts/v13_script_tables.py](scripts/v13_script_tables.py) and
+  [docs/research/](docs/research/).
+
+### Repository layout
+
+The repository is organized into five practical layers:
+
+1. **Source and pipeline:** AGENTS.md, scripts, Remotion and templates.
+2. **Media inputs:** AI illustrations, real footage, the verified portrait,
+   music, one-voice narration cache and the immutable credit.
+3. **Delivery:** Full-HD/2K masters, review DOCX, Vietnamese/English subtitles
+   and the YouTube thumbnail.
+4. **Research:** source checks, case notes, legal notes, ASR comparison and
+   media attribution.
+5. **Local-only data:** docs/local and instructor materials are ignored and are
+   never pushed to the public repository.
+
+The V9_ and Sxxx_ prefixes identify source assets still referenced by V13; check
+the plan before removing one.
+
+### Setup on a new Mac
+
+The pipeline is fixed to macOS because it uses Avenir Next. Requirements are
+Python 3.10+, Node.js 18+ (22+ recommended), npm, Git and Git LFS.
+
+From the repository root:
+
+\`\`\`bash
+brew install git-lfs
+git clone https://github.com/thang-uit/ph2001-nhom14-feenberg-documentary.git
+cd ph2001-nhom14-feenberg-documentary
+git lfs install --local
+git lfs pull
+./setup.sh
+\`\`\`
+
+Use \`./setup.sh --skip-browser\` when Chrome Headless Shell is not needed. The
+setup script creates the virtual environment, installs locked dependencies,
+verifies checksums and exports deterministic preview/SRT data; it does not
+synthesize voice, rewrite the DOCX or render the film.
+
+### Editing and rendering workflow
+
+1. Read AGENTS.md and check git status.
+2. Edit narration in scripts/v13_script_content.py; update claims and sources in
+   scripts/v13_script_tables.py. Do not hand-edit the DOCX or SRT.
+3. Keep one voice and one speaking rate; synthesize only changed chunks.
+4. Match footage and graphics to the narration plan in scripts/v13_film.py.
+5. Keep the ivory/cobalt/vermilion visual system and subtitle-safe layout.
+6. Export, lint, preview, render and run QA before delivering a new master.
+
+The standard render commands are:
+
+    python scripts/v13_film.py plan
+    python scripts/v13_film.py export
+    npm --prefix remotion run lint
+    python scripts/v13_film.py all --res 1080 --concurrency 6
+    python scripts/v13_film.py all --res 1440 --concurrency 6
+    python scripts/build_script_docx_v13.py
+
+Rendering is CPU-, disk- and time-intensive. The all/final steps replace delivery
+files with the same names; commit or back up an approved version before
+rendering.
+
+### Quality checks
+
+Run verify_repository.py, npm --prefix remotion run lint, audit_staged.py,
+git diff --cached --check and git lfs fsck before a public commit. The repository
+verification locks the V13 masters, credit, plan assets and TTS cache checksums.
+ASR is an aid, not a final authority; re-check names and terminology against the
+TTS timeline. Before delivery, run a full decode check, inspect for prolonged
+black frames or freezes, and target approximately −16 LUFS.
+
+### Media, licensing and security
+
+- Large media is tracked with Git LFS; do not lower quality to bypass GitHub
+  limits.
+- Andrew Feenberg portrait: Beatrice Murch, Wikimedia Commons,
+  [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). See
+  [docs/media/ATTRIBUTION.md](docs/media/ATTRIBUTION.md).
+- Mixkit footage remains subject to each source’s license and terms; this
+  repository does not relicense third-party clips.
+- assets/ai contains AI illustrations for non-factual scenes. The original
+  credit in assets/credit is immutable and is not reused in the main content.
+- Never commit cookies, tokens, keys, .env files, production account email
+  addresses, private machine paths, instructor materials or docs/local.
+- The README does not publish student or lecturer names; names supplied in the
+  finished script and credit remain part of the delivered media only.
+
+<p align="center"><sub>Built for academic learning · Source-grounded · Reproducible on a new Mac with Git LFS</sub></p>
