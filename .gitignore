@@ -50,3 +50,6 @@ remotion/build/
 *.tar
 *.tar.gz
 *.log
+
+# Local UHD export is intentionally not versioned; keep the 1080p and 2K masters.
+delivery/*_4K_2160p.mp4

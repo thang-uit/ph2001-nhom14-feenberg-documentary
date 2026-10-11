@@ -1,5 +1,24 @@
 # Nhật ký dự án — bản công khai
 
+## 2026-10-11 — Phụ đề tiếng Anh
+
+- Tạo `delivery/PhuDe_V13_en.srt` từ lời thoại V13, dịch thủ công theo ngữ cảnh học thuật và giữ nguyên 217 cue/timestamp của phụ đề tiếng Việt.
+- Giữ nhất quán các thuật ngữ: democratization, technology governance, technical code, democratic rationalization, participant interests, VNeID.
+- Đã kiểm tra số cue, thứ tự cue và toàn bộ timestamp khớp với `delivery/PhuDe_V13.srt`; không thay đổi video, audio hoặc phụ đề tiếng Việt.
+
+## 2026-10-11 — Chuẩn bị metadata YouTube và thumbnail
+
+- Đọc mốc chương từ `audio/vo/v13_vivienne/timeline.json` và `renders/v13/plan.json`, dùng mốc thẻ chương thực tế để tạo chapter timestamps.
+- Soạn `docs/youtube_metadata.md` gồm tiêu đề khuyến nghị, hai tiêu đề thay thế, mô tả copy-paste, chapter và hashtag.
+- Dựng `delivery/thumbnail_youtube_feenberg_v1.png` ở 1920×1080 từ footage mở đầu quay thật và ảnh Andrew Feenberg có nguồn Wikimedia; chữ tiếng Việt được render hậu kỳ bằng font có đủ glyph Unicode.
+- Không thay đổi video master, giọng, phụ đề hoặc credit. Thumbnail có thể tải trực tiếp lên YouTube Studio.
+
+## 2026-10-11 — Đóng gói Git không gồm master 4K
+
+- Xóa master 4K UHD cục bộ khỏi `delivery/` trước khi push để tránh đưa tệp khoảng 2,5 GB lên Git LFS.
+- Giữ nguyên hai bản giao nộp Full HD và 2K; metadata YouTube trỏ về bản 2K.
+- Thêm quy tắc ignore cho các tệp `delivery/*_4K_2160p.mp4` phát sinh về sau.
+
 ## 2026-10-07 — Chuyển sang repo V13 thống nhất
 
 - Dùng source và hai master V13 từ gói Downloads làm nguồn duy nhất; không sửa nội dung, hình ảnh hoặc mix âm thanh.

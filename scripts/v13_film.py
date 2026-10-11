@@ -10,8 +10,9 @@ Pipeline (cached under renders/v13/):
   final    picture + mix, crossfade into the untouched credit V4 → YouTube master,
            copied to delivery/
 
-Usage: v13_film.py [plan|export|picture|mix|final|all] [--res 1080|1440] [--concurrency N]
-       --res 1440 renders the same film natively at 2560×1440 (2K) for YouTube.
+Usage: v13_film.py [plan|export|picture|mix|final|all] [--res 1080|1440|2160] [--concurrency N]
+       --res 1440 renders the same film at 2560×1440 (2K), while --res 2160
+       renders a 3840×2160 (4K UHD) delivery master for YouTube.
 """
 
 from __future__ import annotations
@@ -59,6 +60,7 @@ FINAL_NAME = "Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg_V13"
 PROFILES = {
     1080: {"w": 1920, "h": 1080, "scale": 1, "level": "4.2", "suffix": "1080p"},
     1440: {"w": 2560, "h": 1440, "scale": 4 / 3, "level": "5.1", "suffix": "2K_1440p"},
+    2160: {"w": 3840, "h": 2160, "scale": 2, "level": "5.2", "suffix": "4K_2160p"},
 }
 BT709 = ["-color_range", "tv", "-colorspace", "bt709", "-color_trc", "bt709", "-color_primaries", "bt709"]
 

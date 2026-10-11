@@ -1,0 +1,867 @@
+1
+00:00:00,800 --> 00:00:05,975
+A person opens an application on a phone, verifies their identity, and seconds later, their documents appear.
+
+2
+00:00:05,975 --> 00:00:10,599
+But the same action also creates data: who verified their identity, when, and for which procedure.
+
+3
+00:00:11,799 --> 00:00:14,357
+So where does democracy lie in a system like this?
+
+4
+00:00:14,357 --> 00:00:15,852
+Is it simply that everyone can use it?
+
+5
+00:00:15,852 --> 00:00:17,709
+Is it that everyone can submit feedback?
+
+6
+00:00:17,709 --> 00:00:22,985
+Or is it that the people affected can genuinely participate and change how the system is designed and governed?
+
+7
+00:00:24,515 --> 00:00:26,078
+Greetings, lecturer and everyone.
+
+8
+00:00:26,078 --> 00:00:31,476
+We are Group 14, presenting on the democratization of technology design and governance according to Andrew Feenberg.
+
+9
+00:00:31,476 --> 00:00:35,731
+First, we define two foundational concepts: democracy and democratization.
+
+10
+00:00:40,931 --> 00:00:45,908
+The word “democracy” comes from the ancient Greek: “demos” means the people, and “kratos” means rule.
+
+11
+00:00:45,908 --> 00:00:49,710
+Its original meaning was rule by the people; later, it came to mean power belonging to the people.
+
+12
+00:00:50,690 --> 00:00:56,915
+In the Marxist–Leninist approach presented in the textbook on scientific socialism, democracy is a social value reflecting fundamental human rights,
+
+13
+00:00:56,915 --> 00:00:58,213
+and it is understood in three dimensions.
+
+14
+00:00:58,543 --> 00:01:03,267
+In terms of power, democracy means power belongs to the people, who are the masters of the state.
+
+15
+00:01:03,267 --> 00:01:08,232
+In terms of social order and politics, democracy is a form, or a type, of state.
+
+16
+00:01:08,232 --> 00:01:11,467
+In organizing and managing society, democracy is a principle.
+
+17
+00:01:11,467 --> 00:01:14,948
+Democracy is also historical; it develops together with the history of human society.
+
+18
+00:01:16,148 --> 00:01:22,505
+In The State and Revolution, Lenin wrote that a democratic order is a form of state, one of the forms of the state.
+
+19
+00:01:22,505 --> 00:01:26,827
+On the other hand, a democratic order means the formal recognition of equality among citizens,
+
+20
+00:01:26,827 --> 00:01:30,582
+recognizing that everyone has an equal right to determine the structure of the state and to manage the state.
+
+21
+00:01:30,912 --> 00:01:36,416
+What our group retains from this definition is that democracy is tied to citizens’ equal rights to organize and exercise public power.
+
+22
+00:01:37,616 --> 00:01:41,193
+In Vietnam, President Ho Chi Minh wrote: “Our country is a democratic country.
+
+23
+00:01:41,193 --> 00:01:42,910
+All benefits are for the people.
+
+24
+00:01:42,910 --> 00:01:44,884
+All power belongs to the people.”
+
+25
+00:01:44,884 --> 00:01:52,454
+The 2013 Constitution affirms that all state power belongs to the People; citizens have the right to participate in state and social management, to discuss and petition;
+
+26
+00:01:52,454 --> 00:01:56,876
+the State must be open and transparent in receiving and responding to citizens’ opinions and petitions.
+
+27
+00:01:58,076 --> 00:02:01,201
+Drawing on these sources, our group uses a working definition with three layers.
+
+28
+00:02:01,531 --> 00:02:06,416
+The subject layer: the right to decide common matters belongs to the people, especially those affected.
+
+29
+00:02:06,416 --> 00:02:13,937
+The institutional layer: this right must become a right to know, participation procedures, representative bodies, oversight, accountability, and checks on power.
+
+30
+00:02:13,937 --> 00:02:18,183
+The value layer: equality, dignity, protection of human rights, and the capacity for criticism.
+
+31
+00:02:19,383 --> 00:02:22,501
+We should be clear: democracy is historical and concrete.
+
+32
+00:02:22,501 --> 00:02:26,426
+Each country realizes democracy through its history, institutions, and system of values.
+
+33
+00:02:26,426 --> 00:02:29,137
+But that does not mean every place may define it however it wishes.
+
+34
+00:02:29,137 --> 00:02:36,718
+Everywhere, democracy must answer testable questions: can people know, discuss, decide, supervise, and be protected?
+
+35
+00:02:37,048 --> 00:02:41,809
+Therefore, democracy is not only majority voting; and a feedback form alone is not yet democracy.
+
+36
+00:02:47,009 --> 00:02:53,506
+If democracy is a value and a form of organizing power, democratization is a process: within a specific structure,
+
+37
+00:02:53,506 --> 00:03:00,608
+it expands five elements for those affected: the right to know, effective participation, the right to criticize, the right to demand accountability, and the ability to influence decisions.
+
+38
+00:03:01,808 --> 00:03:08,157
+Vietnam’s 2022 Law on Grassroots Democracy also separates democracy into several levels: matters that must be made public so people know;
+
+39
+00:03:08,157 --> 00:03:15,056
+matters the people discuss and decide; matters on which they give opinions before a competent authority decides; and matters of inspection and supervision.
+
+40
+00:03:15,386 --> 00:03:19,372
+These levels show that knowing differs from discussing, and giving an opinion differs from deciding.
+
+41
+00:03:20,572 --> 00:03:25,072
+Therefore, democratization does not mean that everyone can use an application or send an opinion.
+
+42
+00:03:25,072 --> 00:03:28,670
+Moving a paper procedure onto a screen is digitization, not yet democratization.
+
+43
+00:03:28,670 --> 00:03:33,142
+Democratization is not replacing expertise with a vote, nor does it mean making all personal data public.
+
+44
+00:03:34,342 --> 00:03:42,773
+Participation is effective only when conditions are present: enough information to understand; access for vulnerable groups; the freedom to speak without fear of retaliation; reasoned responses;
+
+45
+00:03:42,773 --> 00:03:48,212
+a path of appeal; someone responsible; and the ability to change rules or designs when evidence shows an unjust impact.
+
+46
+00:03:49,412 --> 00:03:52,528
+To clarify levels of participation, our group uses a matrix.
+
+47
+00:03:52,528 --> 00:03:58,241
+The rows are rights: to know, to be consulted, to decide together, and to supervise and request changes.
+
+48
+00:03:58,241 --> 00:04:01,377
+The columns are levels: absent, formal, or effective.
+
+49
+00:04:01,707 --> 00:04:05,514
+A system may be effective for one right but merely formal for another.
+
+50
+00:04:05,514 --> 00:04:11,889
+For example, consultation with a response is the highest level of the right to be consulted, but it is still not co-decision: these are different rights.
+
+51
+00:04:13,089 --> 00:04:16,649
+We should also be clear: a design change does not by itself prove democracy.
+
+52
+00:04:16,649 --> 00:04:21,902
+A change may come only from a manager’s preference, from the group with the strongest voice, or may even harm vulnerable groups.
+
+53
+00:04:22,232 --> 00:04:29,556
+So we must ask four questions: whose experience did the change come from; what process did it pass through; whose interests does it serve; and who is accountable for it?
+
+54
+00:04:34,756 --> 00:04:37,429
+So why does philosophy ask about democracy in technology?
+
+55
+00:04:37,759 --> 00:04:44,531
+Because philosophy always asks: who is the subject; how is power legitimized; which values deserve protection; and who is responsible?
+
+56
+00:04:44,531 --> 00:04:47,996
+Democracy turns these questions into rights, institutions, and concrete procedures.
+
+57
+00:04:49,196 --> 00:04:54,669
+The bridge from the definition of democracy to technology does not lie in similar wording, but in a fact: today,
+
+58
+00:04:54,669 --> 00:04:57,072
+public power is exercised partly through technical systems.
+
+59
+00:04:57,402 --> 00:05:04,511
+When a state agency verifies identity, issues documents, assesses eligibility for policies, or processes citizens’ data through software, a required data field,
+
+60
+00:05:04,511 --> 00:05:11,345
+a classification criterion, or an access level determines who is served, who is refused, who can view data, and who can appeal.
+
+61
+00:05:11,345 --> 00:05:13,962
+Those technical rules operate like a management decision.
+
+62
+00:05:15,162 --> 00:05:21,571
+Feenberg also opened a 1992 essay with the observation that technology is one of the main sources of public power in modern society.
+
+63
+00:05:21,901 --> 00:05:26,788
+From this, our group argues: if democracy is citizens’ equal right to manage the state,
+
+64
+00:05:26,788 --> 00:05:30,278
+then that right must reach the technical systems through which public power is exercised.
+
+65
+00:05:31,478 --> 00:05:33,309
+Here we need to define three concepts.
+
+66
+00:05:33,309 --> 00:05:41,405
+Technology is not only equipment; it is a sociotechnical system of machines, software, data, standards, procedures, people, and institutions.
+
+67
+00:05:41,405 --> 00:05:47,643
+Technology design is the choice of structures, functions, data, standards, and access rights, not merely interface decoration.
+
+68
+00:05:47,643 --> 00:05:54,559
+Technology governance is the allocation of decision-making power, responsibility, oversight, evaluation, revision, and appeal throughout a system’s life cycle.
+
+69
+00:05:54,559 --> 00:06:01,840
+And technological values are priorities such as efficiency, safety, fairness, privacy, or dignity, made concrete through technical and governance choices.
+
+70
+00:06:03,040 --> 00:06:06,052
+From here, democracy and technology meet in two directions.
+
+71
+00:06:06,052 --> 00:06:11,975
+The first direction is using technology to practice democracy in social governance, helping people access information, submit petitions,
+
+72
+00:06:11,975 --> 00:06:13,557
+supervise, and appeal more conveniently.
+
+73
+00:06:13,887 --> 00:06:19,690
+The second direction is democratizing technology itself: those affected participate in designing and governing these systems.
+
+74
+00:06:20,020 --> 00:06:26,132
+The two directions are connected: a digital platform truly serves democracy only when its users have a voice in how it is created and operated.
+
+75
+00:06:27,332 --> 00:06:34,423
+This leads to a crucial distinction: a person may use a system every day without having any say in designing or governing it.
+
+76
+00:06:34,423 --> 00:06:36,618
+This is where Andrew Feenberg enters.
+
+77
+00:06:41,818 --> 00:06:48,962
+Andrew Feenberg is an American philosopher of technology and Professor Emeritus at Simon Fraser University in Canada, associated with critical theory of technology.
+
+78
+00:06:49,942 --> 00:06:55,785
+Feenberg organizes views of technology along two axes: neutral or value-laden; autonomous or controlled by human beings.
+
+79
+00:06:55,785 --> 00:07:01,100
+Instrumentalism sees technology as a neutral means; determinism sees technology as self-directing and shaping society.
+
+80
+00:07:01,100 --> 00:07:05,435
+Critical theory holds that technology is value-laden and can also be guided by human beings.
+
+81
+00:07:05,435 --> 00:07:12,496
+For him, the problem is that we do not yet have suitable institutions for controlling technology, and technology can be placed in a more democratic process of design and development.
+
+82
+00:07:13,696 --> 00:07:16,264
+The first point is the relative indeterminacy of design.
+
+83
+00:07:16,264 --> 00:07:19,324
+Within the same technical constraints, there are often several feasible options.
+
+84
+00:07:19,324 --> 00:07:22,134
+But “relative” means that not every design is possible.
+
+85
+00:07:23,114 --> 00:07:26,049
+The second point is the technical code, or “technical code.”
+
+86
+00:07:26,049 --> 00:07:27,778
+This is not software source code.
+
+87
+00:07:27,778 --> 00:07:33,117
+The technical code is how social relations, interests, and a cultural horizon settle into design parameters.
+
+88
+00:07:33,117 --> 00:07:37,864
+Once stabilized, the results of social choices and conflicts appear as if they were “technical necessity.”
+
+89
+00:07:38,844 --> 00:07:41,062
+The third point is users’ capacity to act.
+
+90
+00:07:41,062 --> 00:07:46,670
+Feenberg gives an example: email on the Internet was introduced by skilled users, although it was not in the designers’ original plan;
+
+91
+00:07:46,670 --> 00:07:52,512
+yet in a 2003 lecture, he observed that it had become the Internet’s most widely used function.
+
+92
+00:07:52,512 --> 00:07:56,069
+This capacity is real but conditional; it is not unlimited control.
+
+93
+00:07:57,049 --> 00:08:04,403
+The fourth point is democratic rationalization: expanding technical rationality to account for contexts, costs, and experiences previously excluded, through initiative,
+
+94
+00:08:04,403 --> 00:08:08,620
+resistance, and participation by those affected, which can lead to changes in practice or design.
+
+95
+00:08:08,620 --> 00:08:13,081
+It does not reject efficiency; it asks an additional question: efficiency for whom, and who bears the cost?
+
+96
+00:08:14,281 --> 00:08:20,998
+Feenberg calls what affected people demand “participant interests”: anyone drawn into a technical system has interests arising from that very position.
+
+97
+00:08:21,328 --> 00:08:28,284
+These interests enter technology through three paths: public debate about technology that forces design to change; dialogue between experts and users,
+
+98
+00:08:28,284 --> 00:08:33,454
+as in participatory design; and creative appropriation, when users create new functions for existing technology.
+
+99
+00:08:34,654 --> 00:08:37,088
+So how does Feenberg understand democracy in technology?
+
+100
+00:08:37,088 --> 00:08:42,577
+In the texts our group uses, he does not offer a general definition of democracy; instead, he raises the problem of expanding democracy.
+
+101
+00:08:42,577 --> 00:08:47,542
+Feenberg recalls Marx’s argument: democracy must expand from the political sphere into the world of labor.
+
+102
+00:08:47,542 --> 00:08:54,685
+He argues that if democracy does not reach areas of life mediated by technology, its use-value will decline and participation will wither.
+
+103
+00:08:55,665 --> 00:09:00,405
+Feenberg also makes clear that holding elections among devices or designs would be irrational.
+
+104
+00:09:00,405 --> 00:09:06,106
+For him, democratizing technology is first of all not a matter of legal rights, but a matter of initiative and participation.
+
+105
+00:09:06,106 --> 00:09:11,705
+Legal form would be empty if it did not arise from the experience and needs of people resisting a technically grounded hegemony.
+
+106
+00:09:12,685 --> 00:09:17,880
+In the Vietnamese context, our group reads this point as follows: legal rules on participation are a necessary framework,
+
+107
+00:09:17,880 --> 00:09:22,575
+but they matter only when people can genuinely use them, and when their voices can reach design decisions.
+
+108
+00:09:27,775 --> 00:09:32,658
+Let us examine a situation Feenberg himself analyzed: people with AIDS in the United States in the late 1980s.
+
+109
+00:09:32,988 --> 00:09:37,391
+At the time, new medicines were mainly available to patients through controlled clinical trials.
+
+110
+00:09:37,391 --> 00:09:41,507
+There were very few places, participation conditions were strict, and some participants received a placebo.
+
+111
+00:09:41,837 --> 00:09:47,680
+According to Feenberg, this design treated patients as passive objects; their wish to participate in research was considered irrational.
+
+112
+00:09:48,880 --> 00:09:50,785
+But the patients spoke out collectively.
+
+113
+00:09:50,785 --> 00:09:55,306
+They taught themselves about medicines and trial procedures, made specific demands to regulators, and demonstrated,
+
+114
+00:09:55,306 --> 00:10:01,672
+including a gathering of more than one thousand people outside the U.S. Food and Drug Administration headquarters in October 1988.
+
+115
+00:10:02,002 --> 00:10:04,479
+Under that pressure, the institution changed step by step.
+
+116
+00:10:04,479 --> 00:10:09,409
+In 1987, a rule allowed investigational drugs to be used for treatment outside the formal trial.
+
+117
+00:10:09,409 --> 00:10:15,553
+In 1992, a “parallel track” policy allowed people unable to enter trials to receive the drugs, together with an accelerated approval mechanism.
+
+118
+00:10:16,753 --> 00:10:22,964
+Feenberg summarizes: because the old procedure could not secure patients’ cooperation, patients ultimately forced the trial design to change,
+
+119
+00:10:22,964 --> 00:10:25,557
+adding care for the wider patient population to the scientific purpose.
+
+120
+00:10:25,557 --> 00:10:27,928
+He considered this a democratic and progressive change.
+
+121
+00:10:28,258 --> 00:10:35,028
+But it was not a complete victory: researchers worried that the data would be less reliable, and the debate between rapid access and scientific verification continued.
+
+122
+00:10:36,228 --> 00:10:41,926
+When we apply the four questions above, we can see why this was democratization, not merely a design change.
+
+123
+00:10:41,926 --> 00:10:46,926
+The change came from the experience of those affected; it passed through public debate and dialogue with experts;
+
+124
+00:10:46,926 --> 00:10:52,592
+it served the interests of the larger patient population without abandoning scientific verification; and it became a rule with an accountable institution.
+
+125
+00:10:52,922 --> 00:10:55,112
+That is the path from feedback to design revision.
+
+126
+00:11:00,312 --> 00:11:03,780
+Our group chooses a familiar example: VNeID, Vietnam’s national identification application.
+
+127
+00:11:03,780 --> 00:11:09,925
+The Law on Identification defines it as an application on a digital device for electronic identification and authentication in administrative procedures,
+
+128
+00:11:09,925 --> 00:11:12,937
+public services, and other transactions in the electronic environment.
+
+129
+00:11:13,917 --> 00:11:16,810
+This is an example for analyzing the governance of citizens’ data.
+
+130
+00:11:16,810 --> 00:11:22,611
+Our group does not conclude that VNeID “is democratic” or “is not democratic,” and one application does not represent Vietnam’s entire democracy.
+
+131
+00:11:23,811 --> 00:11:29,897
+Applying the matrix to this system, we ask: do people know what data are collected, for what purpose, and who can access them?
+
+132
+00:11:29,897 --> 00:11:33,775
+Do they participate when needs are defined, or only after the system is already operating?
+
+133
+00:11:33,775 --> 00:11:37,451
+When data are wrong, is there a path of appeal, and who checks the operators?
+
+134
+00:11:38,651 --> 00:11:41,288
+Current law provides the basis for some answers.
+
+135
+00:11:41,288 --> 00:11:45,120
+The Constitution protects the inviolability of private life and personal secrets.
+
+136
+00:11:45,120 --> 00:11:53,978
+The 2025 Law on Personal Data Protection provides the right to know about data processing, to consent or withdraw consent, to view and request correction, to complain, and to sue.
+
+137
+00:11:53,978 --> 00:12:01,092
+At the same time, the law permits data processing without consent in certain cases, including state-management activities authorized by law,
+
+138
+00:12:01,092 --> 00:12:02,743
+and then a supervision mechanism must be in place.
+
+139
+00:12:03,943 --> 00:12:11,208
+Read through Feenberg, choices that appear purely technical—required data fields, authentication methods, viewing permissions, and log-retention periods—
+
+140
+00:12:11,208 --> 00:12:13,812
+are all places where priorities can settle into a technical code.
+
+141
+00:12:13,812 --> 00:12:20,599
+An optimized design for people with smartphones and digital skills may unintentionally marginalize older people, people with disabilities, or people without devices.
+
+142
+00:12:20,599 --> 00:12:23,337
+The question is: whose experience is taken into account in the design?
+
+143
+00:12:24,537 --> 00:12:26,419
+So at what stage should democracy be introduced?
+
+144
+00:12:26,419 --> 00:12:29,574
+Our group’s answer: at every stage, through different mechanisms.
+
+145
+00:12:29,574 --> 00:12:32,331
+Needs assessment: map the people affected.
+
+146
+00:12:32,331 --> 00:12:35,625
+Design: make the purpose, data, and criteria public.
+
+147
+00:12:35,625 --> 00:12:38,020
+Testing: test with groups likely to be overlooked.
+
+148
+00:12:38,020 --> 00:12:41,279
+Operation: provide support, correction, and complaint channels.
+
+149
+00:12:41,279 --> 00:12:43,218
+Oversight: conduct independent checks.
+
+150
+00:12:43,218 --> 00:12:45,918
+Redesign: feedback must be able to change the rules.
+
+151
+00:12:46,898 --> 00:12:51,325
+The competent authority still makes the final decision; engineers remain responsible for professional matters.
+
+152
+00:12:51,325 --> 00:12:55,612
+Democratization does not give everyone unlimited power over every detail, and it certainly does not let anyone read someone else’s data.
+
+153
+00:12:55,612 --> 00:12:59,879
+It requires the voices of affected people to have a route to decisions, and those decisions must have reasons.
+
+154
+00:13:01,079 --> 00:13:05,238
+People often think that effective management and protecting citizens’ rights are opposite ends of a balance.
+
+155
+00:13:05,238 --> 00:13:08,454
+In reality, this is not always so: good design can improve both.
+
+156
+00:13:08,784 --> 00:13:16,129
+The law requires data to be collected only within a specific, clear purpose and scope: collecting less means exposing less and storing less.
+
+157
+00:13:16,129 --> 00:13:21,561
+Access logs help people know who viewed their records and help managers detect unauthorized searches.
+
+158
+00:13:21,561 --> 00:13:27,763
+A simple channel for correcting wrong data protects rights and makes the database more accurate, because people often detect errors first.
+
+159
+00:13:28,093 --> 00:13:33,121
+When a real conflict exists, the Constitution allows rights to be restricted only by law and only when truly necessary.
+
+160
+00:13:38,321 --> 00:13:44,155
+Four concepts are often mixed up: privacy is a human right; personal-data protection is a rule for processing data;
+
+161
+00:13:44,155 --> 00:13:48,360
+information security is a measure against unauthorized access; access control decides who may see what.
+
+162
+00:13:48,360 --> 00:13:50,887
+A very secure system can still grant access too broadly.
+
+163
+00:13:52,087 --> 00:13:54,562
+Now consider an illustrative model created by our group.
+
+164
+00:13:54,562 --> 00:13:57,260
+Option A: one “submit feedback” box.
+
+165
+00:13:57,260 --> 00:13:59,626
+People submit their feedback, then do not know where it goes.
+
+166
+00:13:59,956 --> 00:14:08,228
+Option B: the same box, but with published processing criteria, an identity-protecting tracking code, a reasoned response, an anonymized summary,
+
+167
+00:14:08,228 --> 00:14:11,906
+a channel to request reconsideration, and a log of changes made after feedback.
+
+168
+00:14:12,236 --> 00:14:14,225
+Both options allow “feedback.”
+
+169
+00:14:14,225 --> 00:14:17,301
+But only Option B creates a route for an opinion to reach a decision.
+
+170
+00:14:18,501 --> 00:14:23,293
+Moderation is not always bad: filtering spam or blocking content that violates others’ rights is necessary.
+
+171
+00:14:23,293 --> 00:14:28,561
+The question is whether the filtering criteria are public, and whether filtered users can know why and request reconsideration.
+
+172
+00:14:28,561 --> 00:14:31,377
+Without these conditions, “being allowed to give feedback” is only formal participation.
+
+173
+00:14:36,577 --> 00:14:43,944
+A common question is whether registering a patent or protecting copyright, including for products made with artificial intelligence, is democratizing technology.
+
+174
+00:14:45,144 --> 00:14:50,956
+Under Vietnam’s Intellectual Property Law, copyright arises when a work is created and expressed in a material form,
+
+175
+00:14:50,956 --> 00:14:56,984
+regardless of whether it has been registered; rights in an invention are established on the basis of a protection certificate issued by a state agency.
+
+176
+00:14:56,984 --> 00:14:59,508
+This is a legal mechanism for protecting rights and resolving disputes.
+
+177
+00:15:00,488 --> 00:15:07,293
+In one sense, this is an expression of democracy: the law protects creators’ equal rights, and preventing copyright infringement protects those rights.
+
+178
+00:15:07,623 --> 00:15:15,199
+But to contribute to the democratization of technology, more is needed: procedures must be accessible to people with fewer resources, and knowledge must not be concentrated in a small number of actors.
+
+179
+00:15:15,199 --> 00:15:19,988
+Protecting ownership is the foundation; affected people’s participation in design decisions is the next step.
+
+180
+00:15:20,968 --> 00:15:28,765
+For artificial intelligence, the 2025 amendment assigns the Government to provide specific rules for products using AI; our group makes no general conclusion for every case.
+
+181
+00:15:33,965 --> 00:15:37,017
+This is Group 14’s argument, not a quotation from Feenberg.
+
+182
+00:15:37,347 --> 00:15:41,204
+Democratizing technology does not stop at expanding access or allowing people to submit opinions.
+
+183
+00:15:41,204 --> 00:15:48,588
+It requires affected people to have meaningful channels to participate in defining the problem, design criteria, data mechanisms, power controls, privacy,
+
+184
+00:15:48,588 --> 00:15:54,820
+oversight, and appeals; and that participation must produce verifiable feedback within technical, legal, and safety limits.
+
+185
+00:15:56,020 --> 00:16:02,653
+Therefore, we should: identify affected people before designing; disclose purpose, data, and responsibility without violating privacy;
+
+186
+00:16:02,653 --> 00:16:09,233
+consult early and respond with reasons; apply least-privilege access, access logs, and an appeal path; and assess impacts before and after deployment.
+
+187
+00:16:10,213 --> 00:16:18,174
+We should not: equate downloading an application with democratization; offer symbolic feedback; close oversight channels in the name of efficiency; publish personal data in the name of transparency;
+
+188
+00:16:18,174 --> 00:16:19,819
+or replace technical verification with a vote.
+
+189
+00:16:21,019 --> 00:16:22,359
+So can it be done?
+
+190
+00:16:22,359 --> 00:16:23,742
+Yes, but it is not easy.
+
+191
+00:16:24,072 --> 00:16:26,849
+The first obstacle is the cost and time required for consultation.
+
+192
+00:16:26,849 --> 00:16:31,358
+The second is the digital divide: older people, and people lacking devices or skills, can easily be left behind.
+
+193
+00:16:31,358 --> 00:16:35,949
+The third is system safety: the more open the participation channel, the more carefully data must be protected.
+
+194
+00:16:35,949 --> 00:16:40,864
+The fourth is the information imbalance between experts and citizens, together with legal limits on secrecy and security.
+
+195
+00:16:41,194 --> 00:16:45,284
+Therefore, democratization must proceed step by step, with a roadmap and accountable people.
+
+196
+00:16:46,484 --> 00:16:51,651
+The solution must answer three questions: who supervises, who can request changes, and who is responsible for remediation.
+
+197
+00:16:51,981 --> 00:16:54,880
+For a system such as VNeID, current law already provides answers.
+
+198
+00:16:54,880 --> 00:17:02,578
+Oversight: the National Assembly, People’s Councils, the Vietnam Fatherland Front, the specialized personal-data protection authority, and, at commune level, the People’s Inspection Board.
+
+199
+00:17:02,578 --> 00:17:10,547
+Requests for change: citizens themselves, through the right to request correction of identification information under the Law on Identification, the right to request correction of personal data, complaints, and petitions.
+
+200
+00:17:10,547 --> 00:17:16,796
+Remediation: the identification-management authority and the data controller must correct errors; the complaint resolver must respond within the statutory time limit;
+
+201
+00:17:16,796 --> 00:17:20,710
+and when unlawful conduct causes damage, the State has a compensation mechanism.
+
+202
+00:17:21,910 --> 00:17:29,203
+On that basis, our group proposes: periodic independent technical audits with published summaries; a public change log for each version;
+
+203
+00:17:29,203 --> 00:17:36,809
+a feature allowing people to know who viewed their data; and indicators such as the rate of reasoned responses, appeal-processing time, and the number of design changes made after feedback.
+
+204
+00:17:37,139 --> 00:17:42,658
+These proposals cannot remove every conflict, but they make conflict visible, open to debate, and assigned to someone accountable.
+
+205
+00:17:47,858 --> 00:17:51,144
+Let us return to the opening question: where does democracy lie in a technological system?
+
+206
+00:17:51,694 --> 00:17:54,675
+It does not lie in merely being able to use it, nor only in a feedback box.
+
+207
+00:17:54,675 --> 00:18:01,590
+It lies in affected people being able to know, receive a response to consultation, participate in decisions where appropriate, supervise, and request changes;
+
+208
+00:18:01,590 --> 00:18:04,005
+and in someone being responsible for remediation when the system is wrong.
+
+209
+00:18:05,205 --> 00:18:08,468
+Within Vietnam, these democratic values already have a foundation.
+
+210
+00:18:08,468 --> 00:18:16,155
+The Constitution affirms that state power belongs to the People and that citizens may participate in management and receive responses to petitions; the principle that the people know, discuss, act, inspect,
+
+211
+00:18:16,155 --> 00:18:19,185
+supervise, and benefit provides direction.
+
+212
+00:18:19,515 --> 00:18:24,031
+The challenge is to bring these principles into the design and governance of the digital systems people use every day.
+
+213
+00:18:25,231 --> 00:18:31,701
+Methodologically, Feenberg helps us avoid two mistakes: treating technology as a neutral tool, and treating technology as destiny.
+
+214
+00:18:31,701 --> 00:18:34,621
+Technology carries values, but it can be guided.
+
+215
+00:18:34,621 --> 00:18:37,712
+And who gets to participate in guiding it is itself a democratic question.
+
+216
+00:18:38,912 --> 00:18:43,120
+Group 14 sincerely thanks lecturer Nguyễn Hữu Sơn for guiding our group throughout the course.
+
+217
+00:18:43,120 --> 00:18:44,451
+Thank you all for watching.
