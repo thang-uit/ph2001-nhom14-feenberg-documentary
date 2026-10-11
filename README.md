@@ -4,9 +4,10 @@
 
 **Một dự án phim tài liệu học thuật · Một repo thống nhất · Có thể tiếp tục chỉnh sửa trên máy khác.**
 
-Kho mã nguồn của Nhóm 14, học phần Triết học PH2001. Bản hiện hành là **V13**:
-kịch bản, đồ họa, footage, giọng đọc, âm nhạc, credit và hai master giao nộp đều
-nằm trong repo. Không còn tầng `04_BaiTap/VideoCodex`.
+Kho mã nguồn của Nhóm 14, học phần Triết học PH2001. **V13 là nguồn duy nhất của
+repo hiện tại**: kịch bản, đồ họa, footage, giọng đọc, âm nhạc, credit và hai
+master giao nộp đều nằm trong cùng một cây thư mục. Repo không chứa bản thử nghiệm,
+bản dựng cũ, gói transfer hoặc archive đã loại khỏi sản phẩm hiện hành.
 
 > Đây là bản dựng để tiếp tục nghiên cứu và chỉnh sửa, không phải tuyên bố đã
 > được giảng viên duyệt. Các nguồn còn “CẦN ĐỐI CHIẾU” vẫn được giữ trong hồ sơ.
@@ -22,6 +23,8 @@ nằm trong repo. Không còn tầng `04_BaiTap/VideoCodex`.
 | `Nhom14_DanChuHoaThietKeVaQuanTriCongNgheTheoFeenberg_V13_2K_1440p.mp4` | Bản 2560×1440 để lưu trữ/tải YouTube |
 | `KICH_BAN_TRINH_DUYET_FEENBERG_NHOM_14.docx` | Kịch bản trình duyệt, giữ nguyên định dạng được cung cấp |
 | `PhuDe_V13.srt` | Phụ đề Unicode tiếng Việt theo timeline giọng đọc |
+| `PhuDe_V13_en.srt` | Bản phụ đề tiếng Anh, giữ nguyên timestamp V13 |
+| `thumbnail_youtube_feenberg_v1.png` | Thumbnail YouTube 1920×1080 |
 
 Thời lượng khoảng **19 phút 41 giây**, gồm credit gốc 54,1 giây và nối mềm 0,8 giây.
 Hai master là MP4, H.264 High, 30 fps, progressive, pixel vuông, Rec.709 SDR;
@@ -68,8 +71,7 @@ ph2001-nhom14-feenberg-documentary/
 ├── docs/
 │   ├── research/                 đối chiếu nguồn, tình huống, pháp lý, ASR
 │   ├── media/                    manifest SHA-256 và ghi công
-│   ├── transfer/                 thông tin gói chuyển máy
-│   ├── MIGRATION_REPORT.md       phạm vi và kết quả chuyển repo
+│   ├── youtube_metadata.md       tiêu đề, mô tả và chapter để đăng YouTube
 │   └── local/                    nhật ký nội bộ — KHÔNG push
 └── materials/instructor/         học liệu gốc — KHÔNG push khi chưa có quyền
 ```
@@ -79,7 +81,7 @@ Thư mục sinh lại được và bị ignore: `.venv/`, `node_modules/`, `rend
 Các skill agent cục bộ trong `.claude/` không cần để chạy pipeline.
 
 **Lưu ý:** tiền tố `V9_` hoặc `Sxxx_` là ID nguồn của clip đang được V13 tái sử dụng,
-không phải một bản phim cũ. Chỉ xóa khi đã kiểm tra không còn tham chiếu.
+không phải một bản phim cũ. Chỉ xóa khi đã kiểm tra `PLAN` và timeline giọng đọc.
 
 ## Cài đặt trên máy mới
 
