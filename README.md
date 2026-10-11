@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img alt="V13" src="https://img.shields.io/badge/phiên_bản-V13-254CCA?style=flat-square">
+  <img alt="V13" src="https://img.shields.io/badge/version-V13-254CCA?style=flat-square">
   <img alt="Remotion" src="https://img.shields.io/badge/engine-Remotion-101827?style=flat-square">
   <img alt="Git LFS" src="https://img.shields.io/badge/media-Git_LFS-E04C32?style=flat-square">
-  <img alt="Full HD and 2K" src="https://img.shields.io/badge/delivery-Full_HD_%7C_2K-2E8B57?style=flat-square">
+  <img alt="Full HD and 2K" src="https://img.shields.io/badge/delivery-Full_HD_2K-2E8B57?style=flat-square">
 </p>
 
 # Dân chủ hóa thiết kế và quản trị công nghệ theo Feenberg
