@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="20" viewBox="0 0 134 20" role="img" aria-labelledby="title">
+  <title id="title">delivery: Full HD and 2K</title>
+  <g shape-rendering="crispEdges">
+    <rect width="53" height="20" fill="#555"/>
+    <rect x="53" width="81" height="20" fill="#2E8B57"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="26.5" y="14">delivery</text>
+    <text x="93.5" y="14">Full HD | 2K</text>
+  </g>
+</svg>

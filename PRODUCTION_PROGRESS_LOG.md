@@ -1,5 +1,10 @@
 # Nhật ký dự án — bản công khai
 
+## 2026-10-11 — Ổn định ảnh badge README
+
+- Thay bốn URL shields.io bằng SVG tĩnh trong `.github/assets/badges/` để không phụ thuộc dịch vụ ảnh ngoài.
+- Giữ nguyên màu sắc và bố cục badge; không thay đổi banner, video, audio, phụ đề hay source dựng phim.
+
 ## 2026-10-11 — Chuẩn hóa README song ngữ
 
 - Thêm banner SVG vector cho README, dùng đúng palette ivory–cobalt–vermilion của V13.

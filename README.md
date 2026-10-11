@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img alt="V13" src="https://img.shields.io/badge/version-V13-254CCA?style=flat-square">
-  <img alt="Remotion" src="https://img.shields.io/badge/engine-Remotion-101827?style=flat-square">
-  <img alt="Git LFS" src="https://img.shields.io/badge/media-Git_LFS-E04C32?style=flat-square">
-  <img alt="Full HD and 2K" src="https://img.shields.io/badge/delivery-Full_HD_2K-2E8B57?style=flat-square">
+  <img alt="V13" src=".github/assets/badges/version.svg">
+  <img alt="Remotion" src=".github/assets/badges/engine.svg">
+  <img alt="Git LFS" src=".github/assets/badges/media.svg">
+  <img alt="Full HD and 2K" src=".github/assets/badges/delivery.svg">
 </p>
 
 # Dân chủ hóa thiết kế và quản trị công nghệ theo Feenberg
@@ -70,7 +70,7 @@ Hai master là MP4, H.264 High, 30 fps, progressive, pixel vuông, Rec.709 SDR;
 
 ```text
 ph2001-nhom14-feenberg-documentary/
-├── .github/assets/banner.svg      banner README dạng vector, sắc nét ở mọi kích thước
+├── .github/assets/               banner và badge SVG cục bộ cho README
 ├── AGENTS.md                     quy tắc học thuật, hình ảnh, âm thanh, bảo mật
 ├── README.md                     tài liệu bắt đầu làm việc
 ├── PRODUCTION_PROGRESS_LOG.md    nhật ký công khai, không có tài khoản cá nhân

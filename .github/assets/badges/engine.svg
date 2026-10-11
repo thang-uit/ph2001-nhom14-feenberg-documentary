@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="20" viewBox="0 0 104 20" role="img" aria-labelledby="title">
+  <title id="title">engine: Remotion</title>
+  <g shape-rendering="crispEdges">
+    <rect width="49" height="20" fill="#555"/>
+    <rect x="49" width="55" height="20" fill="#101827"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="24.5" y="14">engine</text>
+    <text x="76.5" y="14">Remotion</text>
+  </g>
+</svg>
